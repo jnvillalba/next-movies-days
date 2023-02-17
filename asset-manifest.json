@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/next-movies-days/build/static/css/main.35df0e51.css",
-    "main.js": "/next-movies-days/build/static/js/main.26d62f58.js",
+    "main.js": "/next-movies-days/build/static/js/main.397b024a.js",
     "index.html": "/next-movies-days/build/index.html",
     "main.35df0e51.css.map": "/next-movies-days/build/static/css/main.35df0e51.css.map",
-    "main.26d62f58.js.map": "/next-movies-days/build/static/js/main.26d62f58.js.map"
+    "main.397b024a.js.map": "/next-movies-days/build/static/js/main.397b024a.js.map"
   },
   "entrypoints": [
     "static/css/main.35df0e51.css",
-    "static/js/main.26d62f58.js"
+    "static/js/main.397b024a.js"
   ]
 }
