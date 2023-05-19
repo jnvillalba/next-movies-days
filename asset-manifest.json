@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/next-movies-days/Home/static/css/main.88c31bab.css",
-    "main.js": "/next-movies-days/Home/static/js/main.aacb7126.js",
+    "main.js": "/next-movies-days/Home/static/js/main.c53a3e10.js",
     "static/media/marvel.mp4": "/next-movies-days/Home/static/media/marvel.d9837e1789801209e766.mp4",
     "static/media/dc.mp4": "/next-movies-days/Home/static/media/dc.909460658d8305d756ca.mp4",
     "static/media/sony.mp4": "/next-movies-days/Home/static/media/sony.eafd4515dc629a754db5.mp4",
     "index.html": "/next-movies-days/Home/index.html",
     "main.88c31bab.css.map": "/next-movies-days/Home/static/css/main.88c31bab.css.map",
-    "main.aacb7126.js.map": "/next-movies-days/Home/static/js/main.aacb7126.js.map"
+    "main.c53a3e10.js.map": "/next-movies-days/Home/static/js/main.c53a3e10.js.map"
   },
   "entrypoints": [
     "static/css/main.88c31bab.css",
-    "static/js/main.aacb7126.js"
+    "static/js/main.c53a3e10.js"
   ]
 }
