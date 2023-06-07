@@ -2,32 +2,209 @@ body {
   padding: 0;
   margin: 0;
   /* background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95));*/
-  background: #3C1361;
-  font-family: "American Typewriter", "AmericanTypewriter";
-
+  background: rgb(27, 18, 29);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(27, 18, 29, 1) 0%,
+    rgba(18, 15, 47, 1) 50%,
+    rgba(27, 18, 29, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(27, 18, 29, 1) 0%,
+    rgba(18, 15, 47, 1) 50%,
+    rgba(27, 18, 29, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(27, 18, 29, 1) 0%,
+    rgba(18, 15, 47, 1) 50%,
+    rgba(27, 18, 29, 1) 100%
+  );
 }
 
-h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #bca0dc;
+svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
 }
 
-p {
-  font-size: 91px;
-  color: #bca0dc;
+#Pelicula {
+  background-color: #f0131e;
+  color: aliceblue;
+  font-weight: bold;
 }
 
-.area {
-  height: 100%;
+#Serie {
+  background-color: #113ccf;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+#SerieHBO {
+  background-color: #663399;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+#DCU {
+  background-color: #0476f2;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+#Elseworlds {
+  background-color: #000;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+#Sony {
+  background-color: #000;
+  color: aliceblue;
+  font-weight: bold;
+  border: solid 1px white;
+}
+
+.año {
+  color: aliceblue;
+  text-align: center;
+}
+
+.studio {
+  width: 330px;
+  height: 260px;
+  border-radius: 6px;
+  transform-origin: center;
+}
+
+#dcBackground {
+  background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95)),
+    url("https://i0.wp.com/www.comicsuniverse.it/wp-content/uploads/2022/12/FkHapV2WQAEowM-.jpeg?ssl=1");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+#marvelBackground {
+  background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95)),
+    url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DA2E198288BFCA56AB53340211B38DE7134E40E4521EDCAFE6FFB8CD69250DE9/scale?width=1440&aspectRatio=1.78&format=jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+#sonyBackground {
+  background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95)),
+    url("https://pbs.twimg.com/media/FXufOEcVUAAt_Ts?format=jpg&name=large");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.icon-cards {
+  position: relative;
+  width: 60vw;
+  height: 40vw;
+  max-width: 380px;
+  max-height: 260px;
+  margin: 0;
+  color: white;
+  perspective: 1000px;
+  transform-origin: center;
+}
+
+.icon-cards__content {
+  position: absolute;
   width: 100%;
-  border: 1px solid #ccc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: translateZ(-30vw) rotateY(0);
+  animation: carousel 14s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
 }
 
-.area:hover {
-  background-color: #eaeaea;
+.icon-cards__content:nth-child(n):hover {
+  animation-play-state: paused;
+}
+
+.icon-cards__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.icon-cards__item.hovered img {
+  opacity: 0;
+}
+
+.icon-cards__item.hovered video {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.icon-cards__item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.icon-cards__item video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 6px;
+}
+
+
+.icon-cards__item:nth-child(1) {
+  transform: rotateY(0) translateZ(35vw);
+}
+
+.icon-cards__item:nth-child(2) {
+  transform: rotateY(120deg) translateZ(35vw);
+}
+
+.icon-cards__item:nth-child(3) {
+  transform: rotateY(240deg) translateZ(35vw);
+}
+
+@keyframes carousel {
+  0%,
+  17.5% {
+    transform: translateZ(-35vw) rotateY(0);
+  }
+
+  27.5%,
+  45% {
+    transform: translateZ(-35vw) rotateY(-120deg);
+  }
+
+  55%,
+  72.5% {
+    transform: translateZ(-35vw) rotateY(-240deg);
+  }
+
+  82.5%,
+  100% {
+    transform: translateZ(-35vw) rotateY(-360deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .año{
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
 }

@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
-    "csv-parser": "^3.0.0",
     "jquery": "^3.6.3",
     "react": "^18.1.0",
     "react-bootstrap": "^2.7.0",
