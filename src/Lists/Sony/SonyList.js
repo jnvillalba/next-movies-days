@@ -44,16 +44,23 @@ const SonyList = [
     poster: "https://talenthouse-res.cloudinary.com/image/upload/c_limit,fl_progressive,h_1600,w_1600/v1535123869/user-875579/submissions/oj2qufdsb686r3hb6xox.jpg",
     poster2: "",
     estreno: "TBA",
+  },{
+    id: 6,
+    titulo: "Spider-man 4",
+    tipo: "Sony",
+    poster: "../../assets/sp4.jpg",
+    poster2: "",
+    estreno: "TBA",
   },
   {
-    id: 4,
+    id: 5,
     titulo: "Silk: Spider-Society",
     tipo: "Sony",
     poster: "https://assets.mycast.io/posters/silk-spider-society-fan-casting-poster-260018-medium.jpg?1668741665",
     poster2: "",
     estreno: "TBA",
   },
-
+  
 
 ];
 
