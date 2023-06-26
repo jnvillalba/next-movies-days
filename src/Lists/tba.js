@@ -36,7 +36,7 @@ const tba = [
     tipo: "Serie",
     poster: "https://i.redd.it/z502udpm2cf61.jpg",
     estreno: "TBA",
-    poster2: "../assets/okoye.png",
+    poster2: "https://m.media-amazon.com/images/M/MV5BMTkxMTY1YTQtZjg2Zi00ZGRmLThhNTMtZDdmYmFkY2U0MDlkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
   },
   {
     id: 5,

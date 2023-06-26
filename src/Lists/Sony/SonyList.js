@@ -48,8 +48,8 @@ const SonyList = [
     id: 6,
     titulo: "Spider-man 4",
     tipo: "Sony",
-    poster: "../../assets/sp4.jpg",
-    poster2: "",
+    poster: "https://assets.mycast.io/posters/spider-man-4-fan-casting-poster-334424-medium.jpg?1685769142",
+    poster2: "https://assets.mycast.io/posters/mcu-spider-man-4-official-and-rumored-characters-fan-casting-poster-252010-medium.jpg?1666617285",
     estreno: "TBA",
   },
   {

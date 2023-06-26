@@ -23,7 +23,7 @@ const content2024List = [
     titulo: "Captain America: Brave New World",
     tipo: "Pelicula",
     poster:
-      "../assets/cp.png",
+      "https://m.media-amazon.com/images/M/MV5BNWMwNDU1M2YtMWQyOC00NGU3LWFlYjYtMmE0YTIyOTIzNjAwXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
     estreno: "26/08/2024",
     poster2:
       "https://assets.mycast.io/posters/captain-america-new-world-order-fan-casting-poster-223329-medium.jpg?1659627861",
