@@ -1,20 +1,13 @@
 const SonyList = [
-  {
-    id: 0,
-    titulo: "Spider-Man: Across the Spider-Verse",
-    tipo: "Sony",
-    poster: "https://m.media-amazon.com/images/M/MV5BNjk5YTU0OTAtMTM1NC00Zjc1LWEzZjAtOWJkYzcxOGRhNWNhXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
-    poster2: "https://m.media-amazon.com/images/M/MV5BNWY0ZDc3NjktZGQzNS00YWU3LTllN2QtYWMyMTVkN2YwYzgxXkEyXkFqcGdeQXVyMTUyMDI3MDkw._V1_.jpg",
-    estreno: "02/06/2023",
-  },
+  
   {
     id: 1,
     titulo: "Kraven the Hunter",
     tipo: "Sony",
     poster:
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a58a7719-0dcf-4e0b-b7bb-d2b725dbbb8e/dfdud5l-ab2268f6-548e-4873-9639-a79941713854.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E1OGE3NzE5LTBkY2YtNGUwYi1iN2JiLWQyYjcyNWRiYmI4ZVwvZGZkdWQ1bC1hYjIyNjhmNi01NDhlLTQ4NzMtOTYzOS1hNzk5NDE3MTM4NTQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ykVmZUrU91Us6_jmGs3k1eGa6IXr5_Ono_VwP88wKNs",
+      "https://m.media-amazon.com/images/M/MV5BZWNhOWY4OTUtNDIwZC00ZTMzLTgzNDgtZGU5OWM0ODcwYmVlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
     poster2:
-      "https://i.pinimg.com/originals/c4/51/85/c4518568e9e40fafc40d9fb4f8beee3b.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMzQ3YjBlOWQtYjdlNS00MGE0LTgwMDUtOTk4ZTJjNjk4NmYxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
     estreno: "06/10/2023",
   },
   {
@@ -37,6 +30,14 @@ const SonyList = [
     estreno: "16/02/2024",
   },
   {
+    id: 0,
+    titulo: "Spider-Man: Beyond the Spider-Verse",
+    tipo: "Sony",
+    poster: "https://m.media-amazon.com/images/M/MV5BZDZmNzVlMDUtMzlmNC00ZTk4LWE0MDctYWExMWViM2EzZjgyXkEyXkFqcGdeQXVyMTU0NTg2NDkw._V1_.jpg",
+    poster2: "https://m.media-amazon.com/images/M/MV5BYzdjZmU1YzAtNmI1Yi00OTViLWJiYTYtNDdlYzlhYmI0YmFlXkEyXkFqcGdeQXVyMTYyNDAyMDY5._V1_.jpg",
+    estreno: "28/03/2024",
+  },
+  {
     id: 4,
     titulo: "Venom 3",
     tipo: "Sony",
@@ -44,6 +45,16 @@ const SonyList = [
     poster2: "",
     estreno: "TBA",
   },
+  {
+    id: 4,
+    titulo: "Silk: Spider-Society",
+    tipo: "Sony",
+    poster: "https://assets.mycast.io/posters/silk-spider-society-fan-casting-poster-260018-medium.jpg?1668741665",
+    poster2: "",
+    estreno: "TBA",
+  },
+
+
 ];
 
 export { SonyList };

@@ -1,15 +1,5 @@
 const content2023List = [
   {
-    id: 2,
-    titulo: "Secret Invasion",
-    tipo: "Serie",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BYjJiN2M5MmItNmUwMS00MzI4LWI3ZTgtMTUxYmI1YTA3ZDExXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
-    estreno: "21/06/2023",
-    poster2:
-      "https://assets.mycast.io/posters/secret-invasion-fan-casting-poster-226828-medium.jpg?1660484942",
-  },
-  {
     id: 6,
     titulo: "Loki S2",
     tipo: "Serie",

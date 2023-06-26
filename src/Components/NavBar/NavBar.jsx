@@ -46,6 +46,9 @@ export default function NavBar({ studio }) {
         <Nav.Link as={Link} to="/2026">
           2026
         </Nav.Link>
+        <Nav.Link as={Link} to="/2027">
+          2027
+        </Nav.Link>
         <Nav.Link as={Link} to="/tba">
           TBA
         </Nav.Link>

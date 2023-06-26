@@ -1,16 +1,5 @@
 const DCUList = [
   {
-    id: 2,
-    titulo: "The Flash",
-    tipo: "DCU",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BMDFhZTc3NWQtY2UyZS00OGYzLTgxNTUtYjYxMjZjMmEyMjcwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-    poster2:
-      "https://pbs.twimg.com/media/FpDNAy1XEAAiF14?format=jpg&name=large",
-    estreno: "17/06/2023",
-  },
-
-  {
     id: 3,
     titulo: " Blue Beetle",
     tipo: "DCU",

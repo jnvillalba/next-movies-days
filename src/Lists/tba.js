@@ -36,7 +36,15 @@ const tba = [
     tipo: "Serie",
     poster: "https://i.redd.it/z502udpm2cf61.jpg",
     estreno: "TBA",
-    poster2: "",
+    poster2: "../assets/okoye.png",
+  },
+  {
+    id: 5,
+    titulo: "Nova",
+    tipo: "Pelicula",
+    poster: "https://assets.mycast.io/posters/nova-the-human-rocket-fan-casting-poster-297729-medium.jpg?1678568518",
+    estreno: "TBA",
+    poster2: "https://assets.mycast.io/posters/nova-2024-fan-casting-poster-270086-medium.jpg?1671318569",
   },
   
 ];
