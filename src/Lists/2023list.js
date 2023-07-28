@@ -3,10 +3,10 @@ const content2023List = [
     id: 6,
     titulo: "Loki S2",
     tipo: "Serie",
-    poster2:
-      "https://i.pinimg.com/564x/b4/94/e1/b494e169e13462b2101133288a755330.jpg",
-    estreno: "06/10/2023",
     poster:
+      "https://pbs.twimg.com/media/F2JkeHxaYAI21zA?format=jpg&name=large",
+    estreno: "06/10/2023",
+    poster2:
       "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_loki_s2_ticketnumber_v2_613_34f612c4.jpeg",
   },
   {
