@@ -13,9 +13,8 @@ const SonyList = [
     id: 4,
     titulo: "Venom 3",
     tipo: "Sony",
-    poster:
-      "https://talenthouse-res.cloudinary.com/image/upload/c_limit,fl_progressive,h_1600,w_1600/v1535123869/user-875579/submissions/oj2qufdsb686r3hb6xox.jpg",
-    poster2: "",
+    poster:"https://assets.mycast.io/posters/venom-3-fan-casting-poster-191026-medium.jpg?1651169642",
+     poster2: "https://assets.mycast.io/posters/venom-3-symbiote-war-fan-casting-poster-121110-medium.jpg?1628452443",
     estreno: "12/07/2024",
   },
   {
@@ -28,26 +27,6 @@ const SonyList = [
       "https://m.media-amazon.com/images/M/MV5BMzQ3YjBlOWQtYjdlNS00MGE0LTgwMDUtOTk4ZTJjNjk4NmYxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
     estreno: "30/08/2024",
   },
-
-  {
-    id: 6,
-    titulo: "Spider-man 4",
-    tipo: "Sony",
-    poster:
-      "https://assets.mycast.io/posters/spider-man-4-fan-casting-poster-334424-medium.jpg?1685769142",
-    poster2:
-      "https://assets.mycast.io/posters/mcu-spider-man-4-official-and-rumored-characters-fan-casting-poster-252010-medium.jpg?1666617285",
-    estreno: "27/07/2025",
-  },
-  {
-    id: 5,
-    titulo: "Silk: Spider-Society",
-    tipo: "Sony",
-    poster:
-      "https://assets.mycast.io/posters/silk-spider-society-fan-casting-poster-260018-medium.jpg?1668741665",
-    poster2: "",
-    estreno: "TBA",
-  },
   {
     id: 0,
     titulo: "Spider-Man: Beyond the Spider-Verse",
@@ -59,11 +38,30 @@ const SonyList = [
     estreno: "TBA",
   },
   {
+    id: 6,
+    titulo: "Spider-man 4",
+    tipo: "Sony",
+    poster:
+      "https://assets.mycast.io/posters/spider-man-4-fan-casting-poster-334424-medium.jpg?1685769142",
+    poster2:
+      "https://assets.mycast.io/posters/mcu-spider-man-4-official-and-rumored-characters-fan-casting-poster-252010-medium.jpg?1666617285",
+    estreno: "27/07/2025",
+  },
+  {
     id: 2,
     titulo: "El Muerto",
     tipo: "Sony",
     poster:
       "https://www.allcitycanvas.com/wp-content/uploads/2022/05/el-muerto-1.jpg",
+    poster2: "",
+    estreno: "TBA",
+  },
+  {
+    id: 5,
+    titulo: "Silk: Spider-Society",
+    tipo: "Sony",
+    poster:
+      "https://assets.mycast.io/posters/silk-spider-society-fan-casting-poster-260018-medium.jpg?1668741665",
     poster2: "",
     estreno: "TBA",
   },
