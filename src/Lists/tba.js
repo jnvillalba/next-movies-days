@@ -36,17 +36,19 @@ const tba = [
     tipo: "Serie",
     poster: "https://i.redd.it/z502udpm2cf61.jpg",
     estreno: "TBA",
-    poster2: "https://m.media-amazon.com/images/M/MV5BMTkxMTY1YTQtZjg2Zi00ZGRmLThhNTMtZDdmYmFkY2U0MDlkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+    poster2:
+      "https://m.media-amazon.com/images/M/MV5BMTkxMTY1YTQtZjg2Zi00ZGRmLThhNTMtZDdmYmFkY2U0MDlkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
   },
   {
     id: 5,
     titulo: "Nova",
     tipo: "Pelicula",
-    poster: "https://assets.mycast.io/posters/nova-the-human-rocket-fan-casting-poster-297729-medium.jpg?1678568518",
+    poster:
+      "https://assets.mycast.io/posters/nova-the-human-rocket-fan-casting-poster-297729-medium.jpg?1678568518",
     estreno: "TBA",
-    poster2: "https://assets.mycast.io/posters/nova-2024-fan-casting-poster-270086-medium.jpg?1671318569",
+    poster2:
+      "https://assets.mycast.io/posters/nova-2024-fan-casting-poster-270086-medium.jpg?1671318569",
   },
-  
 ];
 
 export { tba };

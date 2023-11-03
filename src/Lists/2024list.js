@@ -1,5 +1,25 @@
 const content2024List = [
   {
+    id: 1,
+    titulo: "Echo",
+    tipo: "Serie",
+    poster:
+      "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_echo_22212_v2_f5b30836.jpeg",
+    estreno: "10/01/2024",
+    poster2:
+      "https://assets.mycast.io/posters/mcu-echo-series-fan-casting-poster-263248-medium.jpg?1669630974",
+  },
+  {
+    id: 9,
+    titulo: "X-Men 97",
+    tipo: "Serie",
+    poster2:
+      "https://m.media-amazon.com/images/M/MV5BNTVjNmEwNTMtNmQ2ZC00MGJkLWI3MDgtNzMyNTc4YjVkNTQ1L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+    estreno: "TBA",
+    poster:
+      "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_x-men97_ticketnumber_v2_610_b5ba7816.jpeg",
+  },
+  {
     id: 5,
     titulo: " Deadpool 3",
     tipo: "Pelicula",
@@ -9,22 +29,14 @@ const content2024List = [
     poster2:
       "https://cdna.artstation.com/p/assets/images/images/054/482/986/large/rahal-nejraoui-deadpool-3-fanart-by-rahalarts.jpg?1664646307",
   },
-  {
-    id: 1,
-    titulo: "Daredevil: Born Again",
-    tipo: "Serie",
-    poster2: "https://posterspy.com/wp-content/uploads/2022/11/dd-re.jpg",
-    estreno: "Primavera - EEUU",
-    poster:
-      "https://lumiere-a.akamaihd.net/v1/images/p_daredevilbornagain_614_404a05e5.jpeg",
-  },
+
   {
     id: 2,
     titulo: "Captain America: Brave New World",
     tipo: "Pelicula",
     poster:
       "https://m.media-amazon.com/images/M/MV5BNWMwNDU1M2YtMWQyOC00NGU3LWFlYjYtMmE0YTIyOTIzNjAwXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
-    estreno: "26/07/2024",
+    estreno: "26/08/2024",
     poster2:
       "https://assets.mycast.io/posters/captain-america-new-world-order-fan-casting-poster-223329-medium.jpg?1659627861",
   },
@@ -38,7 +50,7 @@ const content2024List = [
     poster2:
       "https://assets.mycast.io/posters/thunderbolts-fan-casting-poster-223849-medium.jpg?1659731049",
   },
-  
+
   {
     id: 8,
     titulo: "Ironheart",
@@ -56,7 +68,8 @@ const content2024List = [
     poster:
       "https://lumiere-a.akamaihd.net/v1/images/p_agathacovenofchaos_609_23888398.jpeg",
     estreno: "TBA",
-    poster2: "https://pbs.twimg.com/media/FYro8GmWAAEKQl0?format=jpg&name=4096x4096",
+    poster2:
+      "https://pbs.twimg.com/media/FYro8GmWAAEKQl0?format=jpg&name=4096x4096",
   },
   {
     id: 6,
