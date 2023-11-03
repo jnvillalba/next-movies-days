@@ -5,9 +5,9 @@ const content2023List = [
     tipo: "Pelicula",
     poster:
       "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/950/public/media/image/2023/02/poster-oficial-marvels-2960130.jpg?itok=4DU763f_",
-    estreno: "9/11/2023",
+    estreno: "09/11/2023",
     poster2:
-      "https://assets.mycast.io/posters/mcu-captain-marvel-the-marvels-movie-fan-casting-poster-263386-medium.jpg?1669670987",
+      "https://m.media-amazon.com/images/M/MV5BZWVkYjgyY2ItNTUzYy00YTg3LWFhZmMtZmMxZTZhZDY3ODE3XkEyXkFqcGdeQXVyMTYzODA4MzA5._V1_.jpg",
   },
   {
     id: 2,

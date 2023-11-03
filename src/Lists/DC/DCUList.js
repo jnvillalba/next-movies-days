@@ -1,15 +1,5 @@
 const DCUList = [
   {
-    id: 3,
-    titulo: " Blue Beetle",
-    tipo: "DCU",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BMjY4ODA0ZWMtNGY2OC00NjUxLThiOGQtNjAyZjdhNjMyZWY4XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
-    poster2:
-      "https://pbs.twimg.com/media/FB14xKSXsAMSlNB?format=jpg&name=large",
-    estreno: "18/08/2023",
-  },
-  {
     id: 4,
     titulo: "Aquaman and the Lost Kingdom",
     tipo: "DCU",
@@ -149,8 +139,6 @@ const DCUList = [
     poster2: "",
     estreno: "TBA",
   },
-
- 
 ];
 
 export { DCUList };
