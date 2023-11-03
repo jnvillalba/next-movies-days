@@ -3,8 +3,7 @@ const content2024List = [
     id: 1,
     titulo: "Echo",
     tipo: "Serie",
-    poster:
-      "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_echo_22212_v2_f5b30836.jpeg",
+    poster: "https://pbs.twimg.com/media/F-BR9Sra4AAi1gc?format=jpg&name=large",
     estreno: "10/01/2024",
     poster2:
       "https://assets.mycast.io/posters/mcu-echo-series-fan-casting-poster-263248-medium.jpg?1669630974",
