@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const navigate = useNavigate();
-  const goToMarvelIndex = () => navigate("/2023");
+  const goToMarvelIndex = () => navigate("/2024");
   const goToDCIndex = () => navigate("/DC");
   const goToSonyIndex = () => navigate("/Sony");
 

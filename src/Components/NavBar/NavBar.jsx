@@ -34,9 +34,6 @@ export default function NavBar({ studio }) {
 
     customNav = (
       <Nav className="m-auto justify-content-center">
-        <Nav.Link as={Link} to="/2023">
-          2023
-        </Nav.Link>
         <Nav.Link as={Link} to="/2024">
           2024
         </Nav.Link>

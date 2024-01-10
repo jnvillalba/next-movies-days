@@ -1,12 +1,13 @@
 const content2024List = [
   {
-    id: 1,
-    titulo: "Echo",
-    tipo: "Serie",
-    poster: "https://pbs.twimg.com/media/F-BR9Sra4AAi1gc?format=jpg&name=large",
-    estreno: "10/01/2024",
+    id: 5,
+    titulo: " Deadpool 3",
+    tipo: "Pelicula",
     poster2:
-      "https://assets.mycast.io/posters/mcu-echo-series-fan-casting-poster-263248-medium.jpg?1669630974",
+      "https://terrigen-cdn-dev.marvel.com/content/prod/1x/deadpool3_lob_crd_01.jpg",
+    estreno: "26/07/2024",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BOWJkNThhMWMtN2M1ZS00ZGQwLWIxNTItOWE2MTZhNTVhYjQ2XkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_.jpg",
   },
   {
     id: 9,
@@ -18,38 +19,6 @@ const content2024List = [
     poster:
       "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_x-men97_ticketnumber_v2_610_b5ba7816.jpeg",
   },
-  {
-    id: 5,
-    titulo: " Deadpool 3",
-    tipo: "Pelicula",
-    poster:
-      "https://terrigen-cdn-dev.marvel.com/content/prod/1x/deadpool3_lob_crd_01.jpg",
-    estreno: "03/05/2024",
-    poster2:
-      "https://cdna.artstation.com/p/assets/images/images/054/482/986/large/rahal-nejraoui-deadpool-3-fanart-by-rahalarts.jpg?1664646307",
-  },
-
-  {
-    id: 2,
-    titulo: "Captain America: Brave New World",
-    tipo: "Pelicula",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BNWMwNDU1M2YtMWQyOC00NGU3LWFlYjYtMmE0YTIyOTIzNjAwXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
-    estreno: "26/08/2024",
-    poster2:
-      "https://assets.mycast.io/posters/captain-america-new-world-order-fan-casting-poster-223329-medium.jpg?1659627861",
-  },
-  {
-    id: 3,
-    titulo: "Thunderbolts",
-    tipo: "Pelicula",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BMzdkNzFhMDAtNWVhNC00MDM5LTllYzktMWFkN2Q0ZWFlYWZkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
-    estreno: "20/12/2024",
-    poster2:
-      "https://assets.mycast.io/posters/thunderbolts-fan-casting-poster-223849-medium.jpg?1659731049",
-  },
-
   {
     id: 8,
     titulo: "Ironheart",

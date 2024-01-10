@@ -1,15 +1,5 @@
 const DCUList = [
   {
-    id: 4,
-    titulo: "Aquaman and the Lost Kingdom",
-    tipo: "DCU",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BMjVmNTg5NTMtMWFmYi00ZGU5LTlkYzUtMjY0NDQwYmY3NGNiXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_.jpg",
-    poster2:
-      "https://pbs.twimg.com/media/FCTKqnlXIAMeETO?format=jpg&name=large",
-    estreno: "25/12/2023",
-  },
-  {
     id: 17,
     titulo: "The Penguin",
     tipo: "Elseworlds",

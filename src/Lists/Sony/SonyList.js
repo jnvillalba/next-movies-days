@@ -4,18 +4,20 @@ const SonyList = [
     titulo: "Madame Web",
     tipo: "Sony",
     poster:
-      "https://www.lavanguardia.com/peliculas-series/images/movie/poster/2024/2/w780/muIZhixxZuy6idrkuljOJQYCfAp.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMjhkYjA0ZmUtM2I4OC00YzQ1LTk2YWUtYjA3ZGRhM2YzYWU1XkEyXkFqcGdeQXVyMTc1MzUzOTY0._V1_.jpg",
     poster2:
-      "https://assets.mycast.io/posters/madame-web-fan-casting-poster-167958-medium.jpg?1659449060",
+      "https://m.media-amazon.com/images/M/MV5BMTZjOGE2ODktY2EyZS00NDk3LWExYTYtZWNkNDc0NjJkMTU3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
     estreno: "14/02/2024",
   },
   {
     id: 4,
     titulo: "Venom 3",
     tipo: "Sony",
-    poster:"https://assets.mycast.io/posters/venom-3-fan-casting-poster-191026-medium.jpg?1651169642",
-     poster2: "https://assets.mycast.io/posters/venom-3-symbiote-war-fan-casting-poster-121110-medium.jpg?1628452443",
-    estreno: "12/07/2024",
+    poster:
+      "https://assets.mycast.io/posters/venom-3-fan-casting-poster-191026-medium.jpg?1651169642",
+    poster2:
+      "https://assets.mycast.io/posters/venom-3-symbiote-war-fan-casting-poster-121110-medium.jpg?1628452443",
+    estreno: "08/11/2024",
   },
   {
     id: 1,
@@ -35,7 +37,7 @@ const SonyList = [
       "https://m.media-amazon.com/images/M/MV5BZDZmNzVlMDUtMzlmNC00ZTk4LWE0MDctYWExMWViM2EzZjgyXkEyXkFqcGdeQXVyMTU0NTg2NDkw._V1_.jpg",
     poster2:
       "https://m.media-amazon.com/images/M/MV5BYzdjZmU1YzAtNmI1Yi00OTViLWJiYTYtNDdlYzlhYmI0YmFlXkEyXkFqcGdeQXVyMTYyNDAyMDY5._V1_.jpg",
-    estreno: "TBA",
+    estreno: "29/03/2025",
   },
   {
     id: 6,

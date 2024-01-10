@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import "./App.css";
 import MovieList from "./Components/MovieList";
-import { content2023List } from "./Lists/2023list";
 import { content2024List } from "../src/Lists/2024list";
 import { content2025List } from "./Lists/2025list";
 import { content2026List } from "./Lists/2026list";
@@ -19,13 +18,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
-          <Route
-            exact
-            path="/2023"
-            element={
-              <MovieList studio={"marvel"} año={2023} list={content2023List} />
-            }
-          />
           <Route
             exact
             path="/2024"
