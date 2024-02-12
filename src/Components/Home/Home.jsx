@@ -30,8 +30,8 @@ const Home = () => {
       <div className="container container d-flex justify-content-center container_cards mt-5">
         <h1 className="año">Studios</h1>
         <div className="container_projects">
-          <figure class="icon-cards mt-3">
-            <div class="icon-cards__content">
+          <figure className="icon-cards mt-3">
+            <div className="icon-cards__content">
               <Studio poster={marvel} index={goToMarvelIndex} video={vMarvel} />
               <Studio poster={dc} index={goToDCIndex} video={vDC} />
               <Studio poster={sony} index={goToSonyIndex} video={vSony} />

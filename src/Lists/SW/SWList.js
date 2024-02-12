@@ -63,7 +63,8 @@ const SWList = [
     tipo: "Serie",
     poster:
       "https://m.media-amazon.com/images/M/MV5BYTU1MWY5YmYtYzNhOC00OWRmLThjOWQtNjJlOTZmOWE0NDEyXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_.jpg",
-    poster2: "",
+    poster2:
+      "https://m.media-amazon.com/images/M/MV5BMTA2OTE4Mjg2ODdeQTJeQWpwZ15BbWU4MDI4ODk2MzUz._V1_.jpg",
     estreno: "TBA",
   },
   {
@@ -100,12 +101,13 @@ const SWList = [
     tipo: "PelaSW",
     poster:
       "https://m.media-amazon.com/images/M/MV5BYjNhNjlkN2UtYjRmNS00ZDk3LWI0MjctZDI3NTA3YTU1NjcxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-    poster2: "",
+    poster2:
+      "https://assets.mycast.io/posters/dawn-of-the-jedi-fan-casting-poster-318427-medium.jpg?1683430708",
     estreno: "17/12/2027",
   },
 
   {
-    id: 11,
+    id: 12,
     titulo: "Heir to the Empire",
     tipo: "PelaSW",
     poster: "https://i.redd.it/pgdqiiey7hqb1.jpg",
