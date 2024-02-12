@@ -1,15 +1,5 @@
 const SonyList = [
   {
-    id: 3,
-    titulo: "Madame Web",
-    tipo: "Sony",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BMjhkYjA0ZmUtM2I4OC00YzQ1LTk2YWUtYjA3ZGRhM2YzYWU1XkEyXkFqcGdeQXVyMTc1MzUzOTY0._V1_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BMTZjOGE2ODktY2EyZS00NDk3LWExYTYtZWNkNDc0NjJkMTU3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
-    estreno: "14/02/2024",
-  },
-  {
     id: 4,
     titulo: "Venom 3",
     tipo: "Sony",

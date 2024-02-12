@@ -59,6 +59,12 @@ svg {
   font-weight: bold;
 }
 
+#PelaSW {
+  background-color: #000;
+  color: yellow;
+  font-weight: bold;
+}
+
 #Sony {
   background-color: #000;
   color: aliceblue;
@@ -105,6 +111,13 @@ svg {
   background-attachment: fixed;
 }
 
+#SWBackground {
+  background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95)),
+    url("https://www.fredscorner.nl/wp-content/uploads/2023/02/Star-Wars-Wallpapers-iPhone-Android-Smartphone-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 .icon-cards {
   position: relative;
   width: 60vw;
@@ -123,8 +136,9 @@ svg {
   height: 100%;
   transform-origin: center;
   transform-style: preserve-3d;
-  transform: translateZ(-30vw) rotateY(0);
-  animation: carousel 14s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
+  transform: translateZ(-35vw) rotateY(0);
+  animation: carousel 14s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  animation-delay: -14s;
 }
 
 .icon-cards__content:nth-child(n):hover {
@@ -149,8 +163,6 @@ svg {
   height: 100%;
 }
 
-
-
 .icon-cards__item img {
   width: 100%;
   height: 100%;
@@ -168,42 +180,46 @@ svg {
   border-radius: 6px;
 }
 
-
 .icon-cards__item:nth-child(1) {
   transform: rotateY(0) translateZ(35vw);
 }
 
 .icon-cards__item:nth-child(2) {
-  transform: rotateY(120deg) translateZ(35vw);
+  transform: rotateY(90deg) translateZ(35vw);
 }
 
 .icon-cards__item:nth-child(3) {
-  transform: rotateY(240deg) translateZ(35vw);
+  transform: rotateY(180deg) translateZ(35vw);
+}
+
+.icon-cards__item:nth-child(4) {
+  transform: rotateY(270deg) translateZ(35vw);
 }
 
 @keyframes carousel {
-  0%,
-  17.5% {
+  0% {
     transform: translateZ(-35vw) rotateY(0);
   }
 
-  27.5%,
-  45% {
-    transform: translateZ(-35vw) rotateY(-120deg);
+  25% {
+    transform: translateZ(-35vw) rotateY(-90deg);
   }
 
-  55%,
-  72.5% {
-    transform: translateZ(-35vw) rotateY(-240deg);
+  50% {
+    transform: translateZ(-35vw) rotateY(-180deg);
   }
 
-  82.5%,
+  75% {
+    transform: translateZ(-35vw) rotateY(-270deg);
+  }
+
   100% {
     transform: translateZ(-35vw) rotateY(-360deg);
   }
 }
+
 @media only screen and (max-width: 600px) {
-  .año{
+  .año {
     margin-top: 10%;
     margin-bottom: 20%;
   }

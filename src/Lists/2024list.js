@@ -3,10 +3,10 @@ const content2024List = [
     id: 5,
     titulo: " Deadpool 3",
     tipo: "Pelicula",
-    poster2:
-      "https://terrigen-cdn-dev.marvel.com/content/prod/1x/deadpool3_lob_crd_01.jpg",
-    estreno: "26/07/2024",
     poster:
+      "https://m.media-amazon.com/images/M/MV5BNGZjYzE4M2MtNmE5ZC00MjdkLThmYTAtNTAyNjQyN2Q4YmVlXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+    estreno: "26/07/2024",
+    poster2:
       "https://m.media-amazon.com/images/M/MV5BOWJkNThhMWMtN2M1ZS00ZGQwLWIxNTItOWE2MTZhNTVhYjQ2XkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_.jpg",
   },
   {

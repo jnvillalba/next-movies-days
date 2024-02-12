@@ -10,6 +10,7 @@ import { content2027List } from "./Lists/2027list";
 import { tba } from "./Lists/tba";
 import { DCUList } from "./Lists/DC/DCUList";
 import { SonyList } from "./Lists/Sony/SonyList";
+import { SWList } from "./Lists/SW/SWList";
 import "aos/dist/aos.css";
 
 function App() {
@@ -66,6 +67,14 @@ function App() {
             exact
             path="/Sony"
             element={<MovieList studio={"sony"} año={"Sony"} list={SonyList} />}
+          />
+
+          <Route
+            exact
+            path="/SW"
+            element={
+              <MovieList studio={"SW"} año={"Star Wars"} list={SWList} />
+            }
           />
 
           <Route exact path="/next-movies-days" element={<Home />} />

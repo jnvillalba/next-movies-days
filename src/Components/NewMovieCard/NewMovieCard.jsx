@@ -1,8 +1,8 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import "./NewMovieCard.css";
-import AOS from 'aos';
+import AOS from "aos";
 
-const MovieCard = ({ titulo, tipo, poster, estreno, poster2 }) => {
+const MovieCard = ({ titulo, tipo, poster, estreno, poster2, director }) => {
   const fechaDia = estreno[0] + estreno[1];
   const fechaMes = estreno[3] + estreno[4];
   const fechaAño = estreno[6] + estreno[7] + estreno[8] + estreno[9];
@@ -15,7 +15,6 @@ const MovieCard = ({ titulo, tipo, poster, estreno, poster2 }) => {
   useEffect(() => {
     AOS.init();
   }, []);
-  
 
   return (
     <>
@@ -27,6 +26,12 @@ const MovieCard = ({ titulo, tipo, poster, estreno, poster2 }) => {
                 return (
                   <div className="date" id={tipo}>
                     TBA
+                  </div>
+                );
+              case "TBA - 2024":
+                return (
+                  <div className="date" id={tipo}>
+                    2024
                   </div>
                 );
               case "Primavera - EEUU":
@@ -73,8 +78,9 @@ const MovieCard = ({ titulo, tipo, poster, estreno, poster2 }) => {
                   {titulo}
                   <br />
                 </h1>
+                {director}
                 <p>Estreno: {estreno}</p>
-                <p id={tipo}>{tipo}</p>
+                <p id={tipo}>{tipo === "PelaSW" ? "Pelicula" : tipo}</p>
               </div>
             </div>
           </div>

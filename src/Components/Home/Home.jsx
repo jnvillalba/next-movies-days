@@ -7,6 +7,7 @@ const Home = () => {
   const goToMarvelIndex = () => navigate("/2024");
   const goToDCIndex = () => navigate("/DC");
   const goToSonyIndex = () => navigate("/Sony");
+  const goToSWIndex = () => navigate("/SW");
 
   const marvel =
     "https://anthoncode.com/wp-content/uploads/2018/06/marvel-studios-logo-vector.jpg?is-pending-load=1";
@@ -16,6 +17,9 @@ const Home = () => {
 
   const sony =
     "https://pbs.twimg.com/media/FXufOEcVUAAt_Ts?format=jpg&name=large";
+
+  const sw =
+    "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5A92131654C1E0B1A4C072A327E49FB30CA8BDED279852FB32CAD9B33B4AAAB1/scale?width=1440&aspectRatio=1.78&format=jpeg";
 
   const vMarvel = require("../../assets/marvel.mp4");
   const vDC = require("../../assets/dc.mp4");
@@ -31,6 +35,7 @@ const Home = () => {
               <Studio poster={marvel} index={goToMarvelIndex} video={vMarvel} />
               <Studio poster={dc} index={goToDCIndex} video={vDC} />
               <Studio poster={sony} index={goToSonyIndex} video={vSony} />
+              <Studio poster={sw} index={goToSWIndex} />
             </div>
           </figure>
         </div>
