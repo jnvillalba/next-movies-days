@@ -10,25 +10,26 @@ const content2025List = [
       "https://assets.mycast.io/posters/captain-america-new-world-order-fan-casting-poster-223329-medium.jpg?1659627861",
   },
   {
-    id: 3,
-    titulo: "Fantastic Four",
-    tipo: "Pelicula",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BZjZiNmYwYWItNzg4ZC00ZGI5LTlmMjAtMzUyMjlkYzk2NmJkXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_.jpg",
-    estreno: "02/05/2025",
-    poster2:
-      "https://assets.mycast.io/posters/fantastic-four-animated-fan-casting-poster-99449-medium.jpg?1620235552",
-  },
-  {
     id: 4,
     titulo: "Thunderbolts",
     tipo: "Pelicula",
     poster:
       "https://m.media-amazon.com/images/M/MV5BMzdkNzFhMDAtNWVhNC00MDM5LTllYzktMWFkN2Q0ZWFlYWZkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
-    estreno: "25/07/2025",
+    estreno: "02/05/2025",
     poster2:
       "https://assets.mycast.io/posters/thunderbolts-fan-casting-poster-223849-medium.jpg?1659731049",
   },
+  {
+    id: 3,
+    titulo: "Fantastic Four",
+    tipo: "Pelicula",
+    poster2:
+      "https://m.media-amazon.com/images/M/MV5BZjZiNmYwYWItNzg4ZC00ZGI5LTlmMjAtMzUyMjlkYzk2NmJkXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_.jpg",
+    estreno: "25/07/2025",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BNTg1YTBjNDEtMDViNi00YTk1LTgwNjgtMjQwYmM2MGEyNzRhXkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_.jpg",
+  },
+
   {
     id: 5,
     titulo: "Daredevil: Born Again",
