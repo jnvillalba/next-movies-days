@@ -1,15 +1,5 @@
 const content2024List = [
   {
-    id: 9,
-    titulo: "X-Men 97",
-    tipo: "Serie",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BN2U4NmE4NDYtZWU2Ni00YTc5LTkxYTgtYjU3NzE4NzNkOWJmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
-    estreno: "20/03/2024",
-    poster2:
-      "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_x-men97_ticketnumber_v2_610_b5ba7816.jpeg",
-  },
-  {
     id: 5,
     titulo: " Deadpool 3",
     tipo: "Pelicula",

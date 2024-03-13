@@ -1,15 +1,5 @@
 const SonyList = [
   {
-    id: 4,
-    titulo: "Venom 3",
-    tipo: "Sony",
-    poster:
-      "https://assets.mycast.io/posters/venom-3-fan-casting-poster-191026-medium.jpg?1651169642",
-    poster2:
-      "https://assets.mycast.io/posters/venom-3-symbiote-war-fan-casting-poster-121110-medium.jpg?1628452443",
-    estreno: "08/11/2024",
-  },
-  {
     id: 1,
     titulo: "Kraven the Hunter",
     tipo: "Sony",
@@ -19,6 +9,17 @@ const SonyList = [
       "https://m.media-amazon.com/images/M/MV5BMzQ3YjBlOWQtYjdlNS00MGE0LTgwMDUtOTk4ZTJjNjk4NmYxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
     estreno: "30/08/2024",
   },
+  {
+    id: 4,
+    titulo: "Venom 3",
+    tipo: "Sony",
+    poster:
+      "https://assets.mycast.io/posters/venom-3-fan-casting-poster-191026-medium.jpg?1651169642",
+    poster2:
+      "https://assets.mycast.io/posters/venom-3-symbiote-war-fan-casting-poster-121110-medium.jpg?1628452443",
+    estreno: "25/10/2024",
+  },
+
   {
     id: 0,
     titulo: "Spider-Man: Beyond the Spider-Verse",
