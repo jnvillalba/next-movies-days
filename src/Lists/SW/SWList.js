@@ -1,5 +1,15 @@
 const SWList = [
   {
+    id: 2,
+    titulo: "The Acolyte",
+    tipo: "Serie",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BMzAyMDM1NDYtODM2MC00YmFlLTkzNzEtOWM4NzZhOTJiNjZiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+    poster2:
+      "https://m.media-amazon.com/images/M/MV5BNzIwMjE4YzgtMGI2ZC00NjNlLTg4M2YtZmVhMDgzOTIzMWRjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+    estreno: "04/06/2024",
+  },
+  {
     id: 0,
     titulo: "Andor - S2",
     tipo: "Serie",
@@ -18,15 +28,7 @@ const SWList = [
     poster2: "",
     estreno: "TBA - 2024",
   },
-  {
-    id: 2,
-    titulo: "The Acolyte",
-    tipo: "Serie",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BOGRiNWU2NzUtYjcwNS00MTc4LTg3NTMtNDA0ZGZlZGZjMzg1XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
-    poster2: "",
-    estreno: "TBA - 2024",
-  },
+
   {
     id: 3,
     titulo: "The Mandalorian - S4",
