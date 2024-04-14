@@ -80,11 +80,12 @@ const SWList = [
   },
   {
     id: 8,
-    titulo: "The Mandalorian y Grogu",
+    titulo: "The Mandalorian & Grogu",
     tipo: "PelaSW",
     poster: "https://m.media-amazon.com/images/I/71YDdgOqzkL._AC_SY879_.jpg",
-    poster2: "",
-    estreno: "02/05/2026",
+    poster2:
+      "https://assets.mycast.io/posters/the-mandalorian-and-grogu-fan-casting-poster-454523-medium.jpg?1712718685",
+    estreno: "22/05/2026",
   },
   {
     id: 10,

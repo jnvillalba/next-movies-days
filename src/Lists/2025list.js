@@ -7,7 +7,7 @@ const content2025List = [
       "https://m.media-amazon.com/images/M/MV5BNWMwNDU1M2YtMWQyOC00NGU3LWFlYjYtMmE0YTIyOTIzNjAwXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
     estreno: "14/02/2025",
     poster2:
-      "https://assets.mycast.io/posters/captain-america-new-world-order-fan-casting-poster-223329-medium.jpg?1659627861",
+      "https://assets.mycast.io/posters/captain-america-brave-new-world-2024-fan-casting-poster-335984-medium.jpg?1686111261",
   },
   {
     id: 4,
@@ -23,10 +23,10 @@ const content2025List = [
     id: 3,
     titulo: "Fantastic Four",
     tipo: "Pelicula",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BZjZiNmYwYWItNzg4ZC00ZGI5LTlmMjAtMzUyMjlkYzk2NmJkXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_.jpg",
-    estreno: "25/07/2025",
     poster:
+      "https://assets.mycast.io/posters/fantastic-four-fan-casting-poster-431062-medium.jpg?1707953649",
+    estreno: "25/07/2025",
+    poster2:
       "https://m.media-amazon.com/images/M/MV5BNTg1YTBjNDEtMDViNi00YTk1LTgwNjgtMjQwYmM2MGEyNzRhXkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_.jpg",
   },
 

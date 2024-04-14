@@ -13,10 +13,10 @@ const DCUList = [
     id: 5,
     titulo: "Joker: Folie a Deux",
     tipo: "Elseworlds",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BOTNlM2E1YTYtYmUzZS00MWZhLTk3OGEtNDRlOGUxMDhkODdlXkEyXkFqcGdeQXVyNDk4NzAyNzU@._V1_.jpg",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BODUyODM1OGEtNTY3ZC00OTFjLTkyNDgtODU4MTk5NzkzYmQ5XkEyXkFqcGdeQXVyNjczMjc4NTA@._V1_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BNTI0MjIwMDAtYWY1ZC00MDUyLWI0MzMtZGNjODRlN2Y3ZmE2XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg",
+    poster2:
+      "https://m.media-amazon.com/images/M/MV5BMzdkNDc2ODItNmUwMy00MTIzLTliMTItYjdjMDI1NWNiMTZiXkEyXkFqcGdeQXVyMTQ3NTg5NTg2._V1_.jpg",
     estreno: "04/10/2024",
   },
   {
