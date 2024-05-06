@@ -36,7 +36,7 @@ const DCUList = [
     poster:
       "https://cdn-image.hipwee.com/wp-content/uploads/2023/02/hipwee-328347329_902950704457661_8962827073113017697_n-600x750.jpg",
     poster2:
-      "https://assets.mycast.io/posters/superman-legacy-fan-casting-poster-285083-medium.jpg?1675268191",
+      "https://m.media-amazon.com/images/M/MV5BODMwNDgxMTQtMjI1Zi00ZTA1LTg3YzItMjU1ZjcwYTZmOWQzXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
     estreno: "11/07/2025",
   },
   {

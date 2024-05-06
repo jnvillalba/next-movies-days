@@ -4,7 +4,7 @@ const SWList = [
     titulo: "The Acolyte",
     tipo: "Serie",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BMzAyMDM1NDYtODM2MC00YmFlLTkzNzEtOWM4NzZhOTJiNjZiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BY2RlMmMyNzktNmE1Zi00MWMzLWFkMGEtMzU5OWFhMGMzMzhkXkEyXkFqcGdeQXVyMTQzNTA5MzYz._V1_.jpg",
     poster2:
       "https://m.media-amazon.com/images/M/MV5BNzIwMjE4YzgtMGI2ZC00NjNlLTg4M2YtZmVhMDgzOTIzMWRjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
     estreno: "04/06/2024",
