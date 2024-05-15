@@ -11,22 +11,12 @@ const content2024List = [
   },
 
   {
-    id: 8,
-    titulo: "Ironheart",
-    tipo: "Serie",
-    poster2:
-      "https://assets.mycast.io/posters/iron-heart-fan-casting-poster-7556-medium.jpg?1567559172",
-    estreno: "TBA",
-    poster:
-      "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_ironheart_20658_1_ab6e2070.jpeg",
-  },
-  {
     id: 10,
-    titulo: "Agatha: Coven of Chaos",
+    titulo: "Agatha All Along",
     tipo: "Serie",
     poster:
       "https://lumiere-a.akamaihd.net/v1/images/p_agathacovenofchaos_609_23888398.jpeg",
-    estreno: "TBA",
+    estreno: "18/09/2024",
     poster2:
       "https://pbs.twimg.com/media/FYro8GmWAAEKQl0?format=jpg&name=4096x4096",
   },

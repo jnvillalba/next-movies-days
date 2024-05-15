@@ -9,6 +9,16 @@ const content2025List = [
     poster2:
       "https://assets.mycast.io/posters/captain-america-brave-new-world-2024-fan-casting-poster-335984-medium.jpg?1686111261",
   },
+
+  {
+    id: 5,
+    titulo: "Daredevil: Born Again",
+    tipo: "Serie",
+    poster2: "https://posterspy.com/wp-content/uploads/2022/11/dd-re.jpg",
+    estreno: "19/03/2025",
+    poster:
+      "https://lumiere-a.akamaihd.net/v1/images/p_daredevilbornagain_614_404a05e5.jpeg",
+  },
   {
     id: 4,
     titulo: "Thunderbolts",
@@ -29,15 +39,15 @@ const content2025List = [
     poster2:
       "https://m.media-amazon.com/images/M/MV5BNTg1YTBjNDEtMDViNi00YTk1LTgwNjgtMjQwYmM2MGEyNzRhXkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_.jpg",
   },
-
   {
-    id: 5,
-    titulo: "Daredevil: Born Again",
+    id: 8,
+    titulo: "Ironheart",
     tipo: "Serie",
-    poster2: "https://posterspy.com/wp-content/uploads/2022/11/dd-re.jpg",
-    estreno: "Primavera - EEUU",
+    poster2:
+      "https://assets.mycast.io/posters/iron-heart-fan-casting-poster-7556-medium.jpg?1567559172",
+    estreno: "TBA",
     poster:
-      "https://lumiere-a.akamaihd.net/v1/images/p_daredevilbornagain_614_404a05e5.jpeg",
+      "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_ironheart_20658_1_ab6e2070.jpeg",
   },
   {
     id: 6,

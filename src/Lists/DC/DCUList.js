@@ -105,10 +105,10 @@ const DCUList = [
     titulo: "Supergirl: Woman of Tomorrow",
     tipo: "DCU",
     poster2:
-      "https://pbs.twimg.com/media/Fn0T8OPWIAU-MJ8?format=jpg&name=large",
+      "https://cdna.artstation.com/p/assets/images/images/072/085/122/large/ben-solo-cup-asset.jpg?1706602799",
     poster:
       "https://www.elfinanciero.com.mx/resizer/xYjTuEn5l1ros7tyEBsEVgwAlgg=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/UDPYI2PMWNH7BDDHLZAPH72RUM.jpg",
-    estreno: "TBA",
+    estreno: "26/06/2026",
   },
   {
     id: 14,
