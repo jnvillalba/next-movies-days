@@ -1,15 +1,5 @@
 const SWList = [
   {
-    id: 2,
-    titulo: "The Acolyte",
-    tipo: "Serie",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BY2RlMmMyNzktNmE1Zi00MWMzLWFkMGEtMzU5OWFhMGMzMzhkXkEyXkFqcGdeQXVyMTQzNTA5MzYz._V1_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BNzIwMjE4YzgtMGI2ZC00NjNlLTg4M2YtZmVhMDgzOTIzMWRjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
-    estreno: "04/06/2024",
-  },
-  {
     id: 0,
     titulo: "Andor - S2",
     tipo: "Serie",

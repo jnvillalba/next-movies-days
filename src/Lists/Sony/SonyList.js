@@ -4,10 +4,10 @@ const SonyList = [
     titulo: "Venom: The Last Dance",
     tipo: "Sony",
     poster:
-      "https://assets.mycast.io/posters/venom-3-fan-casting-poster-191026-medium.jpg?1651169642",
+      "https://m.media-amazon.com/images/M/MV5BYmIxMGNmOGYtMDQ4ZS00N2M0LWFiNWMtMWVlYjVkNzkzODc4XkEyXkFqcGc@._V1_.jpg",
     poster2:
-      "https://assets.mycast.io/posters/venom-3-symbiote-war-fan-casting-poster-121110-medium.jpg?1628452443",
-    estreno: "25/10/2024",
+      "https://m.media-amazon.com/images/M/MV5BYmIxMGNmOGYtMDQ4ZS00N2M0LWFiNWMtMWVlYjVkNzkzODc4XkEyXkFqcGc@._V1_.jpg",
+    estreno: "24/10/2024",
   },
   {
     id: 1,
