@@ -15,7 +15,7 @@ const content2024List = [
     titulo: "Agatha All Along",
     tipo: "Serie",
     poster:
-      "https://lumiere-a.akamaihd.net/v1/images/p_agathacovenofchaos_609_23888398.jpeg",
+      "https://m.media-amazon.com/images/M/MV5BY2I0MjczMWItMTFlMy00MDdkLWI0ODUtN2MxMDMyMTg3Y2MxXkEyXkFqcGdeQXVyNzEzMDcwMDE@._V1_.jpg",
     estreno: "18/09/2024",
     poster2:
       "https://pbs.twimg.com/media/FYro8GmWAAEKQl0?format=jpg&name=4096x4096",
