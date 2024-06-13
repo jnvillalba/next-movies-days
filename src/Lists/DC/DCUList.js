@@ -10,6 +10,15 @@ const DCUList = [
     estreno: "TBA",
   },
   {
+    id: 7,
+    titulo: "Creature Commandos",
+    tipo: "SerieHBO",
+    poster:
+      "https://assets.mycast.io/posters/creature-commandos-fan-casting-poster-285184-medium.jpg?1675291717",
+    poster2: "http://www.comicbookreligion.com/img/c/r/Creature_Commandos.jpg",
+    estreno: "15/11/2024",
+  },
+  {
     id: 5,
     titulo: "Joker: Folie a Deux",
     tipo: "Elseworlds",
@@ -18,16 +27,6 @@ const DCUList = [
     poster2:
       "https://m.media-amazon.com/images/M/MV5BMzdkNDc2ODItNmUwMy00MTIzLTliMTItYjdjMDI1NWNiMTZiXkEyXkFqcGdeQXVyMTQ3NTg5NTg2._V1_.jpg",
     estreno: "04/10/2024",
-  },
-  {
-    id: 6,
-    titulo: "The Batman - Part II",
-    tipo: "Elseworlds",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BM2Y5N2RlMDctYzFhNC00YWQ2LWFhYWItMDc0NDRmMmY1OTRiXkEyXkFqcGdeQXVyODUxNjcxNjE@._V1_.jpg",
-    poster:
-      "https://image.tmdb.org/t/p/original//4SDufPSRRtpoq2QWx1XZyAY9wfz.jpg",
-    estreno: "03/10/2025",
   },
   {
     id: 9,
@@ -40,14 +39,16 @@ const DCUList = [
     estreno: "11/07/2025",
   },
   {
-    id: 7,
-    titulo: "Creature Commandos",
-    tipo: "SerieHBO",
+    id: 6,
+    titulo: "The Batman - Part II",
+    tipo: "Elseworlds",
+    poster2:
+      "https://m.media-amazon.com/images/M/MV5BM2Y5N2RlMDctYzFhNC00YWQ2LWFhYWItMDc0NDRmMmY1OTRiXkEyXkFqcGdeQXVyODUxNjcxNjE@._V1_.jpg",
     poster:
-      "https://assets.mycast.io/posters/creature-commandos-fan-casting-poster-285184-medium.jpg?1675291717",
-    poster2: "http://www.comicbookreligion.com/img/c/r/Creature_Commandos.jpg",
-    estreno: "TBA",
+      "https://image.tmdb.org/t/p/original//4SDufPSRRtpoq2QWx1XZyAY9wfz.jpg",
+    estreno: "03/10/2025",
   },
+
   {
     id: 8,
     titulo: "Waller",
