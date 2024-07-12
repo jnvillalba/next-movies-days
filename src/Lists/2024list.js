@@ -5,7 +5,7 @@ const content2024List = [
     tipo: "Pelicula",
     poster:
       "https://m.media-amazon.com/images/M/MV5BZmU4OGZiODItYzAwYy00MWU3LTg3ODUtN2IwN2Q0NzBhZDUyXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
-    estreno: "26/07/2024",
+    estreno: "24/07/2024",
     poster2:
       "https://m.media-amazon.com/images/M/MV5BMGNlMjRhNWQtNTQ1MS00NTViLThmZjUtYmRlNmIxZjlmNTM4XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
   },
@@ -14,11 +14,11 @@ const content2024List = [
     id: 10,
     titulo: "Agatha All Along",
     tipo: "Serie",
-    poster:
+    poster2:
       "https://m.media-amazon.com/images/M/MV5BY2I0MjczMWItMTFlMy00MDdkLWI0ODUtN2MxMDMyMTg3Y2MxXkEyXkFqcGdeQXVyNzEzMDcwMDE@._V1_.jpg",
     estreno: "18/09/2024",
-    poster2:
-      "https://pbs.twimg.com/media/FYro8GmWAAEKQl0?format=jpg&name=4096x4096",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BMzBjMTJmZjktOTk5Zi00YTg0LWE1ZjctNjRhNGU3OGE4Yjg1XkEyXkFqcGc@._V1_.jpg",
   },
   {
     id: 6,
