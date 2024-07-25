@@ -24,7 +24,7 @@ const content2025List = [
     titulo: "Thunderbolts",
     tipo: "Pelicula",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BMzdkNzFhMDAtNWVhNC00MDM5LTllYzktMWFkN2Q0ZWFlYWZkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BZjViNThlZGItNjk3Zi00MTIwLWJjOWItN2YwYTA4MWEyMWM4XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
     estreno: "02/05/2025",
     poster2:
       "https://assets.mycast.io/posters/thunderbolts-fan-casting-poster-223849-medium.jpg?1659731049",

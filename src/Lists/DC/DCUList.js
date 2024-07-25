@@ -4,10 +4,10 @@ const DCUList = [
     titulo: "The Penguin",
     tipo: "Elseworlds",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BZDRlMmU2MGItMjRkZC00MDI0LWE4ZWItMzBjNDQ4MTNkOTA2XkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BNjEwMjhiM2YtMGE5NS00ZTU1LTgwYjgtNzQxOTBiZmE4OTkwXkEyXkFqcGc@._V1_.jpg",
     poster2:
-      "https://m.media-amazon.com/images/M/MV5BNzQ1Y2RkOTAtOWQ5NC00ZTA5LTg3MTUtZDQ4ZjljOWY2OWNjXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_.jpg",
-    estreno: "TBA",
+      "https://m.media-amazon.com/images/M/MV5BM2FlNDBlZmItNmVmZC00YzQwLWJhODgtMjFiYjI5NTIyYjM5XkEyXkFqcGc@._V1_.jpg",
+    estreno: "25/09/2024",
   },
   {
     id: 7,

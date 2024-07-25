@@ -1,16 +1,5 @@
 const content2024List = [
   {
-    id: 5,
-    titulo: "Deadpool & Wolverine",
-    tipo: "Pelicula",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BZmU4OGZiODItYzAwYy00MWU3LTg3ODUtN2IwN2Q0NzBhZDUyXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
-    estreno: "24/07/2024",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BMGNlMjRhNWQtNTQ1MS00NTViLThmZjUtYmRlNmIxZjlmNTM4XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
-  },
-
-  {
     id: 10,
     titulo: "Agatha All Along",
     tipo: "Serie",
