@@ -4,10 +4,10 @@ const content2027List = [
     titulo: "Avengers: Secret Wars",
     tipo: "Pelicula",
     poster2:
-      "https://assets.mycast.io/posters/avengers-5-secret-wars-fan-casting-poster-202627-medium.jpg?1654445626",
+      "https://assets.mycast.io/posters/avengers-secret-wars-fan-casting-poster-400102-medium.jpg?1700007454",
     estreno: "07/05/2027",
     poster:
-      "https://assets.mycast.io/posters/avengers-secret-wars-fan-casting-poster-228756-medium.jpg?1660935573",
+      "https://assets.mycast.io/posters/avengers-secret-wars-fan-casting-poster-493834-medium.jpg?1722180636",
   },
 ];
 

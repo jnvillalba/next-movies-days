@@ -7,16 +7,17 @@ const DCUList = [
       "https://m.media-amazon.com/images/M/MV5BNjEwMjhiM2YtMGE5NS00ZTU1LTgwYjgtNzQxOTBiZmE4OTkwXkEyXkFqcGc@._V1_.jpg",
     poster2:
       "https://m.media-amazon.com/images/M/MV5BM2FlNDBlZmItNmVmZC00YzQwLWJhODgtMjFiYjI5NTIyYjM5XkEyXkFqcGc@._V1_.jpg",
-    estreno: "25/09/2024",
+    estreno: "19/09/2024",
   },
   {
     id: 7,
     titulo: "Creature Commandos",
     tipo: "SerieHBO",
-    poster:
+    poster2:
       "https://assets.mycast.io/posters/creature-commandos-fan-casting-poster-285184-medium.jpg?1675291717",
-    poster2: "http://www.comicbookreligion.com/img/c/r/Creature_Commandos.jpg",
-    estreno: "15/11/2024",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BODVmMmM0MzUtODlhMC00Y2QwLWI0MTktZmNmY2JjYjM0OTI4XkEyXkFqcGc@._V1_.jpg",
+    estreno: "15/12/2024",
   },
   {
     id: 5,
