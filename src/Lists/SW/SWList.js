@@ -15,8 +15,9 @@ const SWList = [
     tipo: "Serie",
     poster:
       "https://m.media-amazon.com/images/M/MV5BYTUzNDFjMzAtNzA2My00Yjc5LThiOGItYmU3Njc3NWUxNjQ2XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
-    poster2: "",
-    estreno: "TBA - 2024",
+    poster2:
+      "https://m.media-amazon.com/images/M/MV5BMzc0MjFkMDUtNjVlNS00MjRiLTk0MDEtZTY4YzdkYTdiMWU5XkEyXkFqcGc@._V1_.jpg",
+    estreno: "03/12/2024",
   },
 
   {

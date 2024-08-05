@@ -37,7 +37,7 @@ const SonyList = [
       "https://assets.mycast.io/posters/spider-man-4-fan-casting-poster-334424-medium.jpg?1685769142",
     poster2:
       "https://assets.mycast.io/posters/mcu-spider-man-4-official-and-rumored-characters-fan-casting-poster-252010-medium.jpg?1666617285",
-    estreno: "27/07/2025",
+    estreno: "10/11/2026",
   },
   {
     id: 2,
