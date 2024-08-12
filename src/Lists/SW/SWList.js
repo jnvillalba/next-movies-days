@@ -1,15 +1,5 @@
 const SWList = [
   {
-    id: 0,
-    titulo: "Andor - S2",
-    tipo: "Serie",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BYzFjN2JlMWMtMmU0ZC00ZjQ3LWJlZmYtMDg3YWFkN2MxYWZkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
-    estreno: "02/08/2024",
-  },
-  {
     id: 1,
     titulo: "Skeleton Crew",
     tipo: "Serie",
@@ -18,6 +8,16 @@ const SWList = [
     poster2:
       "https://m.media-amazon.com/images/M/MV5BMzc0MjFkMDUtNjVlNS00MjRiLTk0MDEtZTY4YzdkYTdiMWU5XkEyXkFqcGc@._V1_.jpg",
     estreno: "03/12/2024",
+  },
+  {
+    id: 0,
+    titulo: "Andor - S2",
+    tipo: "Serie",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+    poster2:
+      "https://m.media-amazon.com/images/M/MV5BYzFjN2JlMWMtMmU0ZC00ZjQ3LWJlZmYtMDg3YWFkN2MxYWZkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+    estreno: "2025",
   },
 
   {

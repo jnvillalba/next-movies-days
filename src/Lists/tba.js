@@ -32,6 +32,14 @@ const tba = [
   },
   {
     id: 2,
+    titulo: "Eyes of Wakanda",
+    tipo: "Serie",
+    poster:
+      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/715b5211-681f-47a4-9d2a-31702395ee30/dgk84du-61d78b54-0f3d-4808-b084-43840ac1a5f4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzcxNWI1MjExLTY4MWYtNDdhNC05ZDJhLTMxNzAyMzk1ZWUzMFwvZGdrODRkdS02MWQ3OGI1NC0wZjNkLTQ4MDgtYjA4NC00Mzg0MGFjMWE1ZjQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qiS_1J0pvMO10tZQMbh0TbRvfJdLl5PSyk_KxIPjeBo",
+    estreno: "TBA",
+  },
+  {
+    id: 2,
     titulo: "Black Panther: Kingdom of Wakanda",
     tipo: "Serie",
     poster: "https://i.redd.it/z502udpm2cf61.jpg",

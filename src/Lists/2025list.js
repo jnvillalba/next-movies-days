@@ -45,7 +45,7 @@ const content2025List = [
     tipo: "Serie",
     poster2:
       "https://assets.mycast.io/posters/iron-heart-fan-casting-poster-7556-medium.jpg?1567559172",
-    estreno: "TBA",
+    estreno: "03/09/2025",
     poster:
       "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_ironheart_20658_1_ab6e2070.jpeg",
   },
