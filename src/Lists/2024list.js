@@ -1,15 +1,5 @@
 const content2024List = [
   {
-    id: 10,
-    titulo: "Agatha All Along",
-    tipo: "Serie",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BY2I0MjczMWItMTFlMy00MDdkLWI0ODUtN2MxMDMyMTg3Y2MxXkEyXkFqcGdeQXVyNzEzMDcwMDE@._V1_.jpg",
-    estreno: "18/09/2024",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BMzBjMTJmZjktOTk5Zi00YTg0LWE1ZjctNjRhNGU3OGE4Yjg1XkEyXkFqcGc@._V1_.jpg",
-  },
-  {
     id: 6,
     titulo: "Marvel Zombies",
     tipo: "Serie",

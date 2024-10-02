@@ -1,15 +1,5 @@
 const DCUList = [
   {
-    id: 17,
-    titulo: "The Penguin",
-    tipo: "Elseworlds",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BNjEwMjhiM2YtMGE5NS00ZTU1LTgwYjgtNzQxOTBiZmE4OTkwXkEyXkFqcGc@._V1_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BM2FlNDBlZmItNmVmZC00YzQwLWJhODgtMjFiYjI5NTIyYjM5XkEyXkFqcGc@._V1_.jpg",
-    estreno: "19/09/2024",
-  },
-  {
     id: 7,
     titulo: "Creature Commandos",
     tipo: "SerieHBO",
@@ -18,16 +8,6 @@ const DCUList = [
     poster:
       "https://m.media-amazon.com/images/M/MV5BODVmMmM0MzUtODlhMC00Y2QwLWI0MTktZmNmY2JjYjM0OTI4XkEyXkFqcGc@._V1_.jpg",
     estreno: "15/12/2024",
-  },
-  {
-    id: 5,
-    titulo: "Joker: Folie a Deux",
-    tipo: "Elseworlds",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BNTI0MjIwMDAtYWY1ZC00MDUyLWI0MzMtZGNjODRlN2Y3ZmE2XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BMzdkNDc2ODItNmUwMy00MTIzLTliMTItYjdjMDI1NWNiMTZiXkEyXkFqcGdeQXVyMTQ3NTg5NTg2._V1_.jpg",
-    estreno: "04/10/2024",
   },
   {
     id: 9,
