@@ -3,21 +3,21 @@ const content2025List = [
     id: 2,
     titulo: "Captain America: Brave New World",
     tipo: "Pelicula",
-    poster:
+    poster2:
       "https://m.media-amazon.com/images/M/MV5BZTk2NTUxZDItN2Y1Ni00MDFjLTg4OWItMWY3M2Q2OGNiODUwXkEyXkFqcGc@._V1_.jpg",
     estreno: "14/02/2025",
-    poster2:
-      "https://assets.mycast.io/posters/captain-america-brave-new-world-2024-fan-casting-poster-335984-medium.jpg?1686111261",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BYTVlNDViYWUtYmQ4Ny00Y2NhLWFjMGMtNTEyYTg5ZWNkMzhiXkEyXkFqcGc@._V1_.jpg",
   },
-
   {
     id: 5,
     titulo: "Daredevil: Born Again",
     tipo: "Serie",
-    poster2: "https://posterspy.com/wp-content/uploads/2022/11/dd-re.jpg",
+    poster2:
+      "https://m.media-amazon.com/images/M/MV5BZWUxMWFjYTYtYjQ5NC00ZGRhLTgzZTEtNTRiMDY4Njg2MDkwXkEyXkFqcGc@._V1_.jpg",
     estreno: "19/03/2025",
     poster:
-      "https://lumiere-a.akamaihd.net/v1/images/p_daredevilbornagain_614_404a05e5.jpeg",
+      "https://m.media-amazon.com/images/M/MV5BMGQ4OGFjNjMtZjRmYi00ZTk3LTg4NWEtYjRlNTUwNjI2NTM1XkEyXkFqcGc@._V1_.jpg",
   },
   {
     id: 4,
