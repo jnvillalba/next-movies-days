@@ -51,7 +51,7 @@ const content2025List = [
   },
   {
     id: 6,
-    titulo: "Blade",
+    titulo: "Blade - TBA",
     tipo: "Pelicula",
     poster:
       "https://m.media-amazon.com/images/M/MV5BZDE0ZGJlMTYtOWY1OS00NGE4LTgzNTQtMDIxYTM5ZjU2NmVlXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",

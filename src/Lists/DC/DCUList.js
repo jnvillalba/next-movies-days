@@ -4,7 +4,7 @@ const DCUList = [
     titulo: "Creature Commandos",
     tipo: "SerieHBO",
     poster2:
-      "https://assets.mycast.io/posters/creature-commandos-fan-casting-poster-285184-medium.jpg?1675291717",
+      "https://m.media-amazon.com/images/M/MV5BOGQ5MGZhNTYtMmViMi00YTgxLWJjYWYtMjQxNTBlNWM2NTFmXkEyXkFqcGc@._V1_.jpg",
     poster:
       "https://m.media-amazon.com/images/M/MV5BODVmMmM0MzUtODlhMC00Y2QwLWI0MTktZmNmY2JjYjM0OTI4XkEyXkFqcGc@._V1_.jpg",
     estreno: "15/12/2024",

@@ -4,7 +4,7 @@ const content2026List = [
     titulo: "Avengers: Doomsday",
     tipo: "Pelicula",
     poster:
-      "https://a.ltrbxd.com/resized/film-poster/9/0/3/8/9/0/903890-avengers-secret-wars-0-1000-0-1500-crop.jpg?v=6e091b3820",
+      "https://m.media-amazon.com/images/M/MV5BMGNiN2RlZTMtMTkyZC00YjkwLTgyY2QtMDg1ZDNhODQwNWM4XkEyXkFqcGc@._V1_.jpg",
     estreno: "01/05/2026",
     poster2:
       "https://assets.mycast.io/posters/avengers-doomsday-fan-casting-poster-24640-medium.jpg?1578350704",
