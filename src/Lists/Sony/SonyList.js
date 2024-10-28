@@ -34,9 +34,9 @@ const SonyList = [
     titulo: "Spider-man 4",
     tipo: "Sony",
     poster:
-      "https://assets.mycast.io/posters/spider-man-4-fan-casting-poster-334424-medium.jpg?1685769142",
+      "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-4-0-1000-0-1500-crop.jpg?v=4aa4f79d52",
     poster2:
-      "https://assets.mycast.io/posters/mcu-spider-man-4-official-and-rumored-characters-fan-casting-poster-252010-medium.jpg?1666617285",
+      "https://pbs.twimg.com/media/Ga6QTd9XAAAbiYU?format=jpg&name=medium",
     estreno: "24/06/2026",
   },
   {
