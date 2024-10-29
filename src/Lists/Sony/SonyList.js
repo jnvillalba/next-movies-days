@@ -16,7 +16,7 @@ const SonyList = [
     poster:
       "https://m.media-amazon.com/images/M/MV5BZDZmNzVlMDUtMzlmNC00ZTk4LWE0MDctYWExMWViM2EzZjgyXkEyXkFqcGdeQXVyMTU0NTg2NDkw._V1_.jpg",
     poster2:
-      "https://m.media-amazon.com/images/M/MV5BYzdjZmU1YzAtNmI1Yi00OTViLWJiYTYtNDdlYzlhYmI0YmFlXkEyXkFqcGdeQXVyMTYyNDAyMDY5._V1_.jpg",
+      "https://assets.mycast.io/posters/spider-man-beyond-the-spider-verse-fan-casting-poster-368747-medium.jpg?1691188673",
     estreno: "29/03/2025",
   },
   {

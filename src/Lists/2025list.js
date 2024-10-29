@@ -3,11 +3,11 @@ const content2025List = [
     id: 2,
     titulo: "Captain America: Brave New World",
     tipo: "Pelicula",
-    poster2:
+    poster:
       "https://m.media-amazon.com/images/M/MV5BZTk2NTUxZDItN2Y1Ni00MDFjLTg4OWItMWY3M2Q2OGNiODUwXkEyXkFqcGc@._V1_.jpg",
     estreno: "14/02/2025",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BYTVlNDViYWUtYmQ4Ny00Y2NhLWFjMGMtNTEyYTg5ZWNkMzhiXkEyXkFqcGc@._V1_.jpg",
+    poster2:
+      "https://assets.mycast.io/posters/captain-america-brave-new-world-2024-fan-casting-poster-335984-medium.jpg?1686111261",
   },
   {
     id: 5,
@@ -23,11 +23,11 @@ const content2025List = [
     id: 4,
     titulo: "Thunderbolts",
     tipo: "Pelicula",
-    poster:
+    poster2:
       "https://m.media-amazon.com/images/M/MV5BZjViNThlZGItNjk3Zi00MTIwLWJjOWItN2YwYTA4MWEyMWM4XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
     estreno: "02/05/2025",
-    poster2:
-      "https://assets.mycast.io/posters/thunderbolts-fan-casting-poster-223849-medium.jpg?1659731049",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BYTVlNDViYWUtYmQ4Ny00Y2NhLWFjMGMtNTEyYTg5ZWNkMzhiXkEyXkFqcGc@._V1_.jpg",
   },
   {
     id: 3,
