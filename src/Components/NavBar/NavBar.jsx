@@ -1,8 +1,8 @@
 import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
-import "./NavBar.css";
 import HomeButton from "../Home/HomeButton";
+import "./NavBar.css";
 
 export default function NavBar({ studio }) {
   const [navBg, setNavBg] = React.useState("red");
@@ -35,9 +35,6 @@ export default function NavBar({ studio }) {
       );
       customNav = (
         <Nav className="m-auto justify-content-center">
-          <Nav.Link as={Link} to="/2024">
-            2024
-          </Nav.Link>
           <Nav.Link as={Link} to="/2025">
             2025
           </Nav.Link>

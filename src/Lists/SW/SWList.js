@@ -27,7 +27,7 @@ const SWList = [
     poster:
       "https://m.media-amazon.com/images/M/MV5BN2M5YWFjN2YtYzU2YS00NzBlLTgwZWUtYWQzNWFhNDkyYjg3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
     poster2: "",
-    estreno: "TBA - 2024",
+    estreno: "TBA - 2025",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const SWList = [
       "https://m.media-amazon.com/images/M/MV5BNmFiZDM3M2ItMGY5OS00ZGU2LTlkMmYtNTRiZDE0OWI0MTRiXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
     poster2:
       "https://m.media-amazon.com/images/M/MV5BNWJiMDA4OTEtOGU0MC00ZDc5LWE5NWItNWVhMTlhNDliMjc4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
-    estreno: "TBA - 2024",
+    estreno: "TBA - 2025",
   },
   {
     id: 5,

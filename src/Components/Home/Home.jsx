@@ -1,10 +1,10 @@
 import React from "react";
-import Studio from "../Studio/Studio";
 import { useNavigate } from "react-router-dom";
+import Studio from "../Studio/Studio";
 
 const Home = () => {
   const navigate = useNavigate();
-  const goToMarvelIndex = () => navigate("/2024");
+  const goToMarvelIndex = () => navigate("/2025");
   const goToDCIndex = () => navigate("/DC");
   const goToSonyIndex = () => navigate("/Sony");
   const goToSWIndex = () => navigate("/SW");

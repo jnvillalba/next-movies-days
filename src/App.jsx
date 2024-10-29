@@ -1,17 +1,16 @@
+import "aos/dist/aos.css";
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Components/Home/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import Home from "./Components/Home/Home";
 import MovieList from "./Components/MovieList";
-import { content2024List } from "../src/Lists/2024list";
 import { content2025List } from "./Lists/2025list";
 import { content2026List } from "./Lists/2026list";
 import { content2027List } from "./Lists/2027list";
-import { tba } from "./Lists/tba";
 import { DCUList } from "./Lists/DC/DCUList";
 import { SonyList } from "./Lists/Sony/SonyList";
 import { SWList } from "./Lists/SW/SWList";
-import "aos/dist/aos.css";
+import { tba } from "./Lists/tba";
 
 function App() {
   return (
@@ -19,13 +18,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
-          <Route
-            exact
-            path="/2024"
-            element={
-              <MovieList studio={"marvel"} año={2024} list={content2024List} />
-            }
-          />
+
           <Route
             exact
             path="/2025"

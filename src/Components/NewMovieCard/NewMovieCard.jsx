@@ -1,6 +1,6 @@
+import AOS from "aos";
 import React, { useEffect } from "react";
 import "./NewMovieCard.css";
-import AOS from "aos";
 
 const MovieCard = ({ titulo, tipo, poster, estreno, poster2, director }) => {
   const fechaDia = estreno[0] + estreno[1];
@@ -28,12 +28,7 @@ const MovieCard = ({ titulo, tipo, poster, estreno, poster2, director }) => {
                     TBA
                   </div>
                 );
-              case "TBA - 2024":
-                return (
-                  <div className="date" id={tipo}>
-                    2024
-                  </div>
-                );
+
               case "Primavera - EEUU":
                 return (
                   <div className="date" id={tipo}>

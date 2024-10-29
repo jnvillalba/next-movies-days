@@ -40,6 +40,14 @@ const content2025List = [
       "https://m.media-amazon.com/images/M/MV5BNTg1YTBjNDEtMDViNi00YTk1LTgwNjgtMjQwYmM2MGEyNzRhXkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_.jpg",
   },
   {
+    id: 2,
+    titulo: "Eyes of Wakanda",
+    tipo: "Serie",
+    poster:
+      "https://i0.wp.com/maxblizz.com/wp-content/uploads/2024/10/Eyes-of-Wakanda.jpg?resize=1024%2C1024&ssl=1",
+    estreno: "06/08/2025",
+  },
+  {
     id: 8,
     titulo: "Ironheart",
     tipo: "Serie",
@@ -50,6 +58,15 @@ const content2025List = [
       "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_ironheart_20658_1_ab6e2070.jpeg",
   },
   {
+    id: 61,
+    titulo: "Marvel Zombies",
+    tipo: "Serie",
+    poster:
+      "https://terrigen-cdn-dev.marvel.com/content/prod/1x/marvelzombies_lob_crd_01.jpg",
+    estreno: "01/10/2025",
+    poster2: "",
+  },
+  {
     id: 6,
     titulo: "Blade - TBA",
     tipo: "Pelicula",
@@ -57,6 +74,16 @@ const content2025List = [
       "https://m.media-amazon.com/images/M/MV5BZDE0ZGJlMTYtOWY1OS00NGE4LTgzNTQtMDIxYTM5ZjU2NmVlXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
     estreno: "07/10/2025",
     poster2: "https://i.redd.it/ngnag6dsd6861.jpg",
+  },
+  {
+    id: 3,
+    titulo: "Wonder Man",
+    tipo: "Serie",
+    poster:
+      "https://i0.wp.com/maxblizz.com/wp-content/uploads/2024/10/Wonder-Man.jpg?resize=1024%2C1024&ssl=1",
+    estreno: "12/12/2025",
+    poster2:
+      "https://assets.mycast.io/posters/wonder-man-fan-casting-poster-244054-medium.jpg?1664752829",
   },
 ];
 
