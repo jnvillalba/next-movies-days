@@ -1,6 +1,6 @@
 const tba = [
   {
-    id: 1,
+    id: 11,
     titulo: "Armor Wars",
     tipo: "Pelicula",
     poster:
@@ -11,7 +11,7 @@ const tba = [
   },
 
   {
-    id: 4,
+    id: 14,
     titulo: "Vision Quest",
     tipo: "Serie",
     poster:
@@ -22,7 +22,7 @@ const tba = [
   },
 
   {
-    id: 2,
+    id: 12,
     titulo: "Black Panther: Kingdom of Wakanda",
     tipo: "Serie",
     poster: "https://i.redd.it/z502udpm2cf61.jpg",
@@ -31,7 +31,7 @@ const tba = [
       "https://m.media-amazon.com/images/M/MV5BMTkxMTY1YTQtZjg2Zi00ZGRmLThhNTMtZDdmYmFkY2U0MDlkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
   },
   {
-    id: 5,
+    id: 15,
     titulo: "Nova",
     tipo: "Pelicula",
     poster:

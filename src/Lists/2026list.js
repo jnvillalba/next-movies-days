@@ -1,6 +1,6 @@
 const content2026List = [
   {
-    id: 2,
+    id: 100,
     titulo: "Avengers: Doomsday",
     tipo: "Pelicula",
     poster:

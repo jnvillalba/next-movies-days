@@ -10,7 +10,7 @@ const content2025List = [
       "https://assets.mycast.io/posters/captain-america-brave-new-world-2024-fan-casting-poster-335984-medium.jpg?1686111261",
   },
   {
-    id: 5,
+    id: 3,
     titulo: "Daredevil: Born Again",
     tipo: "Serie",
     poster2:
@@ -30,7 +30,17 @@ const content2025List = [
       "https://m.media-amazon.com/images/M/MV5BYTVlNDViYWUtYmQ4Ny00Y2NhLWFjMGMtNTEyYTg5ZWNkMzhiXkEyXkFqcGc@._V1_.jpg",
   },
   {
-    id: 3,
+    id: 5,
+    titulo: "Ironheart",
+    tipo: "Serie",
+    poster2:
+      "https://assets.mycast.io/posters/iron-heart-fan-casting-poster-7556-medium.jpg?1567559172",
+    estreno: "24/06/2025",
+    poster:
+      "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_ironheart_20658_1_ab6e2070.jpeg",
+  },
+  {
+    id: 6,
     titulo: "Fantastic Four",
     tipo: "Pelicula",
     poster:
@@ -40,25 +50,16 @@ const content2025List = [
       "https://m.media-amazon.com/images/M/MV5BNTg1YTBjNDEtMDViNi00YTk1LTgwNjgtMjQwYmM2MGEyNzRhXkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_.jpg",
   },
   {
-    id: 2,
+    id: 7,
     titulo: "Eyes of Wakanda",
     tipo: "Serie",
     poster:
       "https://i0.wp.com/maxblizz.com/wp-content/uploads/2024/10/Eyes-of-Wakanda.jpg?resize=1024%2C1024&ssl=1",
     estreno: "06/08/2025",
   },
+
   {
     id: 8,
-    titulo: "Ironheart",
-    tipo: "Serie",
-    poster2:
-      "https://assets.mycast.io/posters/iron-heart-fan-casting-poster-7556-medium.jpg?1567559172",
-    estreno: "03/09/2025",
-    poster:
-      "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_ironheart_20658_1_ab6e2070.jpeg",
-  },
-  {
-    id: 61,
     titulo: "Marvel Zombies",
     tipo: "Serie",
     poster:
@@ -67,7 +68,7 @@ const content2025List = [
     poster2: "",
   },
   {
-    id: 6,
+    id: 9,
     titulo: "Blade - TBA",
     tipo: "Pelicula",
     poster:
@@ -76,7 +77,7 @@ const content2025List = [
     poster2: "https://i.redd.it/ngnag6dsd6861.jpg",
   },
   {
-    id: 3,
+    id: 10,
     titulo: "Wonder Man",
     tipo: "Serie",
     poster:
