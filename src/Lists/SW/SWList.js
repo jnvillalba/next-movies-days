@@ -17,7 +17,7 @@ const SWList = [
       "https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
     poster2:
       "https://m.media-amazon.com/images/M/MV5BYzFjN2JlMWMtMmU0ZC00ZjQ3LWJlZmYtMDg3YWFkN2MxYWZkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
-    estreno: "2025",
+    estreno: "22/04/2025",
   },
 
   {
