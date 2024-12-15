@@ -1,15 +1,5 @@
 const SWList = [
   {
-    id: 1,
-    titulo: "Skeleton Crew",
-    tipo: "Serie",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BYTUzNDFjMzAtNzA2My00Yjc5LThiOGItYmU3Njc3NWUxNjQ2XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BMzc0MjFkMDUtNjVlNS00MjRiLTk0MDEtZTY4YzdkYTdiMWU5XkEyXkFqcGc@._V1_.jpg",
-    estreno: "03/12/2024",
-  },
-  {
     id: 0,
     titulo: "Andor - S2",
     tipo: "Serie",
