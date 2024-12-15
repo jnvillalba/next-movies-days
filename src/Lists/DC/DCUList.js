@@ -1,14 +1,5 @@
 const DCUList = [
-  {
-    id: 7,
-    titulo: "Creature Commandos",
-    tipo: "SerieHBO",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BOGQ5MGZhNTYtMmViMi00YTgxLWJjYWYtMjQxNTBlNWM2NTFmXkEyXkFqcGc@._V1_.jpg",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BODVmMmM0MzUtODlhMC00Y2QwLWI0MTktZmNmY2JjYjM0OTI4XkEyXkFqcGc@._V1_.jpg",
-    estreno: "15/12/2024",
-  },
+  
   {
     id: 9,
     titulo: "Superman Legacy",
