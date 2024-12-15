@@ -1,14 +1,5 @@
 const SonyList = [
-  {
-    id: 1,
-    titulo: "Kraven the Hunter",
-    tipo: "Sony",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BZWNhOWY4OTUtNDIwZC00ZTMzLTgzNDgtZGU5OWM0ODcwYmVlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BMzQ3YjBlOWQtYjdlNS00MGE0LTgwMDUtOTk4ZTJjNjk4NmYxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-    estreno: "13/12/2024",
-  },
+  
   {
     id: 0,
     titulo: "Spider-Man: Beyond the Spider-Verse",
@@ -17,7 +8,7 @@ const SonyList = [
       "https://m.media-amazon.com/images/M/MV5BZDZmNzVlMDUtMzlmNC00ZTk4LWE0MDctYWExMWViM2EzZjgyXkEyXkFqcGdeQXVyMTU0NTg2NDkw._V1_.jpg",
     poster2:
       "https://assets.mycast.io/posters/spider-man-beyond-the-spider-verse-fan-casting-poster-368747-medium.jpg?1691188673",
-    estreno: "29/03/2025",
+    estreno: "29/03/2026",
   },
   {
     id: 7,
@@ -38,15 +29,6 @@ const SonyList = [
     poster2:
       "https://pbs.twimg.com/media/Ga6QTd9XAAAbiYU?format=jpg&name=medium",
     estreno: "24/06/2026",
-  },
-  {
-    id: 2,
-    titulo: "El Muerto",
-    tipo: "Sony",
-    poster:
-      "https://www.allcitycanvas.com/wp-content/uploads/2022/05/el-muerto-1.jpg",
-    poster2: "",
-    estreno: "TBA",
   },
 
   {
