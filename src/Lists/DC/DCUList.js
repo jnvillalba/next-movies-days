@@ -87,7 +87,7 @@ const DCUList = [
     poster2:
       "https://assets.mycast.io/posters/lanterns-fan-casting-poster-178945-medium.jpg?1647677559",
     poster:
-      "https://cdn-image.hipwee.com/wp-content/uploads/2023/02/hipwee-328234811_593980145900597_7452593337345801322_n-600x750.jpg",
+      "https://static.wikia.nocookie.net/dcstudios/images/3/3e/Lanterns.jpg/revision/latest/scale-to-width-down/1000?cb=20240706154418",
     estreno: "TBA",
   },
 
@@ -96,7 +96,7 @@ const DCUList = [
     titulo: "Paradise Lost",
     tipo: "SerieHBO",
     poster:
-      "https://cdn-image.hipwee.com/wp-content/uploads/2023/02/hipwee-328599214_710917700529057_6244506423611364320_n-600x750.jpg",
+      "https://static.wikia.nocookie.net/dcstudios/images/a/a8/Paradise_Lost.jpg/revision/latest/scale-to-width-down/1000?cb=20240706154516",
     poster2: "",
     estreno: "TBA",
   },
