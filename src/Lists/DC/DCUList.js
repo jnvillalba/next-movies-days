@@ -1,15 +1,34 @@
 const DCUList = [
-  
   {
     id: 9,
     titulo: "Superman Legacy",
     tipo: "DCU",
     poster:
-      "https://cdn-image.hipwee.com/wp-content/uploads/2023/02/hipwee-328347329_902950704457661_8962827073113017697_n-600x750.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMDAyNmVhZGQtYTRhMi00MWM4LWIzZjktYWFhYWQxYzYyNjAzXkEyXkFqcGc@._V1_.jpg",
     poster2:
       "https://m.media-amazon.com/images/M/MV5BODMwNDgxMTQtMjI1Zi00ZTA1LTg3YzItMjU1ZjcwYTZmOWQzXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
     estreno: "11/07/2025",
   },
+  {
+    id: 13,
+    titulo: "Supergirl: Woman of Tomorrow",
+    tipo: "DCU",
+    poster2:
+      "https://cdna.artstation.com/p/assets/images/images/072/085/122/large/ben-solo-cup-asset.jpg?1706602799",
+    poster:
+      "https://www.elfinanciero.com.mx/resizer/xYjTuEn5l1ros7tyEBsEVgwAlgg=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/UDPYI2PMWNH7BDDHLZAPH72RUM.jpg",
+    estreno: "26/06/2026",
+  },
+  {
+    id: 17,
+    titulo: "Clayface",
+    tipo: "DCU",
+    poster:
+      "https://assets.mycast.io/posters/clayface-fan-casting-poster-134094-medium.jpg?1632953491",
+    poster2: "",
+    estreno: "11/09/2026",
+  },
+
   {
     id: 6,
     titulo: "The Batman - Part II",
@@ -18,9 +37,8 @@ const DCUList = [
       "https://m.media-amazon.com/images/M/MV5BM2Y5N2RlMDctYzFhNC00YWQ2LWFhYWItMDc0NDRmMmY1OTRiXkEyXkFqcGdeQXVyODUxNjcxNjE@._V1_.jpg",
     poster:
       "https://image.tmdb.org/t/p/original//4SDufPSRRtpoq2QWx1XZyAY9wfz.jpg",
-    estreno: "03/10/2025",
+    estreno: "02/10/2026",
   },
-
   {
     id: 8,
     titulo: "Waller",
@@ -74,16 +92,6 @@ const DCUList = [
   },
 
   {
-    id: 13,
-    titulo: "Supergirl: Woman of Tomorrow",
-    tipo: "DCU",
-    poster2:
-      "https://cdna.artstation.com/p/assets/images/images/072/085/122/large/ben-solo-cup-asset.jpg?1706602799",
-    poster:
-      "https://www.elfinanciero.com.mx/resizer/xYjTuEn5l1ros7tyEBsEVgwAlgg=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/UDPYI2PMWNH7BDDHLZAPH72RUM.jpg",
-    estreno: "26/06/2026",
-  },
-  {
     id: 14,
     titulo: "Paradise Lost",
     tipo: "SerieHBO",
@@ -101,6 +109,16 @@ const DCUList = [
       "https://www.elfinanciero.com.mx/resizer/cNyOcsTzYsdkq0S8hMElrj4whaQ=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/X23QIKDWXVEARGZQKVBXMKYDL4.jpg",
     poster2: "",
     estreno: "TBA",
+  },
+
+  {
+    id: 18,
+    titulo: "Dynamic Duo",
+    tipo: "DCU",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BNjczNGEyMzktMzI3Yy00Y2ZlLWEwYjctY2ZmNDk2ZjQ2ZTJjXkEyXkFqcGc@._V1_.jpg",
+    poster2: "",
+    estreno: "30/06/2028",
   },
 ];
 

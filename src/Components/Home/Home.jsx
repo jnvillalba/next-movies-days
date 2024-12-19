@@ -13,7 +13,7 @@ const Home = () => {
     "https://anthoncode.com/wp-content/uploads/2018/06/marvel-studios-logo-vector.jpg?is-pending-load=1";
 
   const dc =
-    "https://i0.wp.com/www.comicsuniverse.it/wp-content/uploads/2022/12/FkGzHi_XEAA60bL.jpeg?ssl=1";
+    "https://pbs.twimg.com/media/GTce7diWEAAZBvU?format=jpg&name=large";
 
   const sony =
     "https://pbs.twimg.com/media/FXufOEcVUAAt_Ts?format=jpg&name=large";
