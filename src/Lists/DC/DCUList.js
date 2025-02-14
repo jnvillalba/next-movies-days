@@ -37,7 +37,7 @@ const DCUList = [
       "https://m.media-amazon.com/images/M/MV5BM2Y5N2RlMDctYzFhNC00YWQ2LWFhYWItMDc0NDRmMmY1OTRiXkEyXkFqcGdeQXVyODUxNjcxNjE@._V1_.jpg",
     poster:
       "https://image.tmdb.org/t/p/original//4SDufPSRRtpoq2QWx1XZyAY9wfz.jpg",
-    estreno: "02/10/2026",
+    estreno: "01/10/2027",
   },
   {
     id: 8,
