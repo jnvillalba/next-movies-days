@@ -1,15 +1,5 @@
 const content2025List = [
   {
-    id: 2,
-    titulo: "Captain America: Brave New World",
-    tipo: "Pelicula",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BZTk2NTUxZDItN2Y1Ni00MDFjLTg4OWItMWY3M2Q2OGNiODUwXkEyXkFqcGc@._V1_.jpg",
-    estreno: "14/02/2025",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BZDBlZTAzYzYtYjczZS00MmQyLTlkYjMtNzY2MzU3YjRjYTJiXkEyXkFqcGc@._V1_.jpg",
-  },
-  {
     id: 3,
     titulo: "Daredevil: Born Again",
     tipo: "Serie",
