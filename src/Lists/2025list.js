@@ -1,10 +1,10 @@
-const content2025List = [    
+const content2025List = [
   {
     id: 4,
     titulo: "Thunderbolts",
     tipo: "Pelicula",
     poster2:
-      "https://m.media-amazon.com/images/M/MV5BZjViNThlZGItNjk3Zi00MTIwLWJjOWItN2YwYTA4MWEyMWM4XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMDEzYWViYzUtNDFkNi00ZDVkLThlZjItYTVkZmY1M2IzOTNlXkEyXkFqcGc@._V1_FMjpg_UX770_.jpg",
     estreno: "02/05/2025",
     poster:
       "https://m.media-amazon.com/images/M/MV5BYTVlNDViYWUtYmQ4Ny00Y2NhLWFjMGMtNTEyYTg5ZWNkMzhiXkEyXkFqcGc@._V1_.jpg",
@@ -23,11 +23,11 @@ const content2025List = [
     id: 6,
     titulo: "Fantastic Four",
     tipo: "Pelicula",
-    poster:
+    poster2:
       "https://assets.mycast.io/posters/fantastic-four-fan-casting-poster-431062-medium.jpg?1707953649",
     estreno: "25/07/2025",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BNTg1YTBjNDEtMDViNi00YTk1LTgwNjgtMjQwYmM2MGEyNzRhXkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_.jpg",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BNzRmOTM3ZjUtNTVhOC00NzNiLTk1NTctYWEyMGIzMjAxNThjXkEyXkFqcGc@._V1_FMjpg_UY3704_.jpg",
   },
   {
     id: 7,

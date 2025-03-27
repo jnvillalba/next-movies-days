@@ -84,10 +84,10 @@ const DCUList = [
     id: 11,
     titulo: "Lanterns",
     tipo: "SerieHBO",
-    poster2:
-      "https://assets.mycast.io/posters/lanterns-fan-casting-poster-178945-medium.jpg?1647677559",
     poster:
-      "https://static.wikia.nocookie.net/dcstudios/images/3/3e/Lanterns.jpg/revision/latest/scale-to-width-down/1000?cb=20240706154418",
+      "https://assets.mycast.io/posters/lanterns-fan-casting-poster-178945-medium.jpg?1647677559",
+    poster2:
+      "https://assets.mycast.io/posters/lanterns-tv-series-fan-casting-poster-517407-large.jpg?1727705815",
     estreno: "TBA",
   },
 
@@ -96,7 +96,7 @@ const DCUList = [
     titulo: "Paradise Lost",
     tipo: "SerieHBO",
     poster:
-      "https://static.wikia.nocookie.net/dcstudios/images/a/a8/Paradise_Lost.jpg/revision/latest/scale-to-width-down/1000?cb=20240706154516",
+      "https://assets.mycast.io/posters/paradise-lost-fan-casting-poster-329673-large.jpg?1684887832",
     poster2: "",
     estreno: "TBA",
   },

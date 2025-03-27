@@ -37,7 +37,4 @@ const MovieList = React.memo(({ año, list, studio }) => {
   );
 });
 
-// Add display name for better debugging
-MovieList.displayName = "MovieList";
-
 export default MovieList;

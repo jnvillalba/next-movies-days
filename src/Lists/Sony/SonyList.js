@@ -1,5 +1,4 @@
 const SonyList = [
-  
   {
     id: 0,
     titulo: "Spider-Man: Beyond the Spider-Verse",
@@ -24,10 +23,10 @@ const SonyList = [
     id: 6,
     titulo: "Spider-man 4",
     tipo: "Sony",
-    poster:
-      "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-4-0-1000-0-1500-crop.jpg?v=4aa4f79d52",
     poster2:
-      "https://pbs.twimg.com/media/Ga6QTd9XAAAbiYU?format=jpg&name=medium",
+      "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-4-0-1000-0-1500-crop.jpg?v=4aa4f79d52",
+    poster:
+      "https://assets.mycast.io/posters/ucm-spider-man-4-fan-casting-poster-277186-large.jpg?1698203747",
     estreno: "24/06/2026",
   },
 
