@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 function Studio({ poster, index, video }) {
   const videoRef = useRef(null);
@@ -6,18 +6,26 @@ function Studio({ poster, index, video }) {
 
   useEffect(() => {
     // Reiniciar el video cuando el componente se monte nuevamente
-    videoRef.current.pause();
+    if (videoRef.current) {
+      videoRef.current.pause();
+    }
   }, []);
 
   const handleMouseEnter = () => {
     setIsHovered(true);
-    videoRef.current.play();
+    if (videoRef.current && videoRef.current.paused) {
+      videoRef.current.play().catch((error) => {
+        console.error("Error playing video:", error);
+      });
+    }
   };
 
   const handleMouseLeave = () => {
     setIsHovered(false);
-    videoRef.current.pause();
-    videoRef.current.currentTime = 0;
+    if (videoRef.current && !videoRef.current.paused) {
+      videoRef.current.pause();
+      videoRef.current.currentTime = 0;
+    }
   };
 
   return (
