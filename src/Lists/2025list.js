@@ -1,14 +1,4 @@
-const content2025List = [
-  {
-    id: 3,
-    titulo: "Daredevil: Born Again",
-    tipo: "Serie",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BZWUxMWFjYTYtYjQ5NC00ZGRhLTgzZTEtNTRiMDY4Njg2MDkwXkEyXkFqcGc@._V1_.jpg",
-    estreno: "04/03/2025",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BMGQ4OGFjNjMtZjRmYi00ZTk3LTg4NWEtYjRlNTUwNjI2NTM1XkEyXkFqcGc@._V1_.jpg",
-  },
+const content2025List = [    
   {
     id: 4,
     titulo: "Thunderbolts",
