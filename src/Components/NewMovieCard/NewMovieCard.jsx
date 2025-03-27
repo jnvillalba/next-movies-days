@@ -1,88 +1,96 @@
 import AOS from "aos";
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import "./NewMovieCard.css";
 
-const MovieCard = ({ titulo, tipo, poster, estreno, poster2, director }) => {
-  const fechaDia = estreno[0] + estreno[1];
-  const fechaMes = estreno[3] + estreno[4];
-  const fechaAño = estreno[6] + estreno[7] + estreno[8] + estreno[9];
-  const fecha2 = new Date();
+const MovieCard = React.memo(
+  ({ titulo, tipo, poster, estreno, poster2, director }) => {
+    // Memoized AOS initialization to prevent unnecessary re-renders
+    useEffect(() => {
+      if (!window.AOSInitialized) {
+        AOS.init({
+          duration: 400,
+          once: true, // Animation only happens once
+        });
+        window.AOSInitialized = true;
+      }
+    }, []);
 
-  let fecha1 = new Date(fechaAño + "/" + fechaMes + "/" + fechaDia);
+    // Optimized date calculation with more robust error handling
+    const daysRemaining = useMemo(() => {
+      const specialCases = [
+        "TBA",
+        "TBA - 2025",
+        "Primavera - EEUU",
+        "Verano - EEUU",
+        "Invierno - EEUU",
+        "Otoño - EEUU",
+      ];
 
-  let resta = fecha1.getTime() - fecha2.getTime();
+      // Handle special cases first
+      if (specialCases.includes(estreno)) {
+        return estreno.split(" - ")[0];
+      }
 
-  useEffect(() => {
-    AOS.init();
-  }, []);
+      // Robust date parsing
+      const dateParts = estreno.split("/").map(Number);
+      if (dateParts.length !== 3 || dateParts.some(isNaN)) {
+        return "N/A";
+      }
 
-  return (
-    <>
-      {poster !== "" && (
-        <div className="card" data-aos="fade-up">
-          {(() => {
-            switch (estreno) {
-              case "TBA":
-                return (
-                  <div className="date" id={tipo}>
-                    TBA
-                  </div>
-                );
+      const [dia, mes, año] = dateParts;
+      const releaseDate = new Date(año, mes - 1, dia);
+      const today = new Date();
 
-              case "Primavera - EEUU":
-                return (
-                  <div className="date" id={tipo}>
-                    Primavera
-                  </div>
-                );
-              case "Verano - EEUU":
-                return (
-                  <div className="date" id={tipo}>
-                    Verano
-                  </div>
-                );
-              case "Invierno - EEUU":
-                return (
-                  <div className="date" id={tipo}>
-                    Invierno
-                  </div>
-                );
-              case "Otoño - EEUU":
-                return (
-                  <div className="date" id={tipo}>
-                    Otoño
-                  </div>
-                );
-              default:
-                return (
-                  <div className="date" id={tipo}>
-                    {Math.round(resta / (1000 * 60 * 60 * 24))} Días
-                  </div>
-                );
-            }
-          })()}
-          <div className="image">
-            <img src={poster} alt="poster" />
-          </div>
-          <div className="details">
-            <div className="back">
-              <img src={poster2 ? poster2 : poster} alt={titulo + " poster"} />
+      // Ensure valid date before calculation
+      if (isNaN(releaseDate.getTime())) {
+        return "N/A";
+      }
 
-              <div className="center">
-                <h1>
-                  {titulo}
-                  <br />
-                </h1>
-                {director}
-                <p>Estreno: {estreno}</p>
-                <p id={tipo}>{tipo === "PelaSW" ? "Pelicula" : tipo}</p>
-              </div>
+      const timeDiff = releaseDate.getTime() - today.getTime();
+      return timeDiff > 0 ? Math.round(timeDiff / (1000 * 60 * 60 * 24)) : 0;
+    }, [estreno]);
+
+    // Early return if no poster to prevent unnecessary rendering
+    if (!poster) return null;
+
+    // Determine type display
+    const displayType = tipo === "PelaSW" ? "Pelicula" : tipo;
+
+    return (
+      <div className="card" data-aos="fade-up">
+        <div className="date" id={tipo}>
+          {daysRemaining} {typeof daysRemaining === "number" ? "Días" : ""}
+        </div>
+
+        <div className="image">
+          <img
+            src={poster}
+            alt={`${titulo} poster`}
+            loading="lazy" // Improve performance with lazy loading
+          />
+        </div>
+
+        <div className="details">
+          <div className="back">
+            <img
+              src={poster2 || poster}
+              alt={`${titulo} back poster`}
+              loading="lazy"
+            />
+            <div className="center">
+              <h1>{titulo}</h1>
+              {director}
+              <p>Estreno: {estreno}</p>
+              <p id={tipo}>{displayType}</p>
             </div>
           </div>
         </div>
-      )}
-    </>
-  );
-};
+      </div>
+    );
+  }
+);
+
+// Add display name for better debugging
+MovieCard.displayName = "MovieCard";
 
 export default MovieCard;
