@@ -6,7 +6,7 @@ const DCUList = [
     poster:
       "https://m.media-amazon.com/images/M/MV5BMDAyNmVhZGQtYTRhMi00MWM4LWIzZjktYWFhYWQxYzYyNjAzXkEyXkFqcGc@._V1_.jpg",
     poster2:
-      "https://m.media-amazon.com/images/M/MV5BODMwNDgxMTQtMjI1Zi00ZTA1LTg3YzItMjU1ZjcwYTZmOWQzXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+      "https://assets.mycast.io/posters/superman-2025-fan-casting-poster-494400-large.jpg?1722300225",
     estreno: "11/07/2025",
   },
   {
@@ -15,7 +15,8 @@ const DCUList = [
     tipo: "DCU",
     poster:
       "https://m.media-amazon.com/images/M/MV5BMzBiODIzY2ItNjJkYy00YmVkLTg2YzEtNjQyZjMxOWYyNDdjXkEyXkFqcGc@._V1_FMjpg_UX810_.jpg",
-    poster2: "",
+    poster2:
+      "https://static.wikia.nocookie.net/dcstudios/images/0/02/Peacemaker_2_poster.jpg/revision/latest/scale-to-width-down/1000?cb=20240706154353",
     estreno: "21/08/2025",
   },
 
@@ -44,7 +45,7 @@ const DCUList = [
     titulo: "The Batman - Part II",
     tipo: "Elseworlds",
     poster2:
-      "https://m.media-amazon.com/images/M/MV5BM2Y5N2RlMDctYzFhNC00YWQ2LWFhYWItMDc0NDRmMmY1OTRiXkEyXkFqcGdeQXVyODUxNjcxNjE@._V1_.jpg",
+      "https://assets.mycast.io/posters/the-batman-part-ii-2027-film-fan-casting-poster-552748-large.jpg?1739530282",
     poster:
       "https://image.tmdb.org/t/p/original//4SDufPSRRtpoq2QWx1XZyAY9wfz.jpg",
     estreno: "01/10/2027",
@@ -52,7 +53,7 @@ const DCUList = [
   {
     id: 8,
     titulo: "Waller",
-    tipo: "SerieHBO",
+    tipo: "MAX",
     poster:
       "https://www.elfinanciero.com.mx/resizer/4WpMMlKT7rO50_r_7XfNU7kBqhU=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/X7WKAESQFBH5JNJJCTM7SHSXD4.jpg",
     poster2:
@@ -73,7 +74,7 @@ const DCUList = [
   {
     id: 15,
     titulo: "Booster Gold",
-    tipo: "SerieHBO",
+    tipo: "MAX",
     poster:
       "https://www.elfinanciero.com.mx/resizer/S1by21nKHTMuQciINmgfji77FNA=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/3BR5YKS2SBBRDBFBRWL2JQAWDI.jpg",
     poster2:
@@ -85,15 +86,15 @@ const DCUList = [
     titulo: "The Brave and The Bold",
     tipo: "DCU",
     poster:
-      "https://www.elfinanciero.com.mx/resizer/TwtyyIe7TauWlRRDdNCbckBhhLM=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/DF4M3GBLYVDOFB53OYM4ZBSTK4.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMGIwNzE0OWItMDhhYy00YWM4LWIyN2QtMTE4NDg4NzkxZjJhXkEyXkFqcGc@._V1_FMjpg_UY1280_.jpg",
     poster2:
-      "https://assets.mycast.io/posters/the-brave-and-the-bold-batman-and-robin-fan-casting-poster-285477-medium.jpg?1675373731",
+      "https://static.wikia.nocookie.net/dcstudios/images/4/47/The_Brave_and_the_Bold.jpg/revision/latest/scale-to-width-down/1000?cb=20240706154253",
     estreno: "TBA",
   },
   {
     id: 11,
     titulo: "Lanterns",
-    tipo: "SerieHBO",
+    tipo: "MAX",
     poster:
       "https://assets.mycast.io/posters/lanterns-fan-casting-poster-178945-medium.jpg?1647677559",
     poster2:
@@ -104,7 +105,7 @@ const DCUList = [
   {
     id: 14,
     titulo: "Paradise Lost",
-    tipo: "SerieHBO",
+    tipo: "MAX",
     poster:
       "https://assets.mycast.io/posters/paradise-lost-fan-casting-poster-329673-large.jpg?1684887832",
     poster2: "",
@@ -124,7 +125,7 @@ const DCUList = [
   {
     id: 18,
     titulo: "Dynamic Duo",
-    tipo: "DCU",
+    tipo: "Elseworlds",
     poster:
       "https://m.media-amazon.com/images/M/MV5BNjczNGEyMzktMzI3Yy00Y2ZlLWEwYjctY2ZmNDk2ZjQ2ZTJjXkEyXkFqcGc@._V1_.jpg",
     poster2: "",
