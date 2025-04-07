@@ -10,6 +10,16 @@ const DCUList = [
     estreno: "11/07/2025",
   },
   {
+    id: 210825,
+    titulo: "Peacemaker S2",
+    tipo: "DCU",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BMzBiODIzY2ItNjJkYy00YmVkLTg2YzEtNjQyZjMxOWYyNDdjXkEyXkFqcGc@._V1_FMjpg_UX810_.jpg",
+    poster2: "",
+    estreno: "21/08/2025",
+  },
+
+  {
     id: 13,
     titulo: "Supergirl: Woman of Tomorrow",
     tipo: "DCU",
