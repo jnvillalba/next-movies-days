@@ -5,7 +5,7 @@ const content2025List = [
     tipo: "Pelicula",
     poster2:
       "https://m.media-amazon.com/images/M/MV5BMDEzYWViYzUtNDFkNi00ZDVkLThlZjItYTVkZmY1M2IzOTNlXkEyXkFqcGc@._V1_FMjpg_UX770_.jpg",
-    estreno: "02/05/2025",
+    estreno: "01/05/2025",
     poster:
       "https://m.media-amazon.com/images/M/MV5BYTVlNDViYWUtYmQ4Ny00Y2NhLWFjMGMtNTEyYTg5ZWNkMzhiXkEyXkFqcGc@._V1_.jpg",
   },
@@ -23,10 +23,10 @@ const content2025List = [
     id: 6,
     titulo: "Fantastic Four",
     tipo: "Pelicula",
-    poster2:
+    poster:
       "https://m.media-amazon.com/images/M/MV5BY2U5MjM2MWEtYTU2ZC00YjkyLWE2ZTctYzI1ZDI3Y2IzNGVkXkEyXkFqcGc@._V1_FMjpg_UY2500_.jpg",
     estreno: "25/07/2025",
-    poster:
+    poster2:
       "https://m.media-amazon.com/images/M/MV5BNzRmOTM3ZjUtNTVhOC00NzNiLTk1NTctYWEyMGIzMjAxNThjXkEyXkFqcGc@._V1_FMjpg_UY3704_.jpg",
   },
   {
@@ -52,7 +52,7 @@ const content2025List = [
     titulo: "Blade - TBA",
     tipo: "Pelicula",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BZDE0ZGJlMTYtOWY1OS00NGE4LTgzNTQtMDIxYTM5ZjU2NmVlXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BNWE1NTc4ZjMtMzA0ZS00ZGFkLTg1OGUtMTQ1NTZmZTYzMzMxXkEyXkFqcGc@._V1_FMjpg_UY2144_.jpg",
     estreno: "07/10/2025",
     poster2: "https://i.redd.it/ngnag6dsd6861.jpg",
   },

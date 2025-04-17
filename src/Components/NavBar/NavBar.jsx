@@ -62,7 +62,7 @@ export default function NavBar({ studio = "default" }) {
     >
       <Container>
         {/* Logo */}
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} to="/" className="mr-0">
           <img
             src={studioConfig.logoSrc}
             width={studioConfig.logoWidth}
