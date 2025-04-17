@@ -38,7 +38,7 @@ const Home = () => {
 
   return (
     <div className="container container d-flex justify-content-center container_cards mt-5">
-      <h1 className="año">Studios</h1>
+      <h1 className="year">Studios</h1>
       <div className="container_projects">
         <figure className="icon-cards mt-3">
           <div className="icon-cards__content">

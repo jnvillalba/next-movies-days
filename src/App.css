@@ -3,24 +3,18 @@ body {
   margin: 0;
   /* background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95));*/
   background: rgb(27, 18, 29);
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(27, 18, 29, 1) 0%,
-    rgba(18, 15, 47, 1) 50%,
-    rgba(27, 18, 29, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(27, 18, 29, 1) 0%,
-    rgba(18, 15, 47, 1) 50%,
-    rgba(27, 18, 29, 1) 100%
-  );
-  background: linear-gradient(
-    90deg,
-    rgba(27, 18, 29, 1) 0%,
-    rgba(18, 15, 47, 1) 50%,
-    rgba(27, 18, 29, 1) 100%
-  );
+  background: -moz-linear-gradient(90deg,
+      rgba(27, 18, 29, 1) 0%,
+      rgba(18, 15, 47, 1) 50%,
+      rgba(27, 18, 29, 1) 100%);
+  background: -webkit-linear-gradient(90deg,
+      rgba(27, 18, 29, 1) 0%,
+      rgba(18, 15, 47, 1) 50%,
+      rgba(27, 18, 29, 1) 100%);
+  background: linear-gradient(90deg,
+      rgba(27, 18, 29, 1) 0%,
+      rgba(18, 15, 47, 1) 50%,
+      rgba(27, 18, 29, 1) 100%);
 }
 
 svg {
@@ -72,9 +66,13 @@ svg {
   border: solid 1px white;
 }
 
-.año {
+.year {
   color: aliceblue;
   text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(4px);
 }
 
 .studio {
@@ -219,7 +217,7 @@ svg {
 }
 
 @media only screen and (max-width: 600px) {
-  .año {
+  .year {
     margin-top: 10%;
     margin-bottom: 20%;
   }
