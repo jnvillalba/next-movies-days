@@ -29,7 +29,7 @@ const MovieList = React.memo(({ año, list, studio }) => {
       <NavBar studio={studio} />
       <div className="container my-2" id={`${studio}Background`}>
         <div className="container_cards">
-          <h1 className="year">{displayYear}</h1>
+          <h1 className="year mt-1">{displayYear}</h1>
           <div className="container_projects">{memoizedMovieCards}</div>
         </div>
       </div>

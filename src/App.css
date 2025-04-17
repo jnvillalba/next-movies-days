@@ -69,10 +69,11 @@ svg {
 .year {
   color: aliceblue;
   text-align: center;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 0.5rem 1.5rem;
+  padding: 0.1rem 0.5rem;
   border-radius: 1rem;
   backdrop-filter: blur(4px);
+  margin: auto;
+  box-shadow: 0 .5rem 1rem rgba(var(--bs-body-color-rgb), .15) !important;
 }
 
 .studio {
