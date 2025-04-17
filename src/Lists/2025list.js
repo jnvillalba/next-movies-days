@@ -24,7 +24,7 @@ const content2025List = [
     titulo: "Fantastic Four",
     tipo: "Pelicula",
     poster2:
-      "https://assets.mycast.io/posters/fantastic-four-fan-casting-poster-431062-medium.jpg?1707953649",
+      "https://m.media-amazon.com/images/M/MV5BY2U5MjM2MWEtYTU2ZC00YjkyLWE2ZTctYzI1ZDI3Y2IzNGVkXkEyXkFqcGc@._V1_FMjpg_UY2500_.jpg",
     estreno: "25/07/2025",
     poster:
       "https://m.media-amazon.com/images/M/MV5BNzRmOTM3ZjUtNTVhOC00NzNiLTk1NTctYWEyMGIzMjAxNThjXkEyXkFqcGc@._V1_FMjpg_UY3704_.jpg",

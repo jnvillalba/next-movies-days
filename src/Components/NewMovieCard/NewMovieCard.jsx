@@ -64,7 +64,7 @@ const MovieCard = React.memo(
 
         <div className="image">
           <img
-            src={poster}
+            src={poster ?? poster2}
             alt={`${titulo} poster`}
             loading="lazy" // Improve performance with lazy loading
           />
