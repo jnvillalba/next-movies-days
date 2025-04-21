@@ -2,6 +2,7 @@ const DCUList = [
   {
     id: 9,
     titulo: "Superman Legacy",
+    director: "James Gunn",
     tipo: "DCU",
     poster:
       "https://m.media-amazon.com/images/M/MV5BMDAyNmVhZGQtYTRhMi00MWM4LWIzZjktYWFhYWQxYzYyNjAzXkEyXkFqcGc@._V1_.jpg",
@@ -13,16 +14,17 @@ const DCUList = [
     id: 210825,
     titulo: "Peacemaker S2",
     tipo: "DCU",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BMzBiODIzY2ItNjJkYy00YmVkLTg2YzEtNjQyZjMxOWYyNDdjXkEyXkFqcGc@._V1_FMjpg_UX810_.jpg",
     poster2:
-      "https://static.wikia.nocookie.net/dcstudios/images/0/02/Peacemaker_2_poster.jpg/revision/latest/scale-to-width-down/1000?cb=20240706154353",
+      "https://m.media-amazon.com/images/M/MV5BMzBiODIzY2ItNjJkYy00YmVkLTg2YzEtNjQyZjMxOWYyNDdjXkEyXkFqcGc@._V1_FMjpg_UX810_.jpg",
+    poster:
+      "https://assets.mycast.io/posters/peacemaker-season-2-fan-casting-poster-327716-large.jpg?1684405381",
     estreno: "21/08/2025",
   },
 
   {
     id: 13,
     titulo: "Supergirl: Woman of Tomorrow",
+    director: "Craig Gillespie",
     tipo: "DCU",
     poster2:
       "https://cdna.artstation.com/p/assets/images/images/072/085/122/large/ben-solo-cup-asset.jpg?1706602799",
@@ -88,7 +90,7 @@ const DCUList = [
     poster:
       "https://m.media-amazon.com/images/M/MV5BMGIwNzE0OWItMDhhYy00YWM4LWIyN2QtMTE4NDg4NzkxZjJhXkEyXkFqcGc@._V1_FMjpg_UY1280_.jpg",
     poster2:
-      "https://static.wikia.nocookie.net/dcstudios/images/4/47/The_Brave_and_the_Bold.jpg/revision/latest/scale-to-width-down/1000?cb=20240706154253",
+      "https://assets.mycast.io/posters/the-brave-and-the-bold-fan-casting-poster-285437-large.jpg?1706623367",
     estreno: "TBA",
   },
   {

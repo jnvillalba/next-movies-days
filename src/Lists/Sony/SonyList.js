@@ -24,9 +24,10 @@ const SonyList = [
     id: 5,
     titulo: "Silk: Spider-Society",
     tipo: "Sony",
+    poster2:
+      "https://assets.mycast.io/posters/silk-onto-the-negative-zone-fan-casting-poster-294297-large.jpg?1677601939",
     poster:
-      "https://assets.mycast.io/posters/silk-spider-society-fan-casting-poster-260018-medium.jpg?1668741665",
-    poster2: "",
+      "https://assets.mycast.io/posters/silk-spider-society-fan-casting-poster-421630-large.jpg?1705790068",
     estreno: "TBA",
   },
 ];

@@ -15,18 +15,20 @@ const MovieCard = React.memo(
       }
     }, []);
 
-    // Optimized date calculation with more robust error handling
     const daysRemaining = useMemo(() => {
+      // Return early if "tba" is in the string, case insensitive
+      if (estreno.toLowerCase().includes("tba")) {
+        return "TBA";
+      }
+
       const specialCases = [
-        "TBA",
-        "TBA - 2025",
         "Primavera - EEUU",
         "Verano - EEUU",
         "Invierno - EEUU",
         "Otoño - EEUU",
       ];
 
-      // Handle special cases first
+      // Handle special cases
       if (specialCases.includes(estreno)) {
         return estreno.split(" - ")[0];
       }
@@ -81,7 +83,9 @@ const MovieCard = React.memo(
               <h1>{titulo}</h1>
               {director}
               <p>Estreno: {estreno}</p>
-              <p id={tipo}>{displayType}</p>
+              <p className="opacity-100" id={tipo}>
+                {displayType}
+              </p>
             </div>
           </div>
         </div>
@@ -89,8 +93,5 @@ const MovieCard = React.memo(
     );
   }
 );
-
-// Add display name for better debugging
-MovieCard.displayName = "MovieCard";
 
 export default MovieCard;

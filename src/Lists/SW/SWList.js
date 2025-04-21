@@ -1,32 +1,10 @@
 const SWList = [
   {
-    id: 0,
-    titulo: "Andor - S2",
-    tipo: "Serie",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BYzFjN2JlMWMtMmU0ZC00ZjQ3LWJlZmYtMDg3YWFkN2MxYWZkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
-    estreno: "22/04/2025",
-  },
-
-  {
-    id: 3,
-    titulo: "The Mandalorian - S4",
-    tipo: "Serie",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BN2M5YWFjN2YtYzU2YS00NzBlLTgwZWUtYWQzNWFhNDkyYjg3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
-    poster2: "",
-    estreno: "TBA - 2025",
-  },
-  {
     id: 4,
     titulo: "Star Wars: Visions - S3",
     tipo: "Serie",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BNmFiZDM3M2ItMGY5OS00ZGU2LTlkMmYtNTRiZDE0OWI0MTRiXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BNWJiMDA4OTEtOGU0MC00ZDc5LWE5NWItNWVhMTlhNDliMjc4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+      "https://assets.mycast.io/posters/star-wars-visions-fan-casting-poster-206269-large.jpg?1655428846",
     estreno: "TBA - 2025",
   },
   {
@@ -34,10 +12,8 @@ const SWList = [
     titulo: "Ahsoka - S2",
     tipo: "Serie",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BNjczMDQzOTgtMGU3My00ODYyLWEyMDAtYWJlMTFkYzljMDI4XkEyXkFqcGdeQXVyMTE5MTg5NDIw._V1_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BMWM1NjU1MDgtYjhjYS00Mjg5LWE1MWEtNzUwNWMxNTU2ZWY3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
-    estreno: "TBA",
+      "https://assets.mycast.io/posters/who-we-wanted-to-see-in-ahsoka-season-2-fan-casting-poster-543196-large.jpg?1735596690",
+    estreno: "TBA - 2026",
   },
 
   {
@@ -45,7 +21,7 @@ const SWList = [
     titulo: "Lando",
     tipo: "Serie",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BYTU1MWY5YmYtYzNhOC00OWRmLThjOWQtNjJlOTZmOWE0NDEyXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_.jpg",
+      "https://assets.mycast.io/posters/lando-tv-series-fan-casting-poster-379212-large.jpg?1693877509",
     poster2:
       "https://m.media-amazon.com/images/M/MV5BMTA2OTE4Mjg2ODdeQTJeQWpwZ15BbWU4MDI4ODk2MzUz._V1_.jpg",
     estreno: "TBA",
@@ -55,13 +31,24 @@ const SWList = [
     titulo: "A Droid Story",
     tipo: "Serie",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BYWQ0ZmVjMTEtM2Y3MS00ZmJhLThiNmEtMjY3YTk4OTQ1YTdjXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
+      "https://assets.mycast.io/posters/star-wars-a-droid-story-2020-fan-casting-poster-540219-large.jpg?1734659041",
     poster2: "",
     estreno: "TBA",
   },
   {
+    id: 726,
+    titulo: "Star Wars: Shadow Lord",
+    tipo: "Serie",
+    poster:
+      "https://www.tvtime.com/_next/image?url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fv4%2Fseries%2F462715%2Fposters%2F680206e0205b9.jpg&w=640&q=75",
+    poster2: "",
+    estreno: "TBA - 2026",
+  },
+
+  {
     id: 8,
     titulo: "The Mandalorian & Grogu",
+    director: "Jon Favreau",
     tipo: "PelaSW",
     poster: "https://m.media-amazon.com/images/I/71YDdgOqzkL._AC_SY879_.jpg",
     poster2:
@@ -75,7 +62,7 @@ const SWList = [
     poster:
       "https://pbs.twimg.com/media/FzGlfqOXwAA-uqV?format=jpg&name=medium",
     poster2:
-      "https://scontent.faep6-1.fna.fbcdn.net/v/t39.30808-6/400384296_729248962588348_8390712941999414828_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a73e89&_nc_ohc=t9DNvRhToYMAX-kKTHC&_nc_ht=scontent.faep6-1.fna&oh=00_AfCKl6uo1p95J4fp-vbeyECpTSmsBI-UKqLk8SHZuIqvcQ&oe=65CFF45D",
+      "https://assets.mycast.io/posters/star-wars-the-new-jedi-order-fan-casting-poster-476615-large.jpg?1718039580",
     estreno: "18/12/2026",
   },
   {
@@ -84,10 +71,21 @@ const SWList = [
     director: "James Mangold",
     tipo: "PelaSW",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BYjNhNjlkN2UtYjRmNS00ZDk3LWI0MjctZDI3NTA3YTU1NjcxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "https://assets.mycast.io/posters/wonder-woman-fan-casting-poster-101983-large.jpg?1739390862",
     poster2:
       "https://assets.mycast.io/posters/dawn-of-the-jedi-fan-casting-poster-318427-medium.jpg?1683430708",
     estreno: "17/12/2027",
+  },
+
+  {
+    id: 280527,
+    titulo: "Star Wars: Starfighter",
+    director: "Shawn Levy",
+    tipo: "PelaSW",
+    poster:
+      "https://www.tvtime.com/_next/image?url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fv4%2Fmovie%2F366140%2Fposters%2F68020fba4e8a9_t.jpg&w=750&q=75",
+    poster2: "",
+    estreno: "28/05/2027",
   },
 
   {

@@ -4,10 +4,10 @@ const tba = [
     titulo: "Armor Wars",
     tipo: "Pelicula",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BMGZlOGJhOTctMzZjMS00NmUzLWI4OGEtNmQ0ZGVkNWY4NjU0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+      "https://assets.mycast.io/posters/armor-wars-fan-casting-poster-71028-large.jpg?1607797561",
     estreno: "TBA",
     poster2:
-      "https://assets.mycast.io/posters/armor-wars-fan-casting-poster-206201-medium.jpg?1655413842",
+      "https://assets.mycast.io/posters/armor-wars-fan-casting-poster-407285-large.jpg?1701958481",
   },
 
   {
@@ -18,7 +18,7 @@ const tba = [
       "https://assets.mycast.io/posters/vision-quest-fan-casting-poster-273537-medium.jpg?1672259229",
     estreno: "TBA",
     poster2:
-      "https://assets.mycast.io/posters/vision-quest-fan-casting-poster-253957-medium.jpg?1667007623",
+      "https://assets.mycast.io/posters/vision-quest-fan-casting-poster-475062-large.jpg?1717639316",
   },
 
   {
@@ -27,8 +27,6 @@ const tba = [
     tipo: "Serie",
     poster: "https://i.redd.it/z502udpm2cf61.jpg",
     estreno: "TBA",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BMTkxMTY1YTQtZjg2Zi00ZGRmLThhNTMtZDdmYmFkY2U0MDlkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
   },
   {
     id: 15,

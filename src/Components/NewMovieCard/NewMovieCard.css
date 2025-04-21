@@ -15,6 +15,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .card {
   width: 300px;
   height: 430px;
@@ -27,39 +28,46 @@ body {
   height: 100%;
   overflow: hidden;
 }
+
 .card .image img {
   width: 100%;
   height: 100%;
   transition: 0.5s;
 }
+
 .card:hover .image img {
   opacity: 0.5;
-  transform: translateX(30%); /*100%*/
+  transform: translateX(30%);
+  /*100%*/
 }
+
 .card .details {
   position: absolute;
   top: 0;
   left: 0;
-  width: 70%; /*100%*/
+  width: 70%;
+  /*100%*/
   height: 100%;
 
   transition: 0.5s;
   transform-origin: left;
   transform: perspective(2000px) rotateY(-90deg);
 }
+
 .card:hover .details {
   transform: perspective(2000px) rotateY(0deg);
 }
+
 .card .details .center {
   padding: 10px;
   text-align: center;
-  background: #fff;
+  background-color: rgba(255, 255, 255, 0.78);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  opacity: 0.9;
   width: 100%;
 }
+
 .card .details img {
   width: 100%;
   height: 100%;
@@ -67,6 +75,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
+
 .card .details .center h1 {
   margin: 0;
   padding: 0;
@@ -75,10 +84,12 @@ body {
   font-size: 20px;
   text-transform: uppercase;
 }
+
 .card .details .center h1 span {
   font-size: 14px;
   color: #262626;
 }
+
 .card .details .center p {
   margin: 6px 0;
   padding: 0;
@@ -88,7 +99,6 @@ body {
 
 .date {
   position: absolute;
-
   color: aliceblue;
   padding: 0.8em;
 }

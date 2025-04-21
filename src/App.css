@@ -216,10 +216,3 @@ svg {
     transform: translateZ(-35vw) rotateY(-360deg);
   }
 }
-
-@media only screen and (max-width: 600px) {
-  .year {
-    margin-top: 10%;
-    margin-bottom: 20%;
-  }
-}

@@ -21,7 +21,7 @@ const content2025List = [
   },
   {
     id: 6,
-    titulo: "Fantastic Four",
+    titulo: "The Fantastic Four: First Steps",
     tipo: "Pelicula",
     poster:
       "https://m.media-amazon.com/images/M/MV5BY2U5MjM2MWEtYTU2ZC00YjkyLWE2ZTctYzI1ZDI3Y2IzNGVkXkEyXkFqcGc@._V1_FMjpg_UY2500_.jpg",

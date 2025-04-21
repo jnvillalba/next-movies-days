@@ -11,6 +11,7 @@ const content2026List = [
   {
     id: 1052026,
     titulo: "Avengers: Doomsday",
+    director: "Anthony Russo, Joe Russo",
     tipo: "Pelicula",
     poster:
       "https://m.media-amazon.com/images/M/MV5BMGNiN2RlZTMtMTkyZC00YjkwLTgyY2QtMDg1ZDNhODQwNWM4XkEyXkFqcGc@._V1_.jpg",
@@ -21,6 +22,7 @@ const content2026List = [
   {
     id: 31062026,
     titulo: "Spider-Man: Brand New Day",
+    director: "Destin Daniel Cretton",
     tipo: "Sony",
     poster2:
       "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-4-0-1000-0-1500-crop.jpg?v=4aa4f79d52",
