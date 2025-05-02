@@ -1,15 +1,5 @@
 const content2025List = [
   {
-    id: 4,
-    titulo: "Thunderbolts",
-    tipo: "Pelicula",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BMDEzYWViYzUtNDFkNi00ZDVkLThlZjItYTVkZmY1M2IzOTNlXkEyXkFqcGc@._V1_FMjpg_UX770_.jpg",
-    estreno: "01/05/2025",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BYTVlNDViYWUtYmQ4Ny00Y2NhLWFjMGMtNTEyYTg5ZWNkMzhiXkEyXkFqcGc@._V1_.jpg",
-  },
-  {
     id: 5,
     titulo: "Ironheart",
     tipo: "Serie",
