@@ -1,6 +1,6 @@
 import "aos/dist/aos.css";
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Home/Home";
 import MovieList from "./Components/MovieList";
@@ -15,7 +15,7 @@ import { tba } from "./Lists/tba";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route index element={<Home />} />
 
@@ -76,7 +76,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route exact path="*" element={<Home />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
