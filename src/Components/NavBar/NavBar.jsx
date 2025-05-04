@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import HomeButton from "../Home/HomeButton";
 import "./NavBar.css";
 
@@ -37,7 +37,6 @@ const STUDIO_CONFIGS = {
 };
 
 export default function NavBar({ studio = "default" }) {
-  const location = useLocation();
   const [navBg, setNavBg] = useState("red");
 
   // Memoize studio configuration to prevent unnecessary re-renders
@@ -48,11 +47,9 @@ export default function NavBar({ studio = "default" }) {
 
   useEffect(() => {
     // Simplified background color logic
-    const darkBackgroundPaths = ["/DC", "/Sony", "/SW"];
-    setNavBg(
-      darkBackgroundPaths.includes(window.location.pathname) ? "black" : "red"
-    );
-  }, [location]);
+    const darkBackgroundPaths = ["dc", "sony", "SW"];
+    setNavBg(darkBackgroundPaths.includes(studio) ? "black" : "red");
+  }, [studio]);
 
   return (
     <Navbar
