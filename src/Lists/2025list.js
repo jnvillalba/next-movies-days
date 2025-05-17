@@ -37,15 +37,7 @@ const content2025List = [
     estreno: "01/10/2025",
     poster2: "",
   },
-  {
-    id: 9,
-    titulo: "Blade - TBA",
-    tipo: "Pelicula",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BNWE1NTc4ZjMtMzA0ZS00ZGFkLTg1OGUtMTQ1NTZmZTYzMzMxXkEyXkFqcGc@._V1_FMjpg_UY2144_.jpg",
-    estreno: "07/10/2025",
-    poster2: "https://i.redd.it/ngnag6dsd6861.jpg",
-  },
+
   {
     id: 10,
     titulo: "Wonder Man",
