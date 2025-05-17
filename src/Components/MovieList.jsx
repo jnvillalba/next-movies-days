@@ -82,7 +82,8 @@ const MovieList = React.memo(({ año, list, studio }) => {
               onClick={toggleSort}
               style={{
                 backgroundColor: sortOrder ? "black" : "transparent",
-
+                position: "absolute",
+                right: "0",
                 borderRadius: "20px",
                 display: "flex",
                 alignItems: "center",
