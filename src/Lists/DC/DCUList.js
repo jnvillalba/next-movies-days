@@ -67,8 +67,6 @@ const DCUList = [
     id: 10,
     titulo: "The Authority",
     tipo: "DCU",
-    poster2:
-      "https://pbs.twimg.com/media/Fn0R7PFWIBE_-Oy?format=jpg&name=large",
     poster:
       "https://www.elfinanciero.com.mx/resizer/nT1iJG2tH2B6UcXkJGNcRWJi6yQ=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/4BA354FXABCS7BLXBSOLDHMYNE.jpg",
     estreno: "TBA",
