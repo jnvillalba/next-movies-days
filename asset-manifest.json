@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/next-movies-days/static/css/main.c0842dae.css",
-    "main.js": "/next-movies-days/static/js/main.3b0ec966.js",
+    "main.css": "/next-movies-days/static/css/main.dd2b001e.css",
+    "main.js": "/next-movies-days/static/js/main.3b088203.js",
     "static/media/marvel.mp4": "/next-movies-days/static/media/marvel.d9837e1789801209e766.mp4",
     "static/media/dc.mp4": "/next-movies-days/static/media/dc.909460658d8305d756ca.mp4",
     "static/media/sony.mp4": "/next-movies-days/static/media/sony.eafd4515dc629a754db5.mp4",
@@ -9,11 +9,11 @@
     "static/media/marvelVertical.webp": "/next-movies-days/static/media/marvelVertical.ee4668c378fcb507b76e.webp",
     "static/media/sonymarvel.jpg": "/next-movies-days/static/media/sonymarvel.a92a794f56d8e1c85602.jpg",
     "index.html": "/next-movies-days/index.html",
-    "main.c0842dae.css.map": "/next-movies-days/static/css/main.c0842dae.css.map",
-    "main.3b0ec966.js.map": "/next-movies-days/static/js/main.3b0ec966.js.map"
+    "main.dd2b001e.css.map": "/next-movies-days/static/css/main.dd2b001e.css.map",
+    "main.3b088203.js.map": "/next-movies-days/static/js/main.3b088203.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0842dae.css",
-    "static/js/main.3b0ec966.js"
+    "static/css/main.dd2b001e.css",
+    "static/js/main.3b088203.js"
   ]
 }
