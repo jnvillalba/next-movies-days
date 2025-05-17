@@ -3,7 +3,7 @@ import React, { useEffect, useMemo } from "react";
 import "./NewMovieCard.css";
 
 const MovieCard = React.memo(
-  ({ titulo, tipo, poster, estreno, poster2, director }) => {
+  ({ titulo, tipo, poster, estreno, poster2, director, plataforma }) => {
     // Memoized AOS initialization to prevent unnecessary re-renders
     useEffect(() => {
       if (!window.AOSInitialized) {
@@ -36,7 +36,7 @@ const MovieCard = React.memo(
       // Robust date parsing
       const dateParts = estreno.split("/").map(Number);
       if (dateParts.length !== 3 || dateParts.some(isNaN)) {
-        return "N/A";
+        return estreno;
       }
 
       const [dia, mes, año] = dateParts;
@@ -45,7 +45,7 @@ const MovieCard = React.memo(
 
       // Ensure valid date before calculation
       if (isNaN(releaseDate.getTime())) {
-        return "N/A";
+        return estreno;
       }
 
       const timeDiff = releaseDate.getTime() - today.getTime();
@@ -82,6 +82,7 @@ const MovieCard = React.memo(
             <div className="center">
               <h1>{titulo}</h1>
               {director}
+              {plataforma}
               <p>Estreno: {estreno}</p>
               <p className="opacity-100" id={tipo}>
                 {displayType}

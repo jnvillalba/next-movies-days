@@ -17,7 +17,7 @@ const DCUList = [
     poster2:
       "https://m.media-amazon.com/images/M/MV5BMzBiODIzY2ItNjJkYy00YmVkLTg2YzEtNjQyZjMxOWYyNDdjXkEyXkFqcGc@._V1_FMjpg_UX810_.jpg",
     poster:
-      "https://assets.mycast.io/posters/peacemaker-season-2-fan-casting-poster-327716-large.jpg?1684405381",
+      "https://m.media-amazon.com/images/M/MV5BZDIyMGU2NTktOTM3YS00OTRjLWJiMmItNDEyNjVhZTZiZGUxXkEyXkFqcGc@._V1_FMjpg_UY1920_.jpg",
     estreno: "21/08/2025",
   },
 

@@ -84,7 +84,7 @@ svg {
 }
 
 #dcBackground {
-  background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95)),
+  background: linear-gradient(rgba(30, 27, 38, 0.9), rgba(30, 27, 38, 0.9)),
     url("https://i0.wp.com/www.comicsuniverse.it/wp-content/uploads/2022/12/FkHapV2WQAEowM-.jpeg?ssl=1");
   background-position: center;
   background-size: cover;
@@ -93,16 +93,28 @@ svg {
 }
 
 #marvelBackground {
-  background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95)),
-    url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DA2E198288BFCA56AB53340211B38DE7134E40E4521EDCAFE6FFB8CD69250DE9/scale?width=1440&aspectRatio=1.78&format=jpeg");
+  background: linear-gradient(rgba(30, 27, 38, 0.8), rgba(30, 27, 38, 0.8)),
+    url("../src/assets/marvelBg.jpg");
   background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
+@media (max-width: 768px) {
+  #marvelBackground {
+    background: linear-gradient(rgba(30, 27, 38, 0.8), rgba(30, 27, 38, 0.8)),
+      url("../src/assets/marvelVertical.webp");
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+}
+
 #sonyBackground {
-  background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95)),
+  background: linear-gradient(rgba(30, 27, 38, 0.9), rgba(30, 27, 38, 0.9)),
     url("https://pbs.twimg.com/media/FXufOEcVUAAt_Ts?format=jpg&name=large");
   background-position: center;
   background-size: cover;
@@ -111,7 +123,7 @@ svg {
 }
 
 #SWBackground {
-  background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95)),
+  background: linear-gradient(rgba(30, 27, 38, 0.9), rgba(30, 27, 38, 0.9)),
     url("https://www.fredscorner.nl/wp-content/uploads/2023/02/Star-Wars-Wallpapers-iPhone-Android-Smartphone-2.jpg");
   background-position: center;
   background-size: cover;

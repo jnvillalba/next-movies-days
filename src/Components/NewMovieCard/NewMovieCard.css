@@ -21,6 +21,11 @@ body {
   height: 430px;
   background: #000;
   margin: 6px;
+
+  @media (max-width: 768px) {
+    width: 180px;
+    height: 260px;
+  }
 }
 
 .card .image {

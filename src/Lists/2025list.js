@@ -3,10 +3,10 @@ const content2025List = [
     id: 5,
     titulo: "Ironheart",
     tipo: "Serie",
-    poster2:
-      "https://assets.mycast.io/posters/iron-heart-fan-casting-poster-7556-medium.jpg?1567559172",
-    estreno: "24/06/2025",
     poster:
+      "https://m.media-amazon.com/images/M/MV5BN2EzMGZhOTktYjVhZi00NmIwLWIxZDEtNWUxZTQyNjhkYWQ4XkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
+    estreno: "24/06/2025",
+    poster2:
       "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_ironheart_20658_1_ab6e2070.jpeg",
   },
   {

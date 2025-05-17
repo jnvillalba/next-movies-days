@@ -16,6 +16,7 @@ const MovieList = React.memo(({ año, list, studio }) => {
           estreno={c.estreno}
           tipo={c.tipo}
           director={c.director}
+          plataforma={c.plataforma}
         />
       )),
     [list]

@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import HomeButton from "../Home/HomeButton";
@@ -16,44 +16,40 @@ const STUDIO_CONFIGS = {
       { to: "/2027", label: "2027" },
       { to: "/tba", label: "TBA" },
     ],
+    bgColor: "red",
   },
   sony: {
     logoSrc:
       "https://sony.scene7.com/is/content/sonyglobalsolutions/sony-logo?$S7Product$",
     logoWidth: 100,
     navLinks: [],
+    bgColor: "black",
   },
   dc: {
     logoSrc:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DC_Comics_logo.svg/800px-DC_Comics_logo.svg.png",
-    logoWidth: 35,
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/DC_Comics_2024.svg/800px-DC_Comics_2024.svg.png",
+    logoWidth: 30,
     navLinks: [],
+    bgColor: " #0476F2",
   },
   default: {
     logoSrc: "https://upload.wikimedia.org/wikipedia/en/d/df/Swlogo.png",
     logoWidth: 70,
     navLinks: [],
+    bgColor: "black",
   },
 };
 
 export default function NavBar({ studio = "default" }) {
-  const [navBg, setNavBg] = useState("red");
-
   // Memoize studio configuration to prevent unnecessary re-renders
   const studioConfig = useMemo(
     () => STUDIO_CONFIGS[studio] || STUDIO_CONFIGS.default,
     [studio]
   );
 
-  useEffect(() => {
-    // Simplified background color logic
-    const darkBackgroundPaths = ["dc", "sony", "SW"];
-    setNavBg(darkBackgroundPaths.includes(studio) ? "black" : "red");
-  }, [studio]);
-
   return (
     <Navbar
-      style={{ backgroundColor: navBg, color: "white" }}
+      style={{ backgroundColor: studioConfig.bgColor, color: "white" }}
       expand="md"
       variant="light"
     >
