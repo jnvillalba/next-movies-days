@@ -8,17 +8,7 @@ const content2026List = [
     estreno: "03/03/2026",
   },
 
-  {
-    id: 1052026,
-    titulo: "Avengers: Doomsday",
-    director: "Anthony Russo, Joe Russo",
-    tipo: "Pelicula",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BMGNiN2RlZTMtMTkyZC00YjkwLTgyY2QtMDg1ZDNhODQwNWM4XkEyXkFqcGc@._V1_.jpg",
-    estreno: "01/05/2026",
-    poster2:
-      "https://assets.mycast.io/posters/avengers-doomsday-fan-casting-poster-556932-large.jpg?1741191857",
-  },
+  
   {
     id: 31062026,
     titulo: "Spider-Man: Brand New Day",
@@ -29,6 +19,16 @@ const content2026List = [
     poster:
       "https://assets.mycast.io/posters/spider-man-brand-new-day-fan-casting-poster-562737-large.jpg?1743540850",
     estreno: "31/06/2026",
+  },{
+    id: 1052026,
+    titulo: "Avengers: Doomsday",
+    director: "Anthony Russo, Joe Russo",
+    tipo: "Pelicula",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BMGNiN2RlZTMtMTkyZC00YjkwLTgyY2QtMDg1ZDNhODQwNWM4XkEyXkFqcGc@._V1_.jpg",
+    estreno: "18/12/2026",
+    poster2:
+      "https://assets.mycast.io/posters/avengers-doomsday-fan-casting-poster-556932-large.jpg?1741191857",
   },
 ];
 
