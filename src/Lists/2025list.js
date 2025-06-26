@@ -1,15 +1,5 @@
 const content2025List = [
   {
-    id: 5,
-    titulo: "Ironheart",
-    tipo: "Serie",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BN2EzMGZhOTktYjVhZi00NmIwLWIxZDEtNWUxZTQyNjhkYWQ4XkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
-    estreno: "24/06/2025",
-    poster2:
-      "https://lumiere-a.akamaihd.net/v1/images/p_disneyplusoriginals_ironheart_20658_1_ab6e2070.jpeg",
-  },
-  {
     id: 6,
     titulo: "The Fantastic Four: First Steps",
     tipo: "Pelicula",
