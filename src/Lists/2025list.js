@@ -1,21 +1,11 @@
 const content2025List = [
   {
-    id: 6,
-    titulo: "The Fantastic Four: First Steps",
-    tipo: "Pelicula",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BY2U5MjM2MWEtYTU2ZC00YjkyLWE2ZTctYzI1ZDI3Y2IzNGVkXkEyXkFqcGc@._V1_FMjpg_UY2500_.jpg",
-    estreno: "25/07/2025",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BNzRmOTM3ZjUtNTVhOC00NzNiLTk1NTctYWEyMGIzMjAxNThjXkEyXkFqcGc@._V1_FMjpg_UY3704_.jpg",
-  },
-  {
     id: 7,
     titulo: "Eyes of Wakanda",
     tipo: "Serie",
     poster:
       "https://i0.wp.com/maxblizz.com/wp-content/uploads/2024/10/Eyes-of-Wakanda.jpg?resize=1024%2C1024&ssl=1",
-    estreno: "06/08/2025",
+    estreno: "01/08/2025",
   },
 
   {
