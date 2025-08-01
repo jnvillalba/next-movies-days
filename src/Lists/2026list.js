@@ -31,7 +31,7 @@ const content2026List = [
   },
 
   {
-    id: 1052026,
+    id: 2026,
     titulo: "Marvel Studios: The Punisher",
     tipo: "Serie",
     estreno: "TBA - 2026",
