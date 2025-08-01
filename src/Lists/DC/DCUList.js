@@ -3,9 +3,9 @@ const DCUList = [
     id: 210825,
     titulo: "Peacemaker S2",
     tipo: "DCU",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BMzBiODIzY2ItNjJkYy00YmVkLTg2YzEtNjQyZjMxOWYyNDdjXkEyXkFqcGc@._V1_FMjpg_UX810_.jpg",
     poster:
+      "https://m.media-amazon.com/images/M/MV5BZWIxMjBlMGUtNzQ2Ny00ZWY2LTljMmMtODM4ZTBhZDcxNzlhXkEyXkFqcGc@._V1_FMjpg_UX604_.jpg",
+    poster2:
       "https://m.media-amazon.com/images/M/MV5BZDIyMGU2NTktOTM3YS00OTRjLWJiMmItNDEyNjVhZTZiZGUxXkEyXkFqcGc@._V1_FMjpg_UY1920_.jpg",
     estreno: "21/08/2025",
   },
@@ -18,8 +18,18 @@ const DCUList = [
     poster2:
       "https://cdna.artstation.com/p/assets/images/images/072/085/122/large/ben-solo-cup-asset.jpg?1706602799",
     poster:
-      "https://www.elfinanciero.com.mx/resizer/xYjTuEn5l1ros7tyEBsEVgwAlgg=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/UDPYI2PMWNH7BDDHLZAPH72RUM.jpg",
+      "https://m.media-amazon.com/images/M/MV5BZDZkNmIyZWItMmVhMy00YzA0LWJhZjktZDE1NDcyNTFiZTE2XkEyXkFqcGc@._V1_FMjpg_UY2048_.jpg",
     estreno: "26/06/2026",
+  },
+  {
+    id: 11,
+    titulo: "Lanterns",
+    tipo: "MAX",
+    poster:
+      "https://assets.mycast.io/posters/lanterns-fan-casting-poster-178945-medium.jpg?1647677559",
+    poster2:
+      "https://assets.mycast.io/posters/lanterns-tv-series-fan-casting-poster-517407-large.jpg?1727705815",
+    estreno: "2026",
   },
   {
     id: 17,
@@ -53,14 +63,6 @@ const DCUList = [
   },
 
   {
-    id: 10,
-    titulo: "The Authority",
-    tipo: "DCU",
-    poster:
-      "https://www.elfinanciero.com.mx/resizer/nT1iJG2tH2B6UcXkJGNcRWJi6yQ=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/4BA354FXABCS7BLXBSOLDHMYNE.jpg",
-    estreno: "TBA",
-  },
-  {
     id: 15,
     titulo: "Booster Gold",
     tipo: "MAX",
@@ -78,16 +80,6 @@ const DCUList = [
       "https://m.media-amazon.com/images/M/MV5BMGIwNzE0OWItMDhhYy00YWM4LWIyN2QtMTE4NDg4NzkxZjJhXkEyXkFqcGc@._V1_FMjpg_UY1280_.jpg",
     poster2:
       "https://assets.mycast.io/posters/the-brave-and-the-bold-fan-casting-poster-285437-large.jpg?1706623367",
-    estreno: "TBA",
-  },
-  {
-    id: 11,
-    titulo: "Lanterns",
-    tipo: "MAX",
-    poster:
-      "https://assets.mycast.io/posters/lanterns-fan-casting-poster-178945-medium.jpg?1647677559",
-    poster2:
-      "https://assets.mycast.io/posters/lanterns-tv-series-fan-casting-poster-517407-large.jpg?1727705815",
     estreno: "TBA",
   },
 
@@ -119,6 +111,14 @@ const DCUList = [
       "https://m.media-amazon.com/images/M/MV5BNjczNGEyMzktMzI3Yy00Y2ZlLWEwYjctY2ZmNDk2ZjQ2ZTJjXkEyXkFqcGc@._V1_.jpg",
     poster2: "",
     estreno: "30/06/2028",
+  },
+  {
+    id: 10,
+    titulo: "The Authority",
+    tipo: "DCU",
+    poster:
+      "https://www.elfinanciero.com.mx/resizer/nT1iJG2tH2B6UcXkJGNcRWJi6yQ=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/4BA354FXABCS7BLXBSOLDHMYNE.jpg",
+    estreno: "TBA",
   },
 ];
 
