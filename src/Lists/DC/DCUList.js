@@ -1,16 +1,5 @@
 const DCUList = [
   {
-    id: 9,
-    titulo: "Superman Legacy",
-    director: "James Gunn",
-    tipo: "DCU",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BMDAyNmVhZGQtYTRhMi00MWM4LWIzZjktYWFhYWQxYzYyNjAzXkEyXkFqcGc@._V1_.jpg",
-    poster2:
-      "https://assets.mycast.io/posters/superman-2025-fan-casting-poster-494400-large.jpg?1722300225",
-    estreno: "11/07/2025",
-  },
-  {
     id: 210825,
     titulo: "Peacemaker S2",
     tipo: "DCU",

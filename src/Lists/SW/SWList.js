@@ -5,7 +5,7 @@ const SWList = [
     tipo: "Serie",
     poster:
       "https://assets.mycast.io/posters/star-wars-visions-fan-casting-poster-206269-large.jpg?1655428846",
-    estreno: "TBA - 2025",
+    estreno: "29/10/2025",
   },
   {
     id: 5,
