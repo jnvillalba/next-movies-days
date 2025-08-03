@@ -1,16 +1,5 @@
 const content2025List = [
   {
-    id: 7,
-    titulo: "Eyes of Wakanda",
-    tipo: "Serie",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BZjc3YjA1YjYtMzQwMS00MGU4LTgwMGUtYjBkODM4ZjQ2MzM3XkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
-    estreno: "01/08/2025",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BZjhhOTE5ODgtNDFjOS00ZTdlLTgzYjAtNGU1NmM4YzkwYWMxXkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
-  },
-
-  {
     id: 8,
     titulo: "Marvel Zombies",
     tipo: "Serie",
