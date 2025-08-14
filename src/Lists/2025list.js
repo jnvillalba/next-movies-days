@@ -5,7 +5,7 @@ const content2025List = [
     tipo: "Serie",
     poster:
       "https://terrigen-cdn-dev.marvel.com/content/prod/1x/marvelzombies_lob_crd_01.jpg",
-    estreno: "01/10/2025",
+    estreno: "24/09/2025",
     poster2: "",
   },
 
