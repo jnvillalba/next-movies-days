@@ -1,16 +1,5 @@
 const DCUList = [
-  {
-    id: 210825,
-    titulo: "Peacemaker S2",
-    tipo: "DCU",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BZWIxMjBlMGUtNzQ2Ny00ZWY2LTljMmMtODM4ZTBhZDcxNzlhXkEyXkFqcGc@._V1_FMjpg_UX604_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BZDIyMGU2NTktOTM3YS00OTRjLWJiMmItNDEyNjVhZTZiZGUxXkEyXkFqcGc@._V1_FMjpg_UY1920_.jpg",
-    estreno: "21/08/2025",
-  },
-
-  {
+{
     id: 13,
     titulo: "Supergirl: Woman of Tomorrow",
     director: "Craig Gillespie",
@@ -96,6 +85,7 @@ const DCUList = [
   {
     id: 16,
     titulo: "Swamp Thing",
+    director: "James Mangold",
     tipo: "DCU",
     poster:
       "https://www.elfinanciero.com.mx/resizer/cNyOcsTzYsdkq0S8hMElrj4whaQ=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/X23QIKDWXVEARGZQKVBXMKYDL4.jpg",
