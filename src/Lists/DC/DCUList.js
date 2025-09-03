@@ -29,7 +29,16 @@ const DCUList = [
     poster2: "",
     estreno: "11/09/2026",
   },
-
+{
+    id: 90727,
+    titulo: "Superman: Man of Tomorrow",
+     tipo: "DCU",
+    poster2:
+      "https://assets.mycast.io/posters/man-of-tomorrow-2027-fan-casting-poster-609957-large.jpg?1756919268",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BZTg0OGQ3MjMtMmEzMC00ZGQ1LWJiNDEtMzYxNTMzZmU5YjliXkEyXkFqcGc@._V1_FMjpg_UX1170_.jpg",
+    estreno: "09/07/2027",
+  },
   {
     id: 6,
     titulo: "The Batman - Part II",
