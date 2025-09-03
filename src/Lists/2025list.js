@@ -3,10 +3,10 @@ const content2025List = [
     id: 8,
     titulo: "Marvel Zombies",
     tipo: "Serie",
-    poster:
+    poster2:
       "https://terrigen-cdn-dev.marvel.com/content/prod/1x/marvelzombies_lob_crd_01.jpg",
     estreno: "24/09/2025",
-    poster2: "",
+    poster: "https://m.media-amazon.com/images/M/MV5BNGNkYjI3ZWUtN2MzMS00NDg5LWE5MmYtZGE4Zjc0OGVhODM4XkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
   },
 
   {
