@@ -1,15 +1,5 @@
 const content2025List = [
   {
-    id: 8,
-    titulo: "Marvel Zombies",
-    tipo: "Serie",
-    poster:
-      "https://terrigen-cdn-dev.marvel.com/content/prod/1x/marvelzombies_lob_crd_01.jpg",
-    estreno: "01/10/2025",
-    poster2: "",
-  },
-
-  {
     id: 10,
     titulo: "Wonder Man",
     tipo: "Serie",

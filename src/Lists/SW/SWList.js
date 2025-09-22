@@ -4,7 +4,7 @@ const SWList = [
     titulo: "Star Wars: Visions - S3",
     tipo: "Serie",
     poster:
-      "https://assets.mycast.io/posters/star-wars-visions-fan-casting-poster-206269-large.jpg?1655428846",
+      "https://m.media-amazon.com/images/M/MV5BMWRmZmMzMWYtODMyZS00Y2VkLTk3ZGQtMTY0MTQwMTRlZGU2XkEyXkFqcGc@._V1_FMjpg_UX729_.jpg",
     estreno: "29/10/2025",
   },
   {
@@ -50,9 +50,9 @@ const SWList = [
     titulo: "The Mandalorian & Grogu",
     director: "Jon Favreau",
     tipo: "PelaSW",
-    poster: "https://m.media-amazon.com/images/I/71YDdgOqzkL._AC_SY879_.jpg",
-    poster2:
-      "https://assets.mycast.io/posters/the-mandalorian-and-grogu-fan-casting-poster-454523-medium.jpg?1712718685",
+    poster2: "https://m.media-amazon.com/images/I/71YDdgOqzkL._AC_SY879_.jpg",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BNjYwYzM4OTUtMDhmMy00ZTZiLTk0YzMtZGQ1MTRhMDNjZjMzXkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
     estreno: "22/05/2026",
   },
   {
@@ -83,8 +83,9 @@ const SWList = [
     director: "Shawn Levy",
     tipo: "PelaSW",
     poster:
-      "https://www.tvtime.com/_next/image?url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fv4%2Fmovie%2F366140%2Fposters%2F68020fba4e8a9_t.jpg&w=750&q=75",
-    poster2: "",
+      "https://m.media-amazon.com/images/M/MV5BZWFkM2JmMDktNWEyNS00NGRkLTk3NDMtMzA5YjQyMTM0NWI5XkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
+    poster2:
+      "https://m.media-amazon.com/images/M/MV5BODQyYjQ5NjYtNzY2NC00OGY3LWJhY2YtNTBhNmE5NWEyMGUyXkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
     estreno: "28/05/2027",
   },
 

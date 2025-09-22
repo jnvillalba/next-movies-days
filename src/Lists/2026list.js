@@ -27,7 +27,7 @@ const content2026List = [
       "https://m.media-amazon.com/images/M/MV5BMGNiN2RlZTMtMTkyZC00YjkwLTgyY2QtMDg1ZDNhODQwNWM4XkEyXkFqcGc@._V1_.jpg",
     estreno: "18/12/2026",
     poster2:
-      "https://assets.mycast.io/posters/avengers-doomsday-fan-casting-poster-556932-large.jpg?1741191857",
+      "https://posterspy.com/wp-content/uploads/2024/10/Doomsday-by-VISCOM.jpg",
   },
 
   {
