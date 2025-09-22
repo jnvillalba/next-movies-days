@@ -1,16 +1,5 @@
 const DCUList = [
-  {
-    id: 210825,
-    titulo: "Peacemaker S2",
-    tipo: "DCU",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BZWIxMjBlMGUtNzQ2Ny00ZWY2LTljMmMtODM4ZTBhZDcxNzlhXkEyXkFqcGc@._V1_FMjpg_UX604_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BZDIyMGU2NTktOTM3YS00OTRjLWJiMmItNDEyNjVhZTZiZGUxXkEyXkFqcGc@._V1_FMjpg_UY1920_.jpg",
-    estreno: "21/08/2025",
-  },
-
-  {
+{
     id: 13,
     titulo: "Supergirl: Woman of Tomorrow",
     director: "Craig Gillespie",
@@ -40,7 +29,16 @@ const DCUList = [
     poster2: "",
     estreno: "11/09/2026",
   },
-
+{
+    id: 90727,
+    titulo: "Superman: Man of Tomorrow",
+     tipo: "DCU",
+    poster2:
+      "https://assets.mycast.io/posters/man-of-tomorrow-2027-fan-casting-poster-609957-large.jpg?1756919268",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BZTg0OGQ3MjMtMmEzMC00ZGQ1LWJiNDEtMzYxNTMzZmU5YjliXkEyXkFqcGc@._V1_FMjpg_UX1170_.jpg",
+    estreno: "09/07/2027",
+  },
   {
     id: 6,
     titulo: "The Batman - Part II",
@@ -96,6 +94,7 @@ const DCUList = [
   {
     id: 16,
     titulo: "Swamp Thing",
+    director: "James Mangold",
     tipo: "DCU",
     poster:
       "https://www.elfinanciero.com.mx/resizer/cNyOcsTzYsdkq0S8hMElrj4whaQ=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/X23QIKDWXVEARGZQKVBXMKYDL4.jpg",
