@@ -48,7 +48,16 @@ const content2026List = [
       "https://m.media-amazon.com/images/M/MV5BMzVhNzcyMzItNzkzNi00MWRjLTg1OWEtN2ViMDIyYWNkNTlhXkEyXkFqcGc@._V1_FMjpg_UY2296_.jpg",
     poster:
       "https://m.media-amazon.com/images/M/MV5BNTcyMDA1MjYtODQxYi00YjkyLWIwNTctOGQwNWRmMjM3YmUzXkEyXkFqcGc@._V1_FMjpg_UY3499_.jpg",
-  },
+  },  {
+    id: 14,
+    titulo: "Vision Quest",
+    tipo: "Serie",
+    poster:
+      "https://assets.mycast.io/posters/vision-quest-fan-casting-poster-273537-medium.jpg?1672259229",
+    estreno: "TBA",
+    poster2:
+      "https://assets.mycast.io/posters/vision-quest-fan-casting-poster-475062-large.jpg?1717639316",
+  }
 ];
 
 export { content2026List };
