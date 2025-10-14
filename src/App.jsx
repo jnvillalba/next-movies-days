@@ -4,7 +4,6 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Home/Home";
 import MovieList from "./Components/MovieList";
-import { content2025List } from "./Lists/2025list";
 import { content2026List } from "./Lists/2026list";
 import { content2027List } from "./Lists/2027list";
 import { DCUList } from "./Lists/DC/DCUList";
@@ -19,13 +18,6 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
 
-          <Route
-            exact
-            path="/2025"
-            element={
-              <MovieList studio={"marvel"} año={2025} list={content2025List} />
-            }
-          />
           <Route
             exact
             path="/2026"
