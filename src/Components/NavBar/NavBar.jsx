@@ -11,7 +11,6 @@ const STUDIO_CONFIGS = {
       "https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg",
     logoWidth: 80,
     navLinks: [
-      { to: "/2025", label: "2025" },
       { to: "/2026", label: "2026" },
       { to: "/2027", label: "2027" },
       { to: "/tba", label: "TBA" },
