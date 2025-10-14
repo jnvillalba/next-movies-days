@@ -1,5 +1,14 @@
 const content2026List = [
-  {
+ {
+    id: 121225,
+    titulo: "Wonder Man",
+    tipo: "Serie",
+    poster:
+      "https://i0.wp.com/maxblizz.com/wp-content/uploads/2024/10/Wonder-Man.jpg?resize=1024%2C1024&ssl=1",
+    estreno: "27/01/2026",
+    poster2:
+      "https://assets.mycast.io/posters/wonder-man-fan-casting-poster-244054-medium.jpg?1664752829",
+  }, {
     id: 3032026,
     titulo: "Daredevil Born Again S2",
     tipo: "Serie",
