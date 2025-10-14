@@ -10,7 +10,7 @@ const Home = () => {
       poster:
         "https://anthoncode.com/wp-content/uploads/2018/06/marvel-studios-logo-vector.jpg?is-pending-load=1",
       video: require("../../assets/marvel.mp4"),
-      navigateTo: () => navigate("/2025"),
+      navigateTo: () => navigate("/2026"),
     },
     {
       name: "DC",
