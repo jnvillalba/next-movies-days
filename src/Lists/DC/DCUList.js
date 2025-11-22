@@ -1,5 +1,5 @@
 const DCUList = [
-{
+  {
     id: 13,
     titulo: "Supergirl: Woman of Tomorrow",
     director: "Craig Gillespie",
@@ -18,7 +18,7 @@ const DCUList = [
       "https://assets.mycast.io/posters/lanterns-fan-casting-poster-178945-medium.jpg?1647677559",
     poster2:
       "https://assets.mycast.io/posters/lanterns-tv-series-fan-casting-poster-517407-large.jpg?1727705815",
-    estreno: "2026",
+    estreno: "21/08/2026",
   },
   {
     id: 17,
@@ -29,10 +29,10 @@ const DCUList = [
     poster2: "",
     estreno: "11/09/2026",
   },
-{
+  {
     id: 90727,
     titulo: "Superman: Man of Tomorrow",
-     tipo: "DCU",
+    tipo: "DCU",
     poster2:
       "https://assets.mycast.io/posters/man-of-tomorrow-2027-fan-casting-poster-609957-large.jpg?1756919268",
     poster:
