@@ -4,9 +4,9 @@ const SonyList = [
     titulo: "Spider-man Noir",
     tipo: "Sony",
     plataforma: "Amazon Prime",
-    poster2:
-      "https://assets.mycast.io/posters/spider-man-noir-shot-in-b-w-fan-casting-poster-387387-medium.jpg?1696486279",
     poster:
+      "https://m.media-amazon.com/images/M/MV5BMWE5NDBiMzAtMDc1OS00ZjI4LWJhZDctMDU5NjVmZjU2Yzc5XkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
+    poster2:
       "https://m.media-amazon.com/images/M/MV5BMTI0ZDAwYmMtZTljOC00ZTExLWEzMTUtYjhjZjAyODMxZDNhXkEyXkFqcGc@._V1_FMjpg_UX554_.jpg",
     estreno: "2026",
   },

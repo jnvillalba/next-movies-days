@@ -4,9 +4,9 @@ const DCUList = [
     titulo: "Supergirl: Woman of Tomorrow",
     director: "Craig Gillespie",
     tipo: "DCU",
-    poster2:
-      "https://cdna.artstation.com/p/assets/images/images/072/085/122/large/ben-solo-cup-asset.jpg?1706602799",
     poster:
+      "https://m.media-amazon.com/images/M/MV5BZmYzN2VhNTAtYWUxZi00OTNiLWIyZDgtMGMxZTNlYzM3ZmE1XkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
+    poster2:
       "https://m.media-amazon.com/images/M/MV5BZDZkNmIyZWItMmVhMy00YzA0LWJhZjktZDE1NDcyNTFiZTE2XkEyXkFqcGc@._V1_FMjpg_UY2048_.jpg",
     estreno: "26/06/2026",
   },
