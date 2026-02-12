@@ -1,14 +1,14 @@
 const SonyList = [
   {
     id: 7,
-    titulo: "Spider-man Noir",
+    titulo: "Spider-Noir",
     tipo: "Sony",
     plataforma: "Amazon Prime",
     poster:
       "https://m.media-amazon.com/images/M/MV5BMWE5NDBiMzAtMDc1OS00ZjI4LWJhZDctMDU5NjVmZjU2Yzc5XkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
     poster2:
       "https://m.media-amazon.com/images/M/MV5BMTI0ZDAwYmMtZTljOC00ZTExLWEzMTUtYjhjZjAyODMxZDNhXkEyXkFqcGc@._V1_FMjpg_UX554_.jpg",
-    estreno: "2026",
+    estreno: "27/05/2026",
   },
   {
     id: 0,
