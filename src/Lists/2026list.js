@@ -1,15 +1,5 @@
 const content2026List = [
   {
-    id: 3032026,
-    titulo: "Daredevil Born Again S2",
-    tipo: "Serie",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BNDBkMWRhMzEtM2M0Ny00OGZhLThkZGMtMTY1NWUwZWNhODdiXkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
-    poster2:
-      "https://assets.mycast.io/posters/mcu-daredevil-born-again-series-season-2-fan-casting-poster-261965-large.jpg?1669298488",
-    estreno: "24/03/2026",
-  },
-  {
     id: 31062026,
     titulo: "Spider-Man: Brand New Day",
     director: "Destin Daniel Cretton",
