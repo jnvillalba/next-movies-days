@@ -1,5 +1,12 @@
 const tba = [
-
+  {
+    id: 222,
+    titulo: "Wonder Man - S2",
+    tipo: "Serie",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BMDk5YzQ3NjQtNzY3MC00NzM3LWE4NzYtZGRkNDQxYjdiZDkyXkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
+    estreno: "TBA",
+  },
 
   {
     id: 12,

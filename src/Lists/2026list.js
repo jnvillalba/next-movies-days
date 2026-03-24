@@ -1,5 +1,15 @@
 const content2026List = [
   {
+    id: 2026,
+    titulo: "The Punisher: One Last Kill",
+    tipo: "Serie",
+    estreno: "12/05/2026",
+    poster2:
+      "https://m.media-amazon.com/images/M/MV5BMzVhNzcyMzItNzkzNi00MWRjLTg1OWEtN2ViMDIyYWNkNTlhXkEyXkFqcGc@._V1_FMjpg_UY2296_.jpg",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BNTcyMDA1MjYtODQxYi00YjkyLWIwNTctOGQwNWRmMjM3YmUzXkEyXkFqcGc@._V1_FMjpg_UY3499_.jpg",
+  },
+  {
     id: 31062026,
     titulo: "Spider-Man: Brand New Day",
     director: "Destin Daniel Cretton",
@@ -22,16 +32,6 @@ const content2026List = [
       "https://posterspy.com/wp-content/uploads/2024/10/Doomsday-by-VISCOM.jpg",
   },
 
-  {
-    id: 2026,
-    titulo: "Marvel Studios: The Punisher",
-    tipo: "Serie",
-    estreno: "TBA - 2026",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BMzVhNzcyMzItNzkzNi00MWRjLTg1OWEtN2ViMDIyYWNkNTlhXkEyXkFqcGc@._V1_FMjpg_UY2296_.jpg",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BNTcyMDA1MjYtODQxYi00YjkyLWIwNTctOGQwNWRmMjM3YmUzXkEyXkFqcGc@._V1_FMjpg_UY3499_.jpg",
-  },
   {
     id: 14,
     titulo: "Vision Quest",
