@@ -1,13 +1,13 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import "./NewMovieCard.css";
 
 const MovieCard = React.memo(
   ({ titulo, tipo, poster, estreno, poster2, director, plataforma }) => {
+    const [frontSrc, setFrontSrc] = useState(poster || poster2);
+    const [backSrc, setBackSrc] = useState(poster2 || poster);
+
     const daysRemaining = useMemo(() => {
-      // Return early if "tba" is in the string, case insensitive
-      if (estreno.toLowerCase().includes("tba")) {
-        return "TBA";
-      }
+      if (estreno.toLowerCase().includes("tba")) return "TBA";
 
       const specialCases = [
         "Primavera - EEUU",
@@ -16,34 +16,21 @@ const MovieCard = React.memo(
         "Otoño - EEUU",
       ];
 
-      // Handle special cases
-      if (specialCases.includes(estreno)) {
-        return estreno.split(" - ")[0];
-      }
+      if (specialCases.includes(estreno)) return estreno.split(" - ")[0];
 
-      // Robust date parsing
       const dateParts = estreno.split("/").map(Number);
-      if (dateParts.length !== 3 || dateParts.some(isNaN)) {
-        return estreno;
-      }
+      if (dateParts.length !== 3 || dateParts.some(isNaN)) return estreno;
 
       const [dia, mes, año] = dateParts;
       const releaseDate = new Date(año, mes - 1, dia);
       const today = new Date();
 
-      // Ensure valid date before calculation
-      if (isNaN(releaseDate.getTime())) {
-        return estreno;
-      }
+      if (isNaN(releaseDate.getTime())) return estreno;
 
       const timeDiff = releaseDate.getTime() - today.getTime();
       return timeDiff > 0 ? Math.round(timeDiff / (1000 * 60 * 60 * 24)) : 0;
     }, [estreno]);
 
-    // Early return if no poster to prevent unnecessary rendering
-    if (!poster) return null;
-
-    // Determine type display
     const displayType = tipo === "PelaSW" ? "Pelicula" : tipo;
 
     return (
@@ -54,18 +41,24 @@ const MovieCard = React.memo(
 
         <div className="image">
           <img
-            src={poster ?? poster2}
-            alt={`${titulo} poster`}
-            loading="lazy" // Improve performance with lazy loading
+            src={frontSrc}
+            alt={frontSrc ? `${titulo} poster` : titulo}
+            loading="lazy"
+            onError={() =>
+              setFrontSrc(poster2 && poster2 !== frontSrc ? poster2 : null)
+            }
           />
         </div>
 
         <div className="details">
           <div className="back">
             <img
-              src={poster2 || poster}
-              alt={`${titulo} back poster`}
+              src={backSrc}
+              alt={backSrc ? `${titulo} back poster` : titulo}
               loading="lazy"
+              onError={() =>
+                setBackSrc(poster && poster !== backSrc ? poster : null)
+              }
             />
             <div className="center">
               <h1>{titulo}</h1>
