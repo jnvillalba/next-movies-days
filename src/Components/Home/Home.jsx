@@ -11,7 +11,7 @@ const Home = () => {
   const [autoRotation, setAutoRotation] = useState(0);
   const [dragOffset, setDragOffset] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
-  const [suppressClick, setSuppressClick] = useState(false);
+
   const dragOffsetRef = useRef(0);
   const ROTATION_SPEED_DEG_PER_SEC = -360 / 14;
   const DRAG_THRESHOLD_PX = 8;
@@ -21,6 +21,7 @@ const Home = () => {
     lastX: 0,
     startX: 0,
     moved: false,
+    studioIndex: null,
   });
 
   useEffect(() => {
@@ -88,16 +89,20 @@ const Home = () => {
       return;
     }
 
+    const studioItem = event.target.closest(".icon-cards__item");
+    const studioIndex = studioItem?.dataset?.studioIndex;
+
     dragRef.current = {
       active: true,
       pointerId: event.pointerId,
       lastX: event.clientX,
       startX: event.clientX,
       moved: false,
+      studioIndex: studioIndex !== undefined ? Number(studioIndex) : null,
     };
 
     setIsDragging(true);
-    setSuppressClick(false);
+
     event.currentTarget.setPointerCapture(event.pointerId);
   };
 
@@ -129,22 +134,21 @@ const Home = () => {
     }
 
     const wasMoved = dragRef.current.moved;
+    const selectedStudioIndex = dragRef.current.studioIndex;
     dragRef.current.active = false;
     dragRef.current.pointerId = null;
+    dragRef.current.studioIndex = null;
 
     setIsDragging(false);
     setAutoRotation((prevRotation) => prevRotation + dragOffsetRef.current);
     setDragOffset(0);
 
-    if (wasMoved) {
-      setSuppressClick(true);
-      window.setTimeout(() => {
-        setSuppressClick(false);
-      }, 150);
-    }
-
     if (event.currentTarget.hasPointerCapture(event.pointerId)) {
       event.currentTarget.releasePointerCapture(event.pointerId);
+    }
+
+    if (!wasMoved && Number.isInteger(selectedStudioIndex)) {
+      studios[selectedStudioIndex]?.navigateTo();
     }
   };
 
@@ -168,13 +172,13 @@ const Home = () => {
             }}
           >
             <div className="icon-cards__content">
-              {studios.map((studio) => (
+              {studios.map((studio, index) => (
                 <Studio
                   key={studio.name}
+                  index={index}
                   poster={studio.poster}
-                  onSelect={studio.navigateTo}
+                  onClick={studio.navigateTo}
                   video={studio.video}
-                  suppressClick={suppressClick || isDragging}
                 />
               ))}
             </div>

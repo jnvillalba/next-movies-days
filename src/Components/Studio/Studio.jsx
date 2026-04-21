@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-function Studio({ poster, onSelect, video, suppressClick = false }) {
+function Studio({ poster, onClick, video, index }) {
   const videoRef = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -28,28 +28,14 @@ function Studio({ poster, onSelect, video, suppressClick = false }) {
     }
   };
 
-  const handleSelect = () => {
-    if (suppressClick) {
-      return;
-    }
-
-    onSelect();
-  };
-
   return (
     <div
       role="button"
       tabIndex={0}
+      data-studio-index={index}
       className={`icon-cards__item d-flex align-items-center justify-content-center ${
         isHovered ? "hovered" : ""
       }`}
-      onClick={handleSelect}
-      onKeyDown={(event) => {
-        if (event.key === "Enter" || event.key === " ") {
-          event.preventDefault();
-          handleSelect();
-        }
-      }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -57,6 +43,7 @@ function Studio({ poster, onSelect, video, suppressClick = false }) {
         className="studio"
         src={poster}
         alt="Logo"
+        onClick={onClick}
         style={{ opacity: isHovered ? 0 : 1, transition: "opacity 0.9s ease" }}
       />
       <video
@@ -73,7 +60,7 @@ function Studio({ poster, onSelect, video, suppressClick = false }) {
           opacity: isHovered ? 1 : 0,
           transition: "opacity 0.9s ease",
         }}
-        onClick={handleSelect}
+        onClick={onClick}
       >
         <source src={video} type="video/mp4" />
       </video>
