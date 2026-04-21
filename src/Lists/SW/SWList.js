@@ -1,14 +1,5 @@
 const SWList = [
   {
-    id: 726,
-    titulo: "Star Wars: Maul - Shadow Lord",
-    tipo: "Serie",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BODdkZDNlZjAtZGM1MS00YTE1LWJkMzItZWNhYTIzMjY1YzE4XkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
-    poster2: "",
-    estreno: "06/04/2026",
-  },
-  {
     id: 8,
     titulo: "The Mandalorian & Grogu",
     director: "Jon Favreau",

@@ -1,4 +1,8 @@
 import { useNavigate } from "react-router-dom";
+import dcVideo from "../../assets/dc.mp4";
+import marvelVideo from "../../assets/marvel.mp4";
+import sonyVideo from "../../assets/sony.mp4";
+import sonyPoster from "../../assets/sonymarvel.jpg";
 import Studio from "../Studio/Studio";
 
 const Home = () => {
@@ -9,20 +13,20 @@ const Home = () => {
       name: "Marvel",
       poster:
         "https://anthoncode.com/wp-content/uploads/2018/06/marvel-studios-logo-vector.jpg?is-pending-load=1",
-      video: require("../../assets/marvel.mp4"),
+      video: marvelVideo,
       navigateTo: () => navigate("/2026"),
     },
     {
       name: "DC",
       poster:
         "https://pbs.twimg.com/media/GTce7diWEAAZBvU?format=jpg&name=large",
-      video: require("../../assets/dc.mp4"),
+      video: dcVideo,
       navigateTo: () => navigate("/DC"),
     },
     {
       name: "Sony",
-      poster: require("../../assets/sonymarvel.jpg"),
-      video: require("../../assets/sony.mp4"),
+      poster: sonyPoster,
+      video: sonyVideo,
       navigateTo: () => navigate("/Sony"),
     },
     {
@@ -40,11 +44,11 @@ const Home = () => {
       <div className="container_projects">
         <figure className="icon-cards mt-3">
           <div className="icon-cards__content">
-            {studios.map((studio, index) => (
+            {studios.map((studio) => (
               <Studio
-                key={index}
+                key={studio.name}
                 poster={studio.poster}
-                index={studio.navigateTo}
+                onSelect={studio.navigateTo}
                 video={studio.video}
               />
             ))}

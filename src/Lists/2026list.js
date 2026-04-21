@@ -5,9 +5,9 @@ const content2026List = [
     tipo: "Serie",
     estreno: "12/05/2026",
     poster2:
-      "https://m.media-amazon.com/images/M/MV5BMzVhNzcyMzItNzkzNi00MWRjLTg1OWEtN2ViMDIyYWNkNTlhXkEyXkFqcGc@._V1_FMjpg_UY2296_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BNzdkZTRiYjgtYTA3My00NTg4LWI3M2EtZDViNWRhOGM0ODc1XkEyXkFqcGc@._V1_FMjpg_UY900_.jpg",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BNTcyMDA1MjYtODQxYi00YjkyLWIwNTctOGQwNWRmMjM3YmUzXkEyXkFqcGc@._V1_FMjpg_UY3499_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BYzdhZTI5YWQtOTE5ZS00YmE1LTgxOWUtN2ZiMzYwOGU5OWNhXkEyXkFqcGc@._V1_FMjpg_UY1609_.jpg",
   },
   {
     id: 31062026,

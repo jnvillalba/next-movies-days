@@ -1,4 +1,3 @@
-import { useMemo } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import HomeButton from "../Home/HomeButton";
@@ -29,7 +28,7 @@ const STUDIO_CONFIGS = {
       "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/DC_Comics_2024.svg/800px-DC_Comics_2024.svg.png",
     logoWidth: 30,
     navLinks: [],
-    bgColor: " #0476F2",
+    bgColor: "#0476F2",
   },
   default: {
     logoSrc: "https://upload.wikimedia.org/wikipedia/en/d/df/Swlogo.png",
@@ -40,11 +39,7 @@ const STUDIO_CONFIGS = {
 };
 
 export default function NavBar({ studio = "default" }) {
-  // Memoize studio configuration to prevent unnecessary re-renders
-  const studioConfig = useMemo(
-    () => STUDIO_CONFIGS[studio] || STUDIO_CONFIGS.default,
-    [studio]
-  );
+  const studioConfig = STUDIO_CONFIGS[studio] || STUDIO_CONFIGS.default;
 
   return (
     <Navbar

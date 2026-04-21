@@ -4,17 +4,6 @@ import "./NewMovieCard.css";
 
 const MovieCard = React.memo(
   ({ titulo, tipo, poster, estreno, poster2, director, plataforma }) => {
-    // Memoized AOS initialization to prevent unnecessary re-renders
-    useEffect(() => {
-      if (!window.AOSInitialized) {
-        AOS.init({
-          duration: 400,
-          once: true, // Animation only happens once
-        });
-        window.AOSInitialized = true;
-      }
-    }, []);
-
     const daysRemaining = useMemo(() => {
       // Return early if "tba" is in the string, case insensitive
       if (estreno.toLowerCase().includes("tba")) {

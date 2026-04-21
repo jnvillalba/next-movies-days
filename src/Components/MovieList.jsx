@@ -1,4 +1,5 @@
-import React, { useMemo, useState } from "react";
+import AOS from "aos";
+import React, { useEffect, useMemo, useState } from "react";
 import "../App.css";
 import NavBar from "../Components/NavBar/NavBar";
 import MovieCard from "../Components/NewMovieCard/NewMovieCard";
@@ -6,6 +7,13 @@ import MovieCard from "../Components/NewMovieCard/NewMovieCard";
 const MovieList = React.memo(({ año, list, studio }) => {
   // Add sorting state
   const [sortOrder, setSortOrder] = useState(null); // null, 'asc', or 'desc'
+
+  useEffect(() => {
+    AOS.init({
+      duration: 400,
+      once: true,
+    });
+  }, []);
 
   // Function to parse and compare dates from the estreno field
   const compareDates = (dateA, dateB) => {
@@ -78,6 +86,14 @@ const MovieList = React.memo(({ año, list, studio }) => {
           <div className="d-flex justify-content-between align-items-center mt-1">
             <h1 className="year">{displayYear}</h1>
             <button
+              type="button"
+              aria-label={
+                sortOrder === null
+                  ? "Ordenar películas por fecha"
+                  : sortOrder === "asc"
+                    ? "Quitar orden ascendente"
+                    : "Quitar orden descendente"
+              }
               className="btn btn-sm"
               onClick={toggleSort}
               style={{
