@@ -72,7 +72,7 @@ const MovieList = React.memo(({ año, list, studio }) => {
           plataforma={c.plataforma}
         />
       )),
-    [sortedList]
+    [sortedList],
   );
 
   // Memoize the display year to prevent unnecessary recalculations

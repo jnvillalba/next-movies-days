@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import dcVideo from "../../assets/dc.mp4";
 import marvelVideo from "../../assets/marvel.mp4";
@@ -8,15 +8,50 @@ import Studio from "../Studio/Studio";
 
 const Home = () => {
   const navigate = useNavigate();
-  const [dragRotation, setDragRotation] = useState(0);
+  const [autoRotation, setAutoRotation] = useState(0);
+  const [dragOffset, setDragOffset] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [suppressClick, setSuppressClick] = useState(false);
+  const dragOffsetRef = useRef(0);
+  const ROTATION_SPEED_DEG_PER_SEC = -360 / 14;
+  const DRAG_THRESHOLD_PX = 8;
   const dragRef = useRef({
     active: false,
     pointerId: null,
     lastX: 0,
+    startX: 0,
     moved: false,
   });
+
+  useEffect(() => {
+    dragOffsetRef.current = dragOffset;
+  }, [dragOffset]);
+
+  useEffect(() => {
+    let frameId = null;
+    let lastFrameTime = null;
+
+    const tick = (timestamp) => {
+      if (lastFrameTime !== null && !isDragging) {
+        const deltaSeconds = (timestamp - lastFrameTime) / 1000;
+        setAutoRotation(
+          (prevRotation) =>
+            prevRotation + ROTATION_SPEED_DEG_PER_SEC * deltaSeconds,
+        );
+      }
+
+      lastFrameTime = timestamp;
+      frameId = window.requestAnimationFrame(tick);
+    };
+
+    frameId = window.requestAnimationFrame(tick);
+
+    return () => {
+      if (frameId !== null) {
+        window.cancelAnimationFrame(frameId);
+      }
+    };
+  }, [isDragging]);
 
   const studios = [
     {
@@ -57,6 +92,7 @@ const Home = () => {
       active: true,
       pointerId: event.pointerId,
       lastX: event.clientX,
+      startX: event.clientX,
       moved: false,
     };
 
@@ -66,22 +102,29 @@ const Home = () => {
   };
 
   const onPointerMove = (event) => {
-    if (!dragRef.current.active) {
+    if (
+      !dragRef.current.active ||
+      event.pointerId !== dragRef.current.pointerId
+    ) {
       return;
     }
 
     const deltaX = event.clientX - dragRef.current.lastX;
+    const totalDeltaX = Math.abs(event.clientX - dragRef.current.startX);
 
-    if (Math.abs(deltaX) > 0) {
+    if (totalDeltaX >= DRAG_THRESHOLD_PX) {
       dragRef.current.moved = true;
     }
 
     dragRef.current.lastX = event.clientX;
-    setDragRotation((prevRotation) => prevRotation + deltaX * 0.45);
+    setDragOffset((prevRotation) => prevRotation + deltaX * 0.45);
   };
 
   const onPointerEnd = (event) => {
-    if (!dragRef.current.active) {
+    if (
+      !dragRef.current.active ||
+      event.pointerId !== dragRef.current.pointerId
+    ) {
       return;
     }
 
@@ -90,6 +133,8 @@ const Home = () => {
     dragRef.current.pointerId = null;
 
     setIsDragging(false);
+    setAutoRotation((prevRotation) => prevRotation + dragOffsetRef.current);
+    setDragOffset(0);
 
     if (wasMoved) {
       setSuppressClick(true);
@@ -103,6 +148,8 @@ const Home = () => {
     }
   };
 
+  const totalRotation = autoRotation + dragOffset;
+
   return (
     <div className="container container d-flex justify-content-center container_cards mt-5">
       <h1 className="year">Studios</h1>
@@ -115,12 +162,12 @@ const Home = () => {
           onPointerCancel={onPointerEnd}
         >
           <div
-            className="icon-cards__drag"
-            style={{ transform: `rotateY(${dragRotation}deg)` }}
+            className={`icon-cards__drag ${isDragging ? "is-interacting" : ""}`}
+            style={{
+              transform: `translateZ(-35vw) rotateY(${totalRotation}deg)`,
+            }}
           >
-            <div
-              className={`icon-cards__content ${isDragging ? "is-interacting" : ""}`}
-            >
+            <div className="icon-cards__content">
               {studios.map((studio) => (
                 <Studio
                   key={studio.name}

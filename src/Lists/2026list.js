@@ -15,9 +15,9 @@ const content2026List = [
     director: "Destin Daniel Cretton",
     tipo: "Sony",
     poster2:
-      "https://scontent.cdninstagram.com/v/t51.82787-15/530372383_18500074702064564_8499172931460298941_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzY5NjQ2MTYwODUxMDQyMzU0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkxOC5zZHIuQzMifQ%3D%3D&_nc_ohc=utsledDksUIQ7kNvwHTX51A&_nc_oc=AdnSXmtu5viAoFQji2gGdgYbWes8LjVqsPCckGyDsHgIMHXOmmPUhInswNGsmeoY83w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=kxLmyxe1g_ZMoUHWtIgnaQ&oh=00_Afuyz53SXHGf_kRGMo6LjiNE7OR0jBnawsfr5QOqjy5rYA&oe=69858E18",
+      "https://m.media-amazon.com/images/M/MV5BYWUwM2Q1MmYtODIxMy00MDNiLTg3OTQtZmM4NDBlOTQyN2M0XkEyXkFqcGc@._V1_FMjpg_UX600_.jpg",
     poster:
-      "https://assets.mycast.io/posters/spider-man-brand-new-day-fan-casting-poster-562737-large.jpg?1743540850",
+      "https://m.media-amazon.com/images/M/MV5BOWNjYWM3NWItOGE0ZS00MWRjLThiZWEtYjc4ZmNmMmU5ZTVmXkEyXkFqcGc@._V1_FMjpg_UX600_.jpg",
     estreno: "31/07/2026",
   },
   {
