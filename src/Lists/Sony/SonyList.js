@@ -5,9 +5,9 @@ const SonyList = [
     tipo: "Sony",
     plataforma: "Amazon Prime",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BMWE5NDBiMzAtMDc1OS00ZjI4LWJhZDctMDU5NjVmZjU2Yzc5XkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BODhkOTk5NWYtNWIwMy00NWJhLTkzMGQtMjM5YTZjMTYzMGM0XkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
     poster2:
-      "https://m.media-amazon.com/images/M/MV5BMTI0ZDAwYmMtZTljOC00ZTExLWEzMTUtYjhjZjAyODMxZDNhXkEyXkFqcGc@._V1_FMjpg_UX554_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMmIxNmQ5NjEtNWI2My00ZGI2LWE4YzMtMGFjZTg1ZWQ5MDkxXkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
     estreno: "27/05/2026",
   },
   {

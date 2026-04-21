@@ -15,7 +15,7 @@ const DCUList = [
     titulo: "Lanterns",
     tipo: "MAX",
     poster:
-      "https://assets.mycast.io/posters/lanterns-fan-casting-poster-178945-medium.jpg?1647677559",
+      "https://m.media-amazon.com/images/M/MV5BMjFlYTFiNzUtOGM0NC00ZTg5LWI5OTUtMmQ4MGRhNGI4ODNiXkEyXkFqcGc@._V1_FMjpg_UY3456_.jpg",
     poster2:
       "https://assets.mycast.io/posters/lanterns-tv-series-fan-casting-poster-517407-large.jpg?1727705815",
     estreno: "21/08/2026",
@@ -49,16 +49,16 @@ const DCUList = [
       "https://image.tmdb.org/t/p/original//4SDufPSRRtpoq2QWx1XZyAY9wfz.jpg",
     estreno: "01/10/2027",
   },
-  {
-    id: 8,
-    titulo: "Waller",
-    tipo: "MAX",
-    poster:
-      "https://www.elfinanciero.com.mx/resizer/4WpMMlKT7rO50_r_7XfNU7kBqhU=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/X7WKAESQFBH5JNJJCTM7SHSXD4.jpg",
-    poster2:
-      "https://pbs.twimg.com/media/Fn0Qn3QXwAEGr_x?format=jpg&name=900x900",
-    estreno: "TBA",
-  },
+  // {
+  //   id: 8,
+  //   titulo: "Waller",
+  //   tipo: "MAX",
+  //   poster:
+  //     "https://www.elfinanciero.com.mx/resizer/4WpMMlKT7rO50_r_7XfNU7kBqhU=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/X7WKAESQFBH5JNJJCTM7SHSXD4.jpg",
+  //   poster2:
+  //     "https://pbs.twimg.com/media/Fn0Qn3QXwAEGr_x?format=jpg&name=900x900",
+  //   estreno: "TBA",
+  // },
 
   {
     id: 15,
