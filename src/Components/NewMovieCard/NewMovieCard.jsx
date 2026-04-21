@@ -1,5 +1,4 @@
-import AOS from "aos";
-import React, { useEffect, useMemo } from "react";
+import React, { useMemo } from "react";
 import "./NewMovieCard.css";
 
 const MovieCard = React.memo(
@@ -81,7 +80,7 @@ const MovieCard = React.memo(
         </div>
       </div>
     );
-  }
+  },
 );
 
 export default MovieCard;
