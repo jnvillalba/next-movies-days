@@ -18,7 +18,7 @@ const DCUList = [
       "https://m.media-amazon.com/images/M/MV5BMjFlYTFiNzUtOGM0NC00ZTg5LWI5OTUtMmQ4MGRhNGI4ODNiXkEyXkFqcGc@._V1_FMjpg_UY3456_.jpg",
     poster2:
       "https://assets.mycast.io/posters/lanterns-tv-series-fan-casting-poster-517407-large.jpg?1727705815",
-    estreno: "21/08/2026",
+    estreno: "16/08/2026",
   },
   {
     id: 17,
@@ -122,3 +122,4 @@ const DCUList = [
 ];
 
 export { DCUList };
+
