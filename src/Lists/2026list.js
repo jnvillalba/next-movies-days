@@ -29,7 +29,7 @@ const content2026List = [
     tipo: "Serie",
     poster:
       "https://assets.mycast.io/posters/vision-quest-fan-casting-poster-273537-medium.jpg?1672259229",
-    estreno: "TBA",
+    estreno: "14/10/2026",
     poster2:
       "https://assets.mycast.io/posters/vision-quest-fan-casting-poster-475062-large.jpg?1717639316",
   },
