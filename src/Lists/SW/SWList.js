@@ -1,16 +1,5 @@
 const SWList = [
   {
-    id: 8,
-    titulo: "The Mandalorian & Grogu",
-    director: "Jon Favreau",
-    tipo: "PelaSW",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BNjYwYzM4OTUtMDhmMy00ZTZiLTk0YzMtZGQ1MTRhMDNjZjMzXkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BNjYwYzM4OTUtMDhmMy00ZTZiLTk0YzMtZGQ1MTRhMDNjZjMzXkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
-    estreno: "22/05/2026",
-  },
-  {
     id: 280527,
     titulo: "Star Wars: Starfighter",
     director: "Shawn Levy",
@@ -27,7 +16,7 @@ const SWList = [
     tipo: "Serie",
     poster:
       "https://assets.mycast.io/posters/who-we-wanted-to-see-in-ahsoka-season-2-fan-casting-poster-543196-large.jpg?1735596690",
-    estreno: "TBA - 2026",
+    estreno: "TBA - 2027",
   },
 
   {
