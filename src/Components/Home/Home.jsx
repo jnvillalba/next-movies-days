@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import dcVideo from "../../assets/dc.mp4";
 import marvelVideo from "../../assets/marvel.mp4";
 import sonyVideo from "../../assets/sony.mp4";
-import sonyPoster from "../../assets/sonymarvel.jpg";
+import sonyPoster from "../../assets/sonymarvel.png";
 import Studio from "../Studio/Studio";
 
 const Home = () => {
