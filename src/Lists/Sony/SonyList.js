@@ -1,16 +1,5 @@
 const SonyList = [
   {
-    id: 7,
-    titulo: "Spider-Noir",
-    tipo: "Sony",
-    plataforma: "Amazon Prime",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BODhkOTk5NWYtNWIwMy00NWJhLTkzMGQtMjM5YTZjMTYzMGM0XkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BMmIxNmQ5NjEtNWI2My00ZGI2LWE4YzMtMGFjZTg1ZWQ5MDkxXkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
-    estreno: "27/05/2026",
-  },
-  {
     id: 0,
     titulo: "Spider-Man: Beyond the Spider-Verse",
     tipo: "Sony",
