@@ -1,16 +1,5 @@
 const DCUList = [
   {
-    id: 13,
-    titulo: "Supergirl: Woman of Tomorrow",
-    director: "Craig Gillespie",
-    tipo: "DCU",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BZmYzN2VhNTAtYWUxZi00OTNiLWIyZDgtMGMxZTNlYzM3ZmE1XkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BZDZkNmIyZWItMmVhMy00YzA0LWJhZjktZDE1NDcyNTFiZTE2XkEyXkFqcGc@._V1_FMjpg_UY2048_.jpg",
-    estreno: "26/06/2026",
-  },
-  {
     id: 11,
     titulo: "Lanterns",
     tipo: "MAX",
