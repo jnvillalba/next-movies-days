@@ -14,7 +14,7 @@ const DCUList = [
     titulo: "Clayface",
     tipo: "DCU",
     poster:
-      "https://assets.mycast.io/posters/clayface-fan-casting-poster-134094-medium.jpg?1632953491",
+      "https://m.media-amazon.com/images/M/MV5BYTAyMjgxZjctMjRjNC00Zjg1LWJiNzctMDkxYzk0NWVmODMwXkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
     poster2: "",
     estreno: "11/09/2026",
   },
