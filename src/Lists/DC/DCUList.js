@@ -29,14 +29,14 @@ const DCUList = [
     estreno: "09/07/2027",
   },
   {
-    id: 6,
+    id:11027 ,
     titulo: "The Batman - Part II",
     tipo: "Elseworlds",
     poster2:
       "https://assets.mycast.io/posters/the-batman-part-ii-2027-film-fan-casting-poster-552748-large.jpg?1739530282",
     poster:
       "https://image.tmdb.org/t/p/original//4SDufPSRRtpoq2QWx1XZyAY9wfz.jpg",
-    estreno: "01/10/2027",
+    estreno: "18/02/2028",
   },
   // {
   //   id: 8,
