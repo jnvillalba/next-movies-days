@@ -47,7 +47,7 @@ const SWList = [
       "https://pbs.twimg.com/media/FzGlfqOXwAA-uqV?format=jpg&name=medium",
     poster2:
       "https://assets.mycast.io/posters/star-wars-the-new-jedi-order-fan-casting-poster-476615-large.jpg?1718039580",
-    estreno: "18/12/2026",
+    estreno: "18/12/2027",
   },
   {
     id: 9,

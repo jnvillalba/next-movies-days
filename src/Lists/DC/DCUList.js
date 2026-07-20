@@ -4,9 +4,9 @@ const DCUList = [
     titulo: "Lanterns",
     tipo: "MAX",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BMjFlYTFiNzUtOGM0NC00ZTg5LWI5OTUtMmQ4MGRhNGI4ODNiXkEyXkFqcGc@._V1_FMjpg_UY3456_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BZTZiMDdjN2QtMmMwMi00YzgwLThkNjMtNGUxNjljMDcwMWFmXkEyXkFqcGc@._V1_FMjpg_UX532_.jpg",
     poster2:
-      "https://assets.mycast.io/posters/lanterns-tv-series-fan-casting-poster-517407-large.jpg?1727705815",
+      "https://m.media-amazon.com/images/M/MV5BNTExMGFkMjYtNWViNy00MjIyLTk1ZmItNDg2OTdjMzU5YTE0XkEyXkFqcGc@._V1_FMjpg_UX478_.jpg",
     estreno: "16/08/2026",
   },
   {
@@ -22,14 +22,14 @@ const DCUList = [
     id: 90727,
     titulo: "Superman: Man of Tomorrow",
     tipo: "DCU",
-    poster2:
-      "https://assets.mycast.io/posters/man-of-tomorrow-2027-fan-casting-poster-609957-large.jpg?1756919268",
     poster:
+      "https://assets.mycast.io/posters/man-of-tomorrow-fan-casting-poster-610110-large.jpg",
+    poster2:
       "https://m.media-amazon.com/images/M/MV5BZTg0OGQ3MjMtMmEzMC00ZGQ1LWJiNDEtMzYxNTMzZmU5YjliXkEyXkFqcGc@._V1_FMjpg_UX1170_.jpg",
     estreno: "09/07/2027",
   },
   {
-    id:11027 ,
+    id: 11027,
     titulo: "The Batman - Part II",
     tipo: "Elseworlds",
     poster2:
@@ -100,15 +100,22 @@ const DCUList = [
     poster2: "",
     estreno: "30/06/2028",
   },
+  //{
+  //  id: 10,
+  //  titulo: "The Authority",
+  //  tipo: "DCU",
+  //  poster:
+  //    "https://www.elfinanciero.com.mx/resizer/nT1iJG2tH2B6UcXkJGNcRWJi6yQ=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/4BA354FXABCS7BLXBSOLDHMYNE.jpg",
+  //  estreno: "TBA",
+  //},
   {
-    id: 10,
-    titulo: "The Authority",
+    id: 11,
+    titulo: "Mister Miracle",
     tipo: "DCU",
     poster:
-      "https://www.elfinanciero.com.mx/resizer/nT1iJG2tH2B6UcXkJGNcRWJi6yQ=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/4BA354FXABCS7BLXBSOLDHMYNE.jpg",
+      "https://assets.mycast.io/posters/mister-miracle-fan-casting-poster-607076-large.jpg",
     estreno: "TBA",
   },
 ];
 
 export { DCUList };
-
