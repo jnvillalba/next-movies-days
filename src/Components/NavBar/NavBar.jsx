@@ -1,8 +1,8 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import dcLogo from "../../assets/DC_logo.svg";
 import HomeButton from "../Home/HomeButton";
 import "./NavBar.css";
-
 // Centralize logo configurations
 const STUDIO_CONFIGS = {
   marvel: {
@@ -24,9 +24,8 @@ const STUDIO_CONFIGS = {
     bgColor: "black",
   },
   dc: {
-    logoSrc:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/DC_Comics_2024.svg/800px-DC_Comics_2024.svg.png",
-    logoWidth: 30,
+    logoSrc: dcLogo,
+    logoWidth: 35,
     navLinks: [],
     bgColor: "#0476F2",
   },
