@@ -19,18 +19,18 @@ const content2026List = [
       "https://m.media-amazon.com/images/M/MV5BMGNiN2RlZTMtMTkyZC00YjkwLTgyY2QtMDg1ZDNhODQwNWM4XkEyXkFqcGc@._V1_.jpg",
     estreno: "18/12/2026",
     poster2:
-      "https://posterspy.com/wp-content/uploads/2024/10/Doomsday-by-VISCOM.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMTdlMDgxNjAtNjkxOC00ZDYxLTg3MDEtZmIwZjIxOGMwYjVkXkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
   },
 
   {
     id: 14,
-    titulo: "Vision Quest",
+    titulo: "VisionQuest",
     tipo: "Serie",
     poster:
-      "https://assets.mycast.io/posters/vision-quest-fan-casting-poster-273537-medium.jpg?1672259229",
+      "https://m.media-amazon.com/images/M/MV5BZGZkNThlYjYtOGI0MS00NGY2LTgwZTAtZWYwZTFlNTcxZDFhXkEyXkFqcGc@._V1_FMjpg_UX1170_.jpg",
     estreno: "14/10/2026",
     poster2:
-      "https://m.media-amazon.com/images/M/MV5BMTdlMDgxNjAtNjkxOC00ZDYxLTg3MDEtZmIwZjIxOGMwYjVkXkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
+      "https://assets.mycast.io/posters/vision-quest-fan-casting-poster-585112-large.jpg",
   },
 ];
 
