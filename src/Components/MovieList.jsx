@@ -6,7 +6,7 @@ import MovieCard from "../Components/NewMovieCard/NewMovieCard";
 
 const MovieList = React.memo(({ año, list, studio }) => {
   // Add sorting state
-  const [sortOrder, setSortOrder] = useState(null); // null, 'asc', or 'desc'
+  const [sortOrder, setSortOrder] = useState("asc"); // 'asc' by default
 
   useEffect(() => {
     AOS.init({
