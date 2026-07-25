@@ -1,6 +1,6 @@
 import "aos/dist/aos.css";
 import React from "react";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router";
 import "./App.css";
 import Home from "./Components/Home/Home";
 import MovieList from "./Components/MovieList";

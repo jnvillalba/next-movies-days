@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 import dcVideo from "../../assets/dc.mp4";
 import marvelVideo from "../../assets/marvel.mp4";
 import sonyVideo from "../../assets/sony.mp4";

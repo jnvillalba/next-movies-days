@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import dcLogo from "../../assets/DC_logo.svg";
 import HomeButton from "../Home/HomeButton";
 import "./NavBar.css";

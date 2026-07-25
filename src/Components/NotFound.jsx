@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import Button from "react-bootstrap/Button";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 const NotFound = React.memo(() => {
   // Memoize navigation callback to prevent unnecessary recreations
