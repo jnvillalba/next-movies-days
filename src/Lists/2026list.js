@@ -1,16 +1,5 @@
 const content2026List = [
   {
-    id: 31062026,
-    titulo: "Spider-Man: Brand New Day",
-    director: "Destin Daniel Cretton",
-    tipo: "Sony",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BYWUwM2Q1MmYtODIxMy00MDNiLTg3OTQtZmM4NDBlOTQyN2M0XkEyXkFqcGc@._V1_FMjpg_UX600_.jpg",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BOWNjYWM3NWItOGE0ZS00MWRjLThiZWEtYjc4ZmNmMmU5ZTVmXkEyXkFqcGc@._V1_FMjpg_UX600_.jpg",
-    estreno: "31/07/2026",
-  },
-  {
     id: 1052026,
     titulo: "Avengers: Doomsday",
     director: "Anthony Russo, Joe Russo",
@@ -21,7 +10,6 @@ const content2026List = [
     poster2:
       "https://m.media-amazon.com/images/M/MV5BMTdlMDgxNjAtNjkxOC00ZDYxLTg3MDEtZmIwZjIxOGMwYjVkXkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
   },
-
   {
     id: 14,
     titulo: "VisionQuest",

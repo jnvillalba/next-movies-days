@@ -6,6 +6,7 @@ import Home from "./Components/Home/Home";
 import MovieList from "./Components/MovieList";
 import { content2026List } from "./Lists/2026list";
 import { content2027List } from "./Lists/2027list";
+import { content2028List } from "./Lists/2028list";
 import { DCUList } from "./Lists/DC/DCUList";
 import { SonyList } from "./Lists/Sony/SonyList";
 import { SWList } from "./Lists/SW/SWList";
@@ -30,6 +31,13 @@ function App() {
             path="/2027"
             element={
               <MovieList studio={"marvel"} año={2027} list={content2027List} />
+            }
+          />
+          <Route
+            exact
+            path="/2028"
+            element={
+              <MovieList studio={"marvel"} año={2028} list={content2028List} />
             }
           />
           <Route

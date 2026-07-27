@@ -16,7 +16,7 @@ const DCUList = [
     poster:
       "https://m.media-amazon.com/images/M/MV5BYTAyMjgxZjctMjRjNC00Zjg1LWJiNzctMDkxYzk0NWVmODMwXkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
     poster2: "",
-    estreno: "11/09/2026",
+    estreno: "22/10/2026",
   },
   {
     id: 90727,

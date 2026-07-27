@@ -12,6 +12,7 @@ const STUDIO_CONFIGS = {
     navLinks: [
       { to: "/2026", label: "2026" },
       { to: "/2027", label: "2027" },
+      { to: "/2028", label: "2028" },
       { to: "/tba", label: "TBA" },
     ],
     bgColor: "red",
