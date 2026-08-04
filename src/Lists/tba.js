@@ -1,12 +1,12 @@
 const tba = [
-  {
-    id: 222,
-    titulo: "Wonder Man - S2",
-    tipo: "Serie",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BMDk5YzQ3NjQtNzY3MC00NzM3LWE4NzYtZGRkNDQxYjdiZDkyXkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
-    estreno: "TBA",
-  },
+  //{
+  //  id: 222,
+  //  titulo: "Wonder Man - S2",
+  //  tipo: "Serie",
+  //  poster:
+  //    "https://m.media-amazon.com/images/M/MV5BMDk5YzQ3NjQtNzY3MC00NzM3LWE4NzYtZGRkNDQxYjdiZDkyXkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
+  //  estreno: "TBA",
+  //},
 
   {
     id: 12,
@@ -15,15 +15,15 @@ const tba = [
     poster: "https://i.redd.it/z502udpm2cf61.jpg",
     estreno: "TBA",
   },
-  {
-    id: 71025,
-    titulo: "Blade",
-    tipo: "Pelicula",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BNWE1NTc4ZjMtMzA0ZS00ZGFkLTg1OGUtMTQ1NTZmZTYzMzMxXkEyXkFqcGc@._V1_FMjpg_UY2144_.jpg",
-    estreno: "TBA",
-    poster2: "https://i.redd.it/ngnag6dsd6861.jpg",
-  },
+  //{
+  //  id: 71025,
+  //  titulo: "Blade",
+  //  tipo: "Pelicula",
+  //  poster:
+  //    "https://m.media-amazon.com/images/M/MV5BNWE1NTc4ZjMtMzA0ZS00ZGFkLTg1OGUtMTQ1NTZmZTYzMzMxXkEyXkFqcGc@._V1_FMjpg_UY2144_.jpg",
+  //  estreno: "TBA",
+  //  poster2: "https://i.redd.it/ngnag6dsd6861.jpg",
+  //},
   {
     id: 11,
     titulo: "Armor Wars",
