@@ -1,15 +1,5 @@
 const DCUList = [
   {
-    id: 11,
-    titulo: "Lanterns",
-    tipo: "MAX",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BZTZiMDdjN2QtMmMwMi00YzgwLThkNjMtNGUxNjljMDcwMWFmXkEyXkFqcGc@._V1_FMjpg_UX532_.jpg",
-    poster2:
-      "https://m.media-amazon.com/images/M/MV5BNTExMGFkMjYtNWViNy00MjIyLTk1ZmItNDg2OTdjMzU5YTE0XkEyXkFqcGc@._V1_FMjpg_UX478_.jpg",
-    estreno: "16/08/2026",
-  },
-  {
     id: 17,
     titulo: "Clayface",
     tipo: "DCU",
@@ -70,15 +60,15 @@ const DCUList = [
     estreno: "TBA",
   },
 
-  {
-    id: 14,
-    titulo: "Paradise Lost",
-    tipo: "MAX",
-    poster:
-      "https://assets.mycast.io/posters/paradise-lost-fan-casting-poster-329673-large.jpg?1684887832",
-    poster2: "",
-    estreno: "TBA",
-  },
+  //{
+  //  id: 14,
+  //  titulo: "Paradise Lost",
+  //  tipo: "MAX",
+  //  poster:
+  //    "https://assets.mycast.io/posters/paradise-lost-fan-casting-poster-329673-large.jpg?1684887832",
+  //  poster2: "",
+  //  estreno: "TBA",
+  //},
 
   {
     id: 16,
