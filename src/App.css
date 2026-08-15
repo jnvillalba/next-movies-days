@@ -1,88 +1,90 @@
-body {
-  padding: 0;
-  margin: 0;
-  /* background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95));*/
-  background: rgb(27, 18, 29);
-  background: -moz-linear-gradient(90deg,
-      rgba(27, 18, 29, 1) 0%,
-      rgba(18, 15, 47, 1) 50%,
-      rgba(27, 18, 29, 1) 100%);
-  background: -webkit-linear-gradient(90deg,
-      rgba(27, 18, 29, 1) 0%,
-      rgba(18, 15, 47, 1) 50%,
-      rgba(27, 18, 29, 1) 100%);
-  background: linear-gradient(90deg,
-      rgba(27, 18, 29, 1) 0%,
-      rgba(18, 15, 47, 1) 50%,
-      rgba(27, 18, 29, 1) 100%);
+/* ==========================================================================
+   Type Badges
+   ========================================================================== */
+.type-Pelicula {
+  background-color: var(--badge-pelicula-bg, #f0131e);
+  color: aliceblue !important;
+  font-weight: bold;
 }
 
-svg {
-  width: 20px;
-  height: 20px;
+.type-Serie {
+  background-color: var(--badge-serie-bg, #113ccf);
+  color: aliceblue !important;
+  font-weight: bold;
+}
+
+.type-MAX {
+  background-color: var(--badge-max-bg, #663399);
+  color: aliceblue !important;
+  font-weight: bold;
+}
+
+.type-DCU {
+  background-color: var(--badge-dcu-bg, #0476f2);
+  color: aliceblue !important;
+  font-weight: bold;
+}
+
+.type-Elseworlds {
+  background-color: var(--badge-elseworlds-bg, #000);
+  color: aliceblue !important;
+  font-weight: bold;
+}
+
+.type-PelaSW {
+  background-color: var(--badge-sw-bg, #000);
+  color: #ffe81f !important;
+  font-weight: bold;
+}
+
+.type-Sony {
+  background-color: var(--badge-sony-bg, #000);
+  color: aliceblue !important;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* ==========================================================================
+   Header & Controls
+   ========================================================================== */
+.year {
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.5rem auto;
+  background: linear-gradient(180deg, #ffffff 35%, #9fa5b5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.9));
+}
+
+.sort-btn {
+  position: absolute;
+  right: 0;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.sort-btn svg {
   fill: white;
 }
 
-#Pelicula {
-  background-color: #f0131e;
-  color: aliceblue;
-  font-weight: bold;
+.sort-btn:active {
+  transform: scale(0.95);
 }
 
-#Serie {
-  background-color: #113ccf;
-  color: aliceblue;
-  font-weight: bold;
-}
-
-#MAX {
-  background-color: #663399;
-  color: aliceblue;
-  font-weight: bold;
-}
-
-#DCU {
-  background-color: #0476f2;
-  color: aliceblue;
-  font-weight: bold;
-}
-
-#Elseworlds {
-  background-color: #000;
-  color: aliceblue;
-  font-weight: bold;
-}
-
-#PelaSW {
-  background-color: #000;
-  color: yellow;
-  font-weight: bold;
-}
-
-#Sony {
-  background-color: #000;
-  color: aliceblue;
-  font-weight: bold;
-  border: solid 1px white;
-}
-
-.year {
-  color: aliceblue;
-  text-align: center;
-  padding: 0.1rem 0.5rem;
-  border-radius: 1rem;
-  backdrop-filter: blur(4px);
-  margin: auto;
-  box-shadow: 0 .5rem 1rem rgba(var(--bs-body-color-rgb), .15) !important;
-}
-
-.studio {
-  width: 330px;
-  height: 260px;
-  border-radius: 6px;
-  transform-origin: center;
-}
-
+/* ==========================================================================
+   Studio Backgrounds
+   ========================================================================== */
 #dcBackground {
   background: linear-gradient(rgba(30, 27, 38, 0.9), rgba(30, 27, 38, 0.9)),
     url("https://i0.wp.com/www.comicsuniverse.it/wp-content/uploads/2022/12/FkHapV2WQAEowM-.jpeg?ssl=1");
@@ -94,22 +96,11 @@ svg {
 
 #marvelBackground {
   background: linear-gradient(rgba(30, 27, 38, 0.8), rgba(30, 27, 38, 0.8)),
-    url("../src/assets/marvelBg.jpg");
+    url("./assets/marvelBg.jpg");
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-@media (max-width: 768px) {
-  #marvelBackground {
-    background: linear-gradient(rgba(30, 27, 38, 0.8), rgba(30, 27, 38, 0.8)),
-      url("../src/assets/marvelVertical.webp");
-
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 }
 
 #sonyBackground {
@@ -123,9 +114,34 @@ svg {
 
 #SWBackground {
   background: linear-gradient(rgba(30, 27, 38, 0.9), rgba(30, 27, 38, 0.9)),
-    url("https://www.fredscorner.nl/wp-content/uploads/2023/02/Star-Wars-Wallpapers-iPhone-Android-Smartphone-2.jpg");
+    url("./assets/SWBackgroundV.jpg");
   background-position: center;
   background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+  #marvelBackground {
+    background: linear-gradient(rgba(30, 27, 38, 0.8), rgba(30, 27, 38, 0.8)),
+      url("./assets/marvelVertical2.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+
+}
+
+/* ==========================================================================
+   3D Carousel / Studio Cards
+   ========================================================================== */
+.studio {
+  width: 330px;
+  height: 260px;
+  border-radius: 6px;
+  transform-origin: center;
+  object-fit: cover;
 }
 
 .icon-cards {
@@ -173,22 +189,16 @@ svg {
   left: 0;
   right: 0;
   bottom: 0;
+  user-select: none;
 }
 
-.icon-cards__item.hovered img {
-  opacity: 0;
-}
-
-.icon-cards__item.hovered video {
-  opacity: 1;
-  width: 100%;
-  height: 100%;
-}
-
-.icon-cards__item img {
+.icon-cards__item img.studio {
   width: 100%;
   height: 100%;
   border-radius: 6px;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+  pointer-events: auto;
 }
 
 .icon-cards__item video {
@@ -200,6 +210,18 @@ svg {
   height: 100%;
   object-fit: fill;
   border-radius: 6px;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  pointer-events: none;
+}
+
+.icon-cards__item.hovered img.studio {
+  opacity: 0;
+}
+
+.icon-cards__item.hovered video {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .icon-cards__item:nth-child(1) {

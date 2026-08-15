@@ -1,4 +1,14 @@
+import xmenPoster from "../assets/XMEN.png";
+
 const content2028List = [
+  {
+    id: 50528,
+    titulo: "X-Men",
+    director: "Jake Schreier",
+    tipo: "Pelicula",
+    poster: xmenPoster,
+    estreno: "05/05/2028",
+  },
   {
     id: 72028,
     titulo: "Ghost Rider",

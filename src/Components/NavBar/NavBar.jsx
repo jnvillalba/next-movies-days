@@ -43,9 +43,10 @@ export default function NavBar({ studio = "default" }) {
 
   return (
     <Navbar
+      className="custom-navbar"
       style={{ backgroundColor: studioConfig.bgColor, color: "white" }}
       expand="md"
-      variant="light"
+      variant="dark"
     >
       <Container>
         {/* Logo */}

@@ -81,7 +81,7 @@ const MovieList = React.memo(({ año, list, studio }) => {
   return (
     <>
       <NavBar studio={studio} />
-      <div className="container my-2" id={`${studio}Background`}>
+      <div className="container" id={`${studio}Background`}>
         <div className="container_cards">
           <div className="d-flex justify-content-between align-items-center mt-1">
             <h1 className="year">{displayYear}</h1>
@@ -94,16 +94,10 @@ const MovieList = React.memo(({ año, list, studio }) => {
                     ? "Quitar orden ascendente"
                     : "Quitar orden descendente"
               }
-              className="btn btn-sm"
+              className="btn btn-sm sort-btn"
               onClick={toggleSort}
               style={{
                 backgroundColor: sortOrder ? "black" : "transparent",
-                position: "absolute",
-                right: "0",
-                borderRadius: "20px",
-                display: "flex",
-                alignItems: "center",
-                gap: "5px",
               }}
             >
               <svg

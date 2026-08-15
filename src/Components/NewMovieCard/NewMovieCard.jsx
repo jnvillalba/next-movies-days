@@ -34,8 +34,8 @@ const MovieCard = React.memo(
     const displayType = tipo === "PelaSW" ? "Pelicula" : tipo;
 
     return (
-      <div className="card" data-aos="fade-up">
-        <div className="date" id={tipo}>
+      <div className="movie-card" data-aos="fade-up">
+        <div className={`date type-${tipo}`}>
           {daysRemaining} {typeof daysRemaining === "number" ? "Días" : ""}
         </div>
 
@@ -61,13 +61,11 @@ const MovieCard = React.memo(
               }
             />
             <div className="center">
-              <h1>{titulo}</h1>
-              {director}
-              {plataforma}
+              <h3>{titulo}</h3>
+              {director && <p>{director}</p>}
+              {plataforma && <p> {plataforma}</p>}
               <p>Estreno: {estreno}</p>
-              <p className="opacity-100" id={tipo}>
-                {displayType}
-              </p>
+              <p className={`opacity-100 type-${tipo}`}>{displayType}</p>
             </div>
           </div>
         </div>

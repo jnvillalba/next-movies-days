@@ -44,22 +44,13 @@ function Studio({ poster, onClick, video, index }) {
         src={poster}
         alt="Logo"
         onClick={onClick}
-        style={{ opacity: isHovered ? 0 : 1, transition: "opacity 0.9s ease" }}
       />
       <video
         ref={videoRef}
         loop
         autoPlay
-        style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          width: "100%",
-          height: "100%",
-          opacity: isHovered ? 1 : 0,
-          transition: "opacity 0.9s ease",
-        }}
+        muted
+        playsInline
         onClick={onClick}
       >
         <source src={video} type="video/mp4" />

@@ -1,5 +1,15 @@
 const SWList = [
   {
+    id: 200127,
+    titulo: "Ahsoka - S2",
+    tipo: "Serie",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BYzJjNDU2ZjItMzE5My00YjM1LTk3NmUtMGM2ODE2NTdkYzEwXkEyXkFqcGc@._V1_FMjpg_UX1086_.jpg",
+    poster2:
+      "https://assets.mycast.io/posters/who-we-wanted-to-see-in-ahsoka-season-2-fan-casting-poster-543196-large.jpg?1735596690",
+    estreno: "20/01/2027",
+  },
+  {
     id: 280527,
     titulo: "Star Wars: Starfighter",
     director: "Shawn Levy",
@@ -10,15 +20,6 @@ const SWList = [
       "https://m.media-amazon.com/images/M/MV5BODQyYjQ5NjYtNzY2NC00OGY3LWJhY2YtNTBhNmE5NWEyMGUyXkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
     estreno: "28/05/2027",
   },
-  {
-    id: 5,
-    titulo: "Ahsoka - S2",
-    tipo: "Serie",
-    poster:
-      "https://assets.mycast.io/posters/who-we-wanted-to-see-in-ahsoka-season-2-fan-casting-poster-543196-large.jpg?1735596690",
-    estreno: "TBA - 2027",
-  },
-
   {
     id: 6,
     titulo: "Lando",

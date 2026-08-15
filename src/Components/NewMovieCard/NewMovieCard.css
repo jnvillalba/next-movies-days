@@ -1,9 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
 .container_cards {
   display: flex;
   flex-direction: column;
@@ -16,90 +10,113 @@ body {
   justify-content: center;
 }
 
-.card {
+.movie-card {
+  position: relative;
   width: 300px;
   height: 430px;
   background: #000;
   margin: 6px;
-
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
-.card .image {
+.movie-card .image {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
 
-.card .image img {
+.movie-card .image img {
   width: 100%;
   height: 100%;
-  transition: 0.5s;
+  object-fit: cover;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  will-change: transform, opacity;
 }
 
-.card:hover .image img {
-  opacity: 0.5;
-  transform: translateX(30%);
-  /*100%*/
+.movie-card:hover .image img {
+  opacity: 0.45;
+  transform: translateX(25%);
 }
 
-.card .details {
+.movie-card .details {
   position: absolute;
   top: 0;
   left: 0;
-  width: 70%;
-  /*100%*/
+  width: 75%;
   height: 100%;
-
-  transition: 0.5s;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
   transform-origin: left;
   transform: perspective(2000px) rotateY(-90deg);
+  will-change: transform;
+  pointer-events: none;
+
 }
 
-.card:hover .details {
+.movie-card:hover .details {
   transform: perspective(2000px) rotateY(0deg);
+  pointer-events: auto;
 }
 
-.card .details .center {
-  padding: 10px;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.78);
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-}
-
-.card .details img {
+.movie-card .details .back {
+  position: relative;
   width: 100%;
   height: 100%;
+}
+
+.movie-card .details .back img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.movie-card .details .center {
+  padding: 12px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.65);
   position: absolute;
   top: 50%;
+  left: 0;
+  right: 0;
   transform: translateY(-50%);
+  width: 100%;
+  color: #1a1a1a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.card .details .center h1 {
-  margin: 0;
+.movie-card .details .center h3 {
+  margin: 0 0 6px 0;
   padding: 0;
-
-  line-height: 20px;
-  font-size: 20px;
+  line-height: 1.2;
+  font-size: 1.15rem;
+  font-weight: 700;
   text-transform: uppercase;
+  color: #111;
 }
 
-.card .details .center h1 span {
-  font-size: 14px;
-  color: #262626;
-}
-
-.card .details .center p {
-  margin: 6px 0;
+.movie-card .details .center p {
+  margin: 4px 0;
   padding: 0;
-  color: #262626;
+  font-size: 0.9rem;
 }
 
+.movie-card .details .center p[class*="type-"] {
+  display: inline-block;
+  margin: 6px auto 0;
+  padding: 0.25em 0.8em;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
 
-.date {
+.movie-card .date {
   position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
   color: aliceblue;
-  padding: 0.8em;
+  padding: 0.25em 0.6em;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
