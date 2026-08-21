@@ -2,43 +2,43 @@
    Type Badges
    ========================================================================== */
 .type-Pelicula {
-  background-color: var(--badge-pelicula-bg, #f0131e);
+  background-color: var(--badge-pelicula-bg);
   color: aliceblue !important;
   font-weight: bold;
 }
 
 .type-Serie {
-  background-color: var(--badge-serie-bg, #113ccf);
+  background-color: var(--badge-serie-bg);
   color: aliceblue !important;
   font-weight: bold;
 }
 
 .type-MAX {
-  background-color: var(--badge-max-bg, #663399);
+  background-color: var(--badge-max-bg);
   color: aliceblue !important;
   font-weight: bold;
 }
 
 .type-DCU {
-  background-color: var(--badge-dcu-bg, #0476f2);
+  background-color: var(--badge-dcu-bg);
   color: aliceblue !important;
   font-weight: bold;
 }
 
 .type-Elseworlds {
-  background-color: var(--badge-elseworlds-bg, #000);
+  background-color: var(--badge-elseworlds-bg);
   color: aliceblue !important;
   font-weight: bold;
 }
 
 .type-PelaSW {
-  background-color: var(--badge-sw-bg, #000);
+  background-color: var(--badge-sw-bg);
   color: #ffe81f !important;
   font-weight: bold;
 }
 
 .type-Sony {
-  background-color: var(--badge-sony-bg, #000);
+  background-color: var(--badge-sony-bg);
   color: aliceblue !important;
   font-weight: bold;
   border: 1px solid rgba(255, 255, 255, 0.4);

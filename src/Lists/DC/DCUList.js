@@ -1,3 +1,6 @@
+import dcrime1 from "../../assets/dcrime1.webp";
+import dcrime2 from "../../assets/dcrime2.webp";
+
 const DCUList = [
   {
     id: 17,
@@ -101,9 +104,17 @@ const DCUList = [
   {
     id: 11,
     titulo: "Mister Miracle",
-    tipo: "DCU",
+    tipo: "MAX",
     poster:
       "https://assets.mycast.io/posters/mister-miracle-fan-casting-poster-607076-large.jpg",
+    estreno: "TBA",
+  },
+  {
+    id: 12,
+    titulo: "DC Crime: The People Vs Gorilla Grodd",
+    tipo: "MAX",
+    poster: dcrime1,
+    poster2: dcrime2,
     estreno: "TBA",
   },
 ];

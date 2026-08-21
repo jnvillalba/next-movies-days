@@ -1,13 +1,13 @@
 const SonyList = [
   {
-    id: 0,
+    id: 170627,
     titulo: "Spider-Man: Beyond the Spider-Verse",
     tipo: "Sony",
     poster:
       "https://m.media-amazon.com/images/M/MV5BZGY2MGU4NjAtZTkzMC00ZDVlLWE5MGMtZTEwNTVmY2NmZjI2XkEyXkFqcGc@._V1_FMjpg_UX886_.jpg",
     poster2:
       "https://m.media-amazon.com/images/M/MV5BZGZhMmE5OTYtMjM3Ny00NTVmLTgwZmEtZDY4YmE3MzQwN2ViXkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
-    estreno: "04/05/2027",
+    estreno: "17/06/2027",
   },
 
   {

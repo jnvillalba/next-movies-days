@@ -39,20 +39,8 @@ function Studio({ poster, onClick, video, index }) {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <img
-        className="studio"
-        src={poster}
-        alt="Logo"
-        onClick={onClick}
-      />
-      <video
-        ref={videoRef}
-        loop
-        autoPlay
-        muted
-        playsInline
-        onClick={onClick}
-      >
+      <img className="studio" src={poster} alt="Logo" onClick={onClick} />
+      <video ref={videoRef} loop autoPlay muted playsInline onClick={onClick}>
         <source src={video} type="video/mp4" />
       </video>
     </div>

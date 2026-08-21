@@ -29,7 +29,7 @@
 .movie-card .image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   transition: transform 0.5s ease, opacity 0.5s ease;
   will-change: transform, opacity;
 }
@@ -67,7 +67,7 @@
 .movie-card .details .back img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .movie-card .details .center {
