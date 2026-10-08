@@ -43,16 +43,6 @@ const DCUList = [
   // },
 
   {
-    id: 15,
-    titulo: "Booster Gold",
-    tipo: "MAX",
-    poster:
-      "https://www.elfinanciero.com.mx/resizer/S1by21nKHTMuQciINmgfji77FNA=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/3BR5YKS2SBBRDBFBRWL2JQAWDI.jpg",
-    poster2:
-      "https://external-preview.redd.it/EGz0O2r2edLNUCa73srJ4SsX8lLHCi6eywuOAbtsWyk.jpg?auto=webp&v=enabled&s=b8c9c0c81684dd4729673d4f7ae1a0658ba20197",
-    estreno: "TBA",
-  },
-  {
     id: 12,
     titulo: "The Brave and The Bold",
     tipo: "DCU",
@@ -64,7 +54,7 @@ const DCUList = [
   },
 
   //{
-  //  id: 14,
+  //  id: 114,
   //  titulo: "Paradise Lost",
   //  tipo: "MAX",
   //  poster:
@@ -110,11 +100,48 @@ const DCUList = [
     estreno: "TBA",
   },
   {
-    id: 12,
+    id: 122,
     titulo: "DC Crime: The People Vs Gorilla Grodd",
     tipo: "MAX",
     poster: dcrime1,
     poster2: dcrime2,
+    estreno: "TBA",
+  },
+  {
+    id: 13,
+    titulo: "Savage Hunters (Bane/Deathstroke)",
+    tipo: "DCU",
+    poster:
+      "https://assets.mycast.io/posters/deathstroke-and-bane-fan-casting-poster-520827-large.jpg",
+
+    estreno: "TBA",
+  },
+  {
+    id: 14,
+    titulo: "Wonder Woman",
+    tipo: "DCU",
+    poster:
+      "http://assets.mycast.io/posters/uploads/dcj7jw7jjkqa4tjd5alm8r1l.webp",
+    poster2:
+      "https://assets.mycast.io/posters/uploads/la9qr8syao3bswwseirxq65x.webp",
+    estreno: "TBA",
+  },
+  {
+    id: 15,
+    titulo: "Teen Titans",
+    tipo: "DCU",
+    poster:
+      "https://assets.mycast.io/posters/uploads/bzt47l2ao6xe5hlkza5ssy2f.webp",
+    estreno: "TBA",
+  },
+  {
+    id: 162,
+    titulo: "Booster Gold",
+    tipo: "MAX",
+    poster:
+      "https://www.elfinanciero.com.mx/resizer/S1by21nKHTMuQciINmgfji77FNA=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/3BR5YKS2SBBRDBFBRWL2JQAWDI.jpg",
+    poster2:
+      "https://external-preview.redd.it/EGz0O2r2edLNUCa73srJ4SsX8lLHCi6eywuOAbtsWyk.jpg?auto=webp&v=enabled&s=b8c9c0c81684dd4729673d4f7ae1a0658ba20197",
     estreno: "TBA",
   },
 ];

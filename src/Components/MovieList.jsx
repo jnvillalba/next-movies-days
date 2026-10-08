@@ -19,6 +19,8 @@ const MovieList = React.memo(({ año, list, studio }) => {
   const compareDates = (dateA, dateB) => {
     // Helper function to extract date information
     const extractDateInfo = (dateStr) => {
+      if (!dateStr) return Number.MAX_SAFE_INTEGER;
+
       // Handle specific dates (DD/MM/YYYY)
       if (/^\d{2}\/\d{2}\/\d{4}$/.test(dateStr)) {
         const [day, month, year] = dateStr.split("/").map(Number);

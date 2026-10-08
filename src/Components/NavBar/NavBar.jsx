@@ -14,6 +14,7 @@ const STUDIO_CONFIGS = {
       { to: "/2027", label: "2027" },
       { to: "/2028", label: "2028" },
       { to: "/tba", label: "TBA" },
+      { to: "/orden", label: "All" },
     ],
     bgColor: "red",
   },

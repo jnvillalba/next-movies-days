@@ -1,5 +1,4 @@
 import "aos/dist/aos.css";
-import React from "react";
 import { HashRouter, Route, Routes } from "react-router";
 import "./App.css";
 import Home from "./Components/Home/Home";
@@ -8,6 +7,7 @@ import { content2026List } from "./Lists/2026list";
 import { content2027List } from "./Lists/2027list";
 import { content2028List } from "./Lists/2028list";
 import { DCUList } from "./Lists/DC/DCUList";
+import { marvelAllList } from "./Lists/marvelList";
 import { SonyList } from "./Lists/Sony/SonyList";
 import { SWList } from "./Lists/SW/SWList";
 import { tba } from "./Lists/tba";
@@ -44,6 +44,20 @@ function App() {
             exact
             path="/tba"
             element={<MovieList studio={"marvel"} list={tba} />}
+          />
+          <Route
+            exact
+            path="/orden"
+            element={
+              <MovieList studio={"marvel"} año={"All"} list={marvelAllList} />
+            }
+          />
+          <Route
+            exact
+            path="/all"
+            element={
+              <MovieList studio={"marvel"} año={"All"} list={marvelAllList} />
+            }
           />
           <Route
             exact

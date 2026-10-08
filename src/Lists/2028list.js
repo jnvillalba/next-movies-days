@@ -14,10 +14,11 @@ const content2028List = [
     titulo: "Ghost Rider",
     director: "Shawn Levy",
     tipo: "Pelicula",
-    poster2: "",
+    poster2:
+      "https://assets.mycast.io/posters/uploads/knbgignl0cirbe95fzb9zbe0.webp",
     estreno: "30/07/2028",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BZDFhYmQxOTQtMGQ4My00OWM2LTk1MjYtMjgxMmNlYjc1NmEwXkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
+      "https://assets.mycast.io/posters/uploads/ienq1o80557qiwaj3xumjqac.webp",
   },
   {
     id: 151228,

@@ -20,6 +20,14 @@ const SonyList = [
       "https://assets.mycast.io/posters/silk-spider-society-fan-casting-poster-421630-large.jpg?1705790068",
     estreno: "TBA",
   },
+  {
+    id: 6,
+    titulo: "Spider-Man: Clone Saga",
+    tipo: "Sony",
+    poster:
+      "https://assets.mycast.io/posters/spider-man-10-fan-casting-poster-54556-large.jpg",
+    estreno: "TBA",
+  },
 ];
 
 export { SonyList };
