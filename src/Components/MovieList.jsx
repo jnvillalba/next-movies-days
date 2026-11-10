@@ -1,4 +1,4 @@
-import AOS from "aos/dist/aos.js";
+import AOS from "aos";
 import React, { useEffect, useMemo, useState } from "react";
 import "../App.css";
 import NavBar from "../Components/NavBar/NavBar";

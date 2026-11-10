@@ -3,15 +3,6 @@ import dcrime2 from "../../assets/dcrime2.webp";
 
 const DCUList = [
   {
-    id: 17,
-    titulo: "Clayface",
-    tipo: "DCU",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BYTAyMjgxZjctMjRjNC00Zjg1LWJiNzctMDkxYzk0NWVmODMwXkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
-    poster2: "",
-    estreno: "22/10/2026",
-  },
-  {
     id: 90727,
     titulo: "Superman: Man of Tomorrow",
     tipo: "DCU",

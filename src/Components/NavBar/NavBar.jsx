@@ -47,7 +47,7 @@ export default function NavBar({ studio = "default" }) {
       className="custom-navbar"
       style={{ backgroundColor: studioConfig.bgColor, color: "white" }}
       expand="md"
-      variant="dark"
+      data-bs-theme="dark"
     >
       <Container>
         {/* Logo */}
