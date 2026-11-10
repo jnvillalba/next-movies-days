@@ -1,0 +1,1 @@
+import{content2026List as e}from"./2026list-B5hQoZqo.js";import{content2027List as t}from"./2027list-C9uKn-Tb.js";import{content2028List as n}from"./2028list-CGdWgYYX.js";import{tba as r}from"./tba-_gE3HK9t.js";var i=[...e,...t,...n,...r];export{i as marvelAllList};
