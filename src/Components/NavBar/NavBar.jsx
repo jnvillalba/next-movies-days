@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import dcLogo from "../../assets/DC_logo.svg";
 import HomeButton from "../Home/HomeButton";
 import "./NavBar.css";
@@ -47,6 +47,7 @@ export default function NavBar({ studio = "default" }) {
       className="custom-navbar"
       style={{ backgroundColor: studioConfig.bgColor, color: "white" }}
       expand="md"
+      collapseOnSelect
       data-bs-theme="dark"
     >
       <Container>
@@ -60,12 +61,20 @@ export default function NavBar({ studio = "default" }) {
           />
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          label="Abrir o cerrar menú"
+        />
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto justify-content-center">
             {studioConfig.navLinks.map((link) => (
-              <Nav.Link key={link.to} as={Link} to={link.to}>
+              <Nav.Link
+                key={link.to}
+                as={NavLink}
+                to={link.to}
+                eventKey={link.to}
+              >
                 {link.label}
               </Nav.Link>
             ))}
@@ -74,7 +83,9 @@ export default function NavBar({ studio = "default" }) {
           <Nav>
             <Nav.Link
               as={Link}
-              to="/Home"
+              to="/"
+              eventKey="/"
+              aria-label="Ir al inicio"
               className="m-auto justify-content-center"
             >
               <HomeButton />

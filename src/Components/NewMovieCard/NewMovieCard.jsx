@@ -2,7 +2,16 @@ import React, { useMemo, useState } from "react";
 import "./NewMovieCard.css";
 
 const MovieCard = React.memo(
-  ({ titulo, tipo, poster, estreno, poster2, director, plataforma }) => {
+  ({
+    titulo,
+    tipo,
+    poster,
+    estreno,
+    poster2,
+    director,
+    plataforma,
+    animationDelay = 0,
+  }) => {
     const [frontSrc, setFrontSrc] = useState(poster || poster2);
     const [backSrc, setBackSrc] = useState(poster2 || poster);
 
@@ -34,7 +43,11 @@ const MovieCard = React.memo(
     const displayType = tipo === "PelaSW" ? "Pelicula" : tipo;
 
     return (
-      <div className="movie-card" data-aos="fade-up">
+      <div
+        className="movie-card"
+        data-aos="fade-up"
+        data-aos-delay={animationDelay}
+      >
         <div className={`date type-${tipo}`}>
           {daysRemaining} {typeof daysRemaining === "number" ? "Días" : ""}
         </div>

@@ -1,26 +1,14 @@
-import React, { useCallback } from "react";
-import Button from "react-bootstrap/Button";
-import { useNavigate } from "react-router";
+﻿import Button from "react-bootstrap/Button";
+import { Link } from "react-router";
 
-const NotFound = React.memo(() => {
-  // Memoize navigation callback to prevent unnecessary recreations
-  const navigate = useNavigate();
-  const goToHome = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
-
+export default function NotFound() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-black text-white space-y-4 p-4">
-      <h1 className="text-3xl font-bold"> 404 - Page Not Found </h1>
-      <Button
-        variant="primary"
-        onClick={goToHome}
-        className="px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors"
-      >
-        Return to Home
+    <main className="container min-vh-100 d-flex flex-column align-items-center justify-content-center text-center gap-3 p-4">
+      <h1>404 - Página no encontrada</h1>
+      <p>La dirección que buscás no existe.</p>
+      <Button as={Link} to="/" variant="primary">
+        Volver al inicio
       </Button>
-    </div>
+    </main>
   );
-});
-
-export default NotFound;
+}

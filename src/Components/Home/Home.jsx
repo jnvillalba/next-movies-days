@@ -2,17 +2,17 @@ import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router";
 import dcVideo from "../../assets/dc.mp4";
 import marvelVideo from "../../assets/marvel.mp4";
+import marvelPoster from "../../assets/marvelposter.jpg";
 import sonyVideo from "../../assets/sony.mp4";
 import sonyPoster from "../../assets/sonymarvel.png";
 import Studio from "../Studio/Studio";
 
 const Home = () => {
   const navigate = useNavigate();
-  const [autoRotation, setAutoRotation] = useState(0);
-  const [dragOffset, setDragOffset] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
 
-  const dragOffsetRef = useRef(0);
+  const rotationRef = useRef(0);
+  const carouselRef = useRef(null);
   const ROTATION_SPEED_DEG_PER_SEC = -360 / 14;
   const DRAG_THRESHOLD_PX = 8;
   const dragRef = useRef({
@@ -24,41 +24,60 @@ const Home = () => {
     studioIndex: null,
   });
 
-  useEffect(() => {
-    dragOffsetRef.current = dragOffset;
-  }, [dragOffset]);
+  const paintRotation = () => {
+    if (carouselRef.current) {
+      carouselRef.current.style.transform = `translateZ(calc(-1 * var(--carousel-radius))) rotateY(${rotationRef.current}deg)`;
+    }
+  };
 
   useEffect(() => {
     let frameId = null;
     let lastFrameTime = null;
+    const motionPreference = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    );
 
     const tick = (timestamp) => {
-      if (lastFrameTime !== null && !isDragging) {
-        const deltaSeconds = (timestamp - lastFrameTime) / 1000;
-        setAutoRotation(
-          (prevRotation) =>
-            prevRotation + ROTATION_SPEED_DEG_PER_SEC * deltaSeconds,
-        );
+      if (
+        lastFrameTime !== null &&
+        !dragRef.current.active &&
+        !document.hidden
+      ) {
+        const deltaSeconds = Math.min((timestamp - lastFrameTime) / 1000, 0.1);
+        rotationRef.current =
+          (rotationRef.current + ROTATION_SPEED_DEG_PER_SEC * deltaSeconds) %
+          360;
+        paintRotation();
       }
 
       lastFrameTime = timestamp;
       frameId = window.requestAnimationFrame(tick);
     };
 
-    frameId = window.requestAnimationFrame(tick);
+    const updateMotion = () => {
+      if (frameId !== null) window.cancelAnimationFrame(frameId);
+      frameId = null;
+      lastFrameTime = null;
+      if (!motionPreference.matches) {
+        frameId = window.requestAnimationFrame(tick);
+      }
+    };
+
+    updateMotion();
+    motionPreference.addEventListener("change", updateMotion);
 
     return () => {
       if (frameId !== null) {
         window.cancelAnimationFrame(frameId);
       }
+      motionPreference.removeEventListener("change", updateMotion);
     };
-  }, [isDragging]);
+  }, []);
 
   const studios = [
     {
       name: "Marvel",
-      poster:
-        "https://anthoncode.com/wp-content/uploads/2018/06/marvel-studios-logo-vector.jpg?is-pending-load=1",
+      poster: marvelPoster,
       video: marvelVideo,
       navigateTo: () => navigate("/2026"),
     },
@@ -122,7 +141,8 @@ const Home = () => {
     }
 
     dragRef.current.lastX = event.clientX;
-    setDragOffset((prevRotation) => prevRotation + deltaX * 0.45);
+    rotationRef.current = (rotationRef.current + deltaX * 0.45) % 360;
+    paintRotation();
   };
 
   const onPointerEnd = (event) => {
@@ -140,22 +160,22 @@ const Home = () => {
     dragRef.current.studioIndex = null;
 
     setIsDragging(false);
-    setAutoRotation((prevRotation) => prevRotation + dragOffsetRef.current);
-    setDragOffset(0);
 
     if (event.currentTarget.hasPointerCapture(event.pointerId)) {
       event.currentTarget.releasePointerCapture(event.pointerId);
     }
 
-    if (!wasMoved && Number.isInteger(selectedStudioIndex)) {
+    if (
+      event.type !== "pointercancel" &&
+      !wasMoved &&
+      Number.isInteger(selectedStudioIndex)
+    ) {
       studios[selectedStudioIndex]?.navigateTo();
     }
   };
 
-  const totalRotation = autoRotation + dragOffset;
-
   return (
-    <div className="container container d-flex justify-content-center container_cards mt-5">
+    <div className="container container_cards mt-5">
       <h1 className="year">Studios</h1>
       <div className="container_projects">
         <figure
@@ -166,10 +186,8 @@ const Home = () => {
           onPointerCancel={onPointerEnd}
         >
           <div
+            ref={carouselRef}
             className={`icon-cards__drag ${isDragging ? "is-interacting" : ""}`}
-            style={{
-              transform: `translateZ(-35vw) rotateY(${totalRotation}deg)`,
-            }}
           >
             <div className="icon-cards__content">
               {studios.map((studio, index) => (

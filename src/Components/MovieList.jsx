@@ -1,19 +1,13 @@
-import AOS from "aos";
+import "aos/dist/aos.css";
 import React, { useEffect, useMemo, useState } from "react";
 import "../App.css";
 import NavBar from "../Components/NavBar/NavBar";
 import MovieCard from "../Components/NewMovieCard/NewMovieCard";
+import { refreshMovieAnimations } from "../lib/movieAnimations";
 
 const MovieList = React.memo(({ año, list, studio }) => {
   // Add sorting state
   const [sortOrder, setSortOrder] = useState("asc"); // 'asc' by default
-
-  useEffect(() => {
-    AOS.init({
-      duration: 400,
-      once: true,
-    });
-  }, []);
 
   // Function to parse and compare dates from the estreno field
   const compareDates = (dateA, dateB) => {
@@ -50,6 +44,11 @@ const MovieList = React.memo(({ año, list, studio }) => {
     });
   }, [list, sortOrder]);
 
+  useEffect(() => {
+    const frame = requestAnimationFrame(refreshMovieAnimations);
+    return () => cancelAnimationFrame(frame);
+  }, [sortedList]);
+
   // Toggle sort order function
   const toggleSort = () => {
     setSortOrder((current) => {
@@ -62,9 +61,10 @@ const MovieList = React.memo(({ año, list, studio }) => {
   // Memoize the rendered movie cards to prevent unnecessary re-renders
   const memoizedMovieCards = useMemo(
     () =>
-      sortedList.map((c) => (
+      sortedList.map((c, index) => (
         <MovieCard
           key={c.id}
+          animationDelay={(index % 3) * 50}
           poster={c.poster}
           poster2={c.poster2}
           titulo={c.titulo}

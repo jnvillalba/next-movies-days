@@ -1,15 +1,3 @@
-.container_cards {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
-.container_projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .movie-card {
   position: relative;
   width: 300px;
@@ -24,6 +12,10 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+
+.movie-card[data-aos="fade-up"]:not(.aos-animate) {
+  transform: translate3d(0, 24px, 0);
 }
 
 .movie-card .image img {
@@ -119,4 +111,22 @@
   border-radius: 4px;
   font-size: 0.85rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .movie-card[data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .movie-card .image img,
+  .movie-card .details {
+    transition: none;
+    will-change: auto;
+  }
+
+  .movie-card:hover .image img {
+    transform: none;
+  }
 }

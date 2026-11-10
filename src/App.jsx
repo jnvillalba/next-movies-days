@@ -1,98 +1,103 @@
-import "aos/dist/aos.css";
-import { HashRouter, Route, Routes } from "react-router";
+﻿import { lazy, Suspense } from "react";
+import { HashRouter, Navigate, Route, Routes } from "react-router";
 import "./App.css";
 import Home from "./Components/Home/Home";
-import MovieList from "./Components/MovieList";
-import { content2026List } from "./Lists/2026list";
-import { content2027List } from "./Lists/2027list";
-import { content2028List } from "./Lists/2028list";
-import { DCUList } from "./Lists/DC/DCUList";
-import { marvelAllList } from "./Lists/marvelList";
-import { SonyList } from "./Lists/Sony/SonyList";
-import { SWList } from "./Lists/SW/SWList";
-import { tba } from "./Lists/tba";
 
-function App() {
+function moviePage(loadList, studio, year) {
+  return lazy(async () => {
+    const [{ default: MovieList }, list] = await Promise.all([
+      import("./Components/MovieList"),
+      loadList(),
+    ]);
+    return {
+      default: function MoviePage() {
+        return <MovieList studio={studio} año={year} list={list} />;
+      },
+    };
+  });
+}
+
+const Movies2026 = moviePage(
+  () => import("./Lists/2026list").then((m) => m.content2026List),
+  "marvel",
+  2026,
+);
+const Movies2027 = moviePage(
+  () => import("./Lists/2027list").then((m) => m.content2027List),
+  "marvel",
+  2027,
+);
+const Movies2028 = moviePage(
+  () => import("./Lists/2028list").then((m) => m.content2028List),
+  "marvel",
+  2028,
+);
+const MoviesTBA = moviePage(
+  () => import("./Lists/tba").then((m) => m.tba),
+  "marvel",
+);
+const MoviesMarvel = moviePage(
+  () => import("./Lists/marvelList").then((m) => m.marvelAllList),
+  "marvel",
+  "All",
+);
+const MoviesDC = moviePage(
+  () => import("./Lists/DC/DCUList").then((m) => m.DCUList),
+  "dc",
+  "Chapter 1: God and Monsters",
+);
+const MoviesSony = moviePage(
+  () => import("./Lists/Sony/SonyList").then((m) => m.SonyList),
+  "sony",
+  "Sony",
+);
+const MoviesSW = moviePage(
+  () => import("./Lists/SW/SWList").then((m) => m.SWList),
+  "SW",
+  "Star Wars",
+);
+const NotFound = lazy(() => import("./Components/NotFound"));
+
+export function AppRoutes() {
   return (
-    <>
-      <HashRouter>
-        <Routes>
-          <Route index element={<Home />} />
-
-          <Route
-            exact
-            path="/2026"
-            element={
-              <MovieList studio={"marvel"} año={2026} list={content2026List} />
-            }
-          />
-          <Route
-            exact
-            path="/2027"
-            element={
-              <MovieList studio={"marvel"} año={2027} list={content2027List} />
-            }
-          />
-          <Route
-            exact
-            path="/2028"
-            element={
-              <MovieList studio={"marvel"} año={2028} list={content2028List} />
-            }
-          />
-          <Route
-            exact
-            path="/tba"
-            element={<MovieList studio={"marvel"} list={tba} />}
-          />
-          <Route
-            exact
-            path="/orden"
-            element={
-              <MovieList studio={"marvel"} año={"All"} list={marvelAllList} />
-            }
-          />
-          <Route
-            exact
-            path="/all"
-            element={
-              <MovieList studio={"marvel"} año={"All"} list={marvelAllList} />
-            }
-          />
-          <Route
-            exact
-            path="/DC"
-            element={
-              <MovieList
-                studio={"dc"}
-                año={"Chapter 1: God and Monsters"}
-                list={DCUList}
-              />
-            }
-          />
-          <Route
-            exact
-            path="/Sony"
-            element={<MovieList studio={"sony"} año={"Sony"} list={SonyList} />}
-          />
-
-          <Route
-            exact
-            path="/SW"
-            element={
-              <MovieList studio={"SW"} año={"Star Wars"} list={SWList} />
-            }
-          />
-
-          <Route exact path="/next-movies-days" element={<Home />} />
-          <Route exact path="/next-movies-days/build" element={<Home />} />
-          <Route exact path="/next-movies-days/Home/" element={<Home />} />
-          <Route path="/" element={<Home />} />
-          <Route exact path="*" element={<Home />} />
-        </Routes>
-      </HashRouter>
-    </>
+    <Suspense
+      fallback={
+        <p className="text-center py-5" role="status">
+          Cargando películas…
+        </p>
+      }
+    >
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/2026" element={<Movies2026 />} />
+        <Route path="/2027" element={<Movies2027 />} />
+        <Route path="/2028" element={<Movies2028 />} />
+        <Route path="/tba" element={<MoviesTBA />} />
+        <Route path="/orden" element={<MoviesMarvel />} />
+        <Route path="/all" element={<Navigate to="/orden" replace />} />
+        <Route path="/DC" element={<MoviesDC />} />
+        <Route path="/Sony" element={<MoviesSony />} />
+        <Route path="/SW" element={<MoviesSW />} />
+        <Route path="/Home" element={<Navigate to="/" replace />} />
+        <Route path="/next-movies-days" element={<Navigate to="/" replace />} />
+        <Route
+          path="/next-movies-days/build"
+          element={<Navigate to="/" replace />}
+        />
+        <Route
+          path="/next-movies-days/Home"
+          element={<Navigate to="/" replace />}
+        />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Suspense>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <HashRouter>
+      <AppRoutes />
+    </HashRouter>
+  );
+}
